@@ -1,0 +1,94 @@
+\documentclass[titlepage,12pt]{amsart}
+% The Proposal and Award Policies and Procedures Guide
+% (PAPPG: https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg)
+% mandates, in Chapter 2, section B.2, that the main text should have a font size no less
+% than 11 points for *most* typefaces (including Computer Modern Roman and Times (new) Roman).
+% 
+% Actually, Helvetica (a.k.a. Arial), Palatino and Courier New can drop
+% to 10 point font size, according to the PAPPG,  but be aware:
+% 10-point fonts (whatever the typeface) will promote reader fatigue.
+% Reader fatigue never works to the author's advantage.
+%
+% This sample is set in 12 point type.
+%
+\usepackage{amsmath,amsthm,amssymb,amscd}
+\usepackage[dvips]{graphicx}
+\usepackage{epsf}
+\usepackage{cite}		% compress citations
+\pagenumbering{gobble}		% Research.gov wants no page numbering
+\tolerance9000
+\pagestyle{empty}               % no headers or footers on pages
+%
+% The Proposal and Award Policies and Procedures Guide
+% (PAPPG: https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg)
+% mandates, in Chapter 2, section B.2, that margins must be at least 1 inch in all directions.
+%
+\advance\paperheight1.00cm
+\advance\textheight1.00cm
+\advance\vsize1.00cm
+\advance\topskip-0.5cm
+\advance\voffset-0.5cm
+%
+\oddsidemargin0.15cm
+\evensidemargin0.15cm
+\textwidth16.1cm
+%
+%
+\renewcommand{\footnotesize}{\small\spaceskip4pt plus1.5pt}
+%
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{lemma}[thm]{Lemma}
+\theoremstyle{definition}
+\newtheorem{notn}[thm]{Notation}
+\numberwithin{equation}{section}
+
+\newcommand\Z{{\mathbb Z}}
+\newcommand\Q{{\mathbb Q}}
+\newcommand\R{{\mathbb R}}
+\newcommand\C{{\mathbb C}}
+\newcommand\F{{\mathbb F}}
+\newcommand{\G}{{\mathcal{G}}}
+\newcommand{\T}{{\mathcal{T}}}
+\newcommand\Hom{\text{Hom}}
+\newcommand\rank{\mathop{\text{rank}}}
+\let\tensor=\otimes
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{hyperref}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{POSE: Phase I: An open-source ecosystem for statistical Python}
+
+\author{Stéfan van der Walt, Iain Carmichael, and K. Jarrod Millman\\ University of California, Berkeley\\
+\\
+Jonathan Taylor\\ Stanford University}
+
+\begin{document}
+
+\maketitle
+
+\centerline{\bf Project Summary}
+\setcounter{section}{0}
+\vskip-.7\linespacing
+
+\input{summary}
+
+\newpage
+
+\centerline{\bf Project Description}
+\setcounter{section}{0}
+\vskip-.7\linespacing
+
+\input{description}
+
+% uncomment to include bibliography
+%\bibliographystyle{unsrt}
+%\vfil\eject
+%\bibliography{lorem}
+
+\end{document}

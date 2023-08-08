@@ -1,48 +1,10 @@
-# POSE: Phase I: An open-source ecosystem for statistical Python
-
-<!-- https://www.nsf.gov/pubs/2023/nsf23556/nsf23556.htm#prep -->
-
-<!--
-Title: Proposal titles must begin with "POSE:" and the Phase followed by a colon (":"), and then the title of the project.
-For example, a proposal to Phase I would have a title of the form POSE: Phase I: Title.
--->
-
-## Project Summary
-
-<!--
-Project Summary: The last line of the Project Summary must have a prioritized
-list of 2-5 keywords that best characterize the technical field and impact area
-the OSE is intended to pursue. The first keyword must denote the directorate
-[Biological Sciences (specified as "BIO"), Computer and Information Science and
-Engineering (CISE), Education and Human Resources (EHR), Engineering (ENG),
-Geosciences (GEO), Mathematical and Physical Sciences (MPS), or Social,
-Behavioral and Economic Sciences (SBE)] that most closely matches the technical
-topic advanced in the OSE. The additional keywords (2-5) must be words (or
-phrases) that describe the primary intended impact area for the proposed OSE –
-e.g., "Climate Change", or "Healthcare", etc. The list should start with
-"Keywords:" followed by a list of keywords separated by semi-colons (";").
--->
-
-- https://github.com/regreg/regreg
-- https://github.com/yaglm/yaglm
-- https://github.com/statlab/permute
-
-<!-
-- https://github.com/raphaelvallat/pingouin
-- https://github.com/sebp/scikit-survival
--->
-
-Keywords: MPS; 
-
-## Project Description
-
 <!--
 Project Description: Describe the activities to be undertaken in up to 7 pages
 for Phase I proposals and up to 15 pages for Phase II proposals. See Section
 II. Program Description, in this solicitation for guidance.
 -->
 
-### Context of OSE
+# Context of OSE
 
 <!--
 In addition to requirements specified in the PAPPG, including a separate
@@ -54,7 +16,7 @@ societal or national need(s) that the OSE will address, and the anticipated
 broader impacts of the OSE.
 -->
 
-### Ecosystem Discovery
+# Ecosystem Discovery
 
 <!--
 Include a plan for developing a strategy that: (1) describes methods to
@@ -64,7 +26,7 @@ further develop the technology; and (3) outlines methods to identify potential
 users who will utilize this technology.
 -->
 
-### Organization and Governance
+# Organization and Governance
 
 <!--
 Describe specific activities and their rationale that will identify: (1) the
@@ -79,7 +41,7 @@ methodology, support for users, and on-boarding mechanisms for new
 contributors.
 -->
 
-### Community Building
+# Community Building
 
 <!--
 Describe the specific activities to engage potential users and intellectual
@@ -89,15 +51,15 @@ development capabilities required of the potential contributor communities; and
 competitions, research coordination networks, and Ideas Labs).
 -->
 
-### Intellectual Merit
+# Intellectual Merit
 
 <!--
 The Intellectual Merit criterion encompasses the potential to advance knowledge;
 -->
 
-### Results from Prior NSF Support
+# Results from Prior NSF Support
 
-### Broader Impacts
+# Broader Impacts
 
 <!--
 The Broader Impacts criterion encompasses the potential to benefit society and
@@ -120,4 +82,4 @@ Phase I proposals will be evaluated on the basis of the following solicitation-s
 - Will NSF support serve as a critical catalyst for the establishment of the OSE?
 - Does the proposal include third-party letters of collaboration from current users of the open-source product that is the subject of the OSE?
 
-->>
+-->
