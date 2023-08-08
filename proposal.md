@@ -1,4 +1,4 @@
-# POSE: Phase I: Regularized regression and penalized generalized linear models
+# POSE: Phase I: An open-source ecosystem for statistical Python
 
 <!-- https://www.nsf.gov/pubs/2023/nsf23556/nsf23556.htm#prep -->
 
@@ -13,6 +13,15 @@ In addition to requirements specified in the PAPPG, including a separate section
 -->
 
 ## Project Summary
+
+- https://github.com/regreg/regreg
+- https://github.com/yaglm/yaglm
+- https://github.com/statlab/permute
+
+<!-
+- https://github.com/raphaelvallat/pingouin
+- https://github.com/sebp/scikit-survival
+-->
 
 ## Project Description:
 
