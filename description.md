@@ -10,7 +10,21 @@ II. Program Description, in this solicitation for guidance.
 Look at this proposal if we can: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2303681&HistoricalAwards=false
 -->
 
-## Motivation 
+<!--
+In addition to requirements specified in the PAPPG, including a separate
+section labeled "Broader Impacts", both Phase I and Phase II proposals must
+have a separate section titled "Context of OSE" describing the context and
+vision of the proposed OSE. This required section must include a description of
+the guiding principles and long-term vision for the proposed OSE, the specific
+societal or national need(s) that the OSE will address, and the anticipated
+broader impacts of the OSE.
+-->
+
+<!--
+In addition to requirements specified in the PAPPG, including a separate section labeled "Broader Impacts", both Phase I and Phase II proposals must have a separate section titled "Context of OSE" describing the context and vision of the proposed OSE. This required section must include a description of the guiding principles and long-term vision for the proposed OSE, the specific societal or national need(s) that the OSE will address, and the anticipated broader impacts of the OSE. 
+-->
+
+## Motivation
 
 <!--
 Why? Big python user base, need for stats tools in native python
@@ -103,16 +117,6 @@ See \cite{carmichael2021yaglm}.
   * Scientific Python-style governance
 * Mimic orgs like scipy-hep, pangeo, astropy other domain stacks, a stack for statistics (bioconductor)
 
-<!--
-In addition to requirements specified in the PAPPG, including a separate
-section labeled "Broader Impacts", both Phase I and Phase II proposals must
-have a separate section titled "Context of OSE" describing the context and
-vision of the proposed OSE. This required section must include a description of
-the guiding principles and long-term vision for the proposed OSE, the specific
-societal or national need(s) that the OSE will address, and the anticipated
-broader impacts of the OSE.
--->
-
 # Ecosystem Discovery
 
 <!--
@@ -163,6 +167,9 @@ The Broader Impacts criterion encompasses the potential to benefit society and
 contribute to the achievement of specific, desired societal outcomes.
 -->
 
+<!--
+Broader impacts may be accomplished through the research itself, through the activities that are directly related to specific research projects, or through activities that are supported by, but are complementary to, the project. NSF values the advancement of scientific knowledge and activities that contribute to achievement of societally relevant outcomes. Such outcomes include, but are not limited to: full participation of women, persons with disabilities, and other underrepresented groups in science, technology, engineering, and mathematics (STEM); improved STEM education and educator development at any level; increased public scientific literacy and public engagement with science and technology; improved well-being of individuals in society; development of a diverse, globally competitive STEM workforce; increased partnerships between academia, industry, and others; improved national security; increased economic competitiveness of the United States; and enhanced infrastructure for research and education.
+-->
 
 <!--
 
