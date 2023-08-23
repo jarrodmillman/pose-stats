@@ -44,6 +44,7 @@ Why? Big python user base, need for stats tools in native python
 
 ### YaGLM
 
+See \cite{carmichael2021yaglm}.
 
 ### ISLP
 

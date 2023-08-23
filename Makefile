@@ -12,7 +12,7 @@ $(BUILDDIR)/%.tex: %.md
 	pandoc --strip-comments -o $@ $<
 
 grant: $(BUILDDIR) $(TEX)
-	cp grant.tex $(BUILDDIR)
+	cp grant.{tex,bib} $(BUILDDIR)
 	(cd $(BUILDDIR) && latexmk -pdf grant.tex)
 	cp $(BUILDDIR)/grant.pdf .
 
