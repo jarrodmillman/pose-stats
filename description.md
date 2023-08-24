@@ -147,41 +147,30 @@ of these practices, evidenced by the responsiveness to (GitHub) and other issues
 
 Our team is uniquely positioned for creating a community around this project:
 
-- Stéfan van der Walt is the founder of scikit-image and co-author
-  of Elegant SciPy. Stéfan led an early project to document NumPy and SciPy, and
-  helped to construct
-  the platform and tools that allowed the community to complete documentation via
-  volunthttps://scientific-python.org/eer collaboration.
-  He led the development of the scikits index.
-  He mentored Google Summer of Code students from 2010 through 2015.
-  He organized numerous Python-related events, and has served on the
-  SciPy Conference organizing committee since 2009.  He served as
-  conference co-chair, program committee chair, and proceedings
-  co-chair, in which capacity he wrote and deployed, together with KJM, the
-  current proceeding paper review and publication system.
+- Stéfan van der Walt is a research scientist at UC Berkeley. He is the founder
+  of scikit-image and co-author of Elegant SciPy.
   He regularly teaches Python at bootcamps, campus courses, and at the
   annual G-Node Advanced Scientific Programming in Python summer schools.
   He contributes to numerous packages in the ecosystem
-  including NumPy, SciPy, DiPy, IPython, scikit-learn, and scikit-image.  He is the software
-  architect of the Cesium machine-learning library and web platform, and
+  including NumPy, SciPy, DiPy, IPython, scikit-learn, scikit-image, and NetworkX.
+  He is the software architect of the Cesium machine-learning library and web platform, and
   released several research software libraries, such as SupReMe for
   super-resolution imaging, and DPT for calculating Discrete Pulse Transforms.
   Stéfan is a director of NumFOCUS, and serves on the steering committees of NumPy, SciPy, and the
-  PSF's Scientific Working Group.
+  PSF's Scientific Working Group.He   cofounded the Scientific Python project in 2020 with Jarrod Millman.
 - Jarrod Millman is a senior open source scientific Python developer at UC
-  Berkeley. He received a BA from Cornell University in 1998. After working at
-  the Center for Neuroscience at UC Davis, he came to UC Berkeley in 2000—first
-  to design the data analysis system for the Brain Imaging Center and then as the
-  director of research computing for the Neuroscience Institute.  At Berkeley,
-  Jarrod cofounded the Neuroimaging in Python project, which spawned the statsmodel
-  project. He was the NumPy and SciPy release manager from 2007 to 2009.
+  Berkeley. He cofounded the Neuroimaging in Python project.
+  He was the NumPy and SciPy release manager from 2007 to 2009.
   He was on the SciPy steering committee from
   2007 to 2010.  He was the SciPy conference chair from 2008 to 2011 and the
   SciPy India conference chair from 2009 to 2012. He cofounded NumFOCUS and
   served on its board from 2011 to 2015.  Currently, he is the release manager of
   NetworkX, scikit-image, pygraphviz, numpydoc, and a few other packages. He
   cofounded the Scientific Python project in 2020 with Stéfan van der Walt.
-- Iain Carmichael wrote `YAGLM`, the product that forms the core of this exploration.
+- Iain Carmichael is an assistant professor of statistics at UC Berkeley.
+  His research focuses on developing statistical/machine learning algorithms for data with
+  a complex structure such as networks, images, and multi-view/modal data. 
+  He wrote `YAGLM`, the product that forms the core of this exploration.
 - Jonathan Taylor is a professor of statistics at Stanford University and is recognized
   both in the academic statistics community and the scientific `python` community. His research focuses
   on selective inference and signal detection in structured noise.
