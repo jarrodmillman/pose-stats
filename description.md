@@ -192,7 +192,11 @@ Our team is uniquely positioned for creating a community around this project:
   In collaboration with Trevor Hastie, he is the main developer on `ISLP` a package bridging
   the `R` and `python` worlds in that it provides `python` support for course material in a
   hugely successful `R` book: "Introduction to Statistical Learning with Applications in R".
-
+- Matt Haberland is assistant professor of the bioResource and agricultural engineering at
+  California Polytechnic State University. He is the maintainer of `scipy.stats`, which
+  provdes a large number of probability distributions, summary and frequency statistics,
+  correlation functions and statistical tests, masked statistics, kernel density estimation,
+  quasi-Monte Carlo functionality, and more.
 
 ## Long term vision
 
