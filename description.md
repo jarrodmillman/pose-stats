@@ -21,8 +21,9 @@ We believe that there is benefit to involving statisticians in improving and exp
 
 We envision an Open Source Ecosystem for Statistics in Python that coordinates, provides a community of practice, and acts as a gathering place for statisticians and researchers that want to disseminate their work in Python.
 To create such an ecosystem requires narrowing our focus to an example that will provide the necessary practical learning opportunity.
-For this purpose, we have identified YAGLM (henceforth: the product): a library for generalized statistical models (GLM) in Python.
-Using YAGLM as a proof-of-concept, we will investigate the typical challenges of bringing an existing package, developed by researchers, into the Python software ecosystem.
+For this purpose, we have identified YAGLM \cite{carmichael2021yaglm}: a library for generalized statistical models (GLM) in Python.
+
+Using YAGLM as a pilot project, we will investigate the typical challenges of bringing an existing package, developed by researchers, into the Python software ecosystem.
 We will build a community of statisticians and researchers that give input on what an ideal GLM implementation should look like in Python.
 This same community could eventually help explore the wider statistical space.
 We will connect with existing OSEs (of which several exist in scientific Python), to learn more about successful governance, social, and technical practices.
@@ -34,67 +35,7 @@ One way to involve the next generation, as well as those without previous access
 Again, using the product as a catalyst, we will present workshops that combine theoretical and practical software training around GLMs, to create a pathway towards contributing to the statistical OSE.
 
 Our overarching goal is to start with a product, but to move to a class of products.
-To form a small OSE around an example concept, but to generalize that OSE to enable a larger scale transformation of the statistical Python ecosystem, to where staisticians and researchers, experienced and newly trained, contribute to a diverse, vibrant collection of open source packages that turn Python into a highly viable, desirable computational platform of choice for statistics.
-
-# Open Source Product
-
-<!--
-Proposals must also have (1) a pointer to the existing publicly-available
-open-source product that is being transitioned; (2) details on the current
-status of the open-source product, development model, methods of dissemination,
-and user base; (3) a description of the problem being addressed, and the
-novelty of the intended product being transitioned, including substantiating
-evidence of the technology's potential to significantly impact/address the
-problem; and (4) a strong justification that makes the case that the team is
-qualified to conduct this work.
--->
-
-## yaglm
-
-<!--
-a pointer to the existing publicly-available
-open-source product that is being transitioned; 
-
-details on the current
-status of the open-source product, development model, methods of dissemination,
-and user base; 
--->
-
-See \cite{carmichael2021yaglm}.
-
-## ISLP
-
-## the problem being addressed
-
-<!--
-a description of the problem being addressed, and the
-novelty of the intended product being transitioned, including substantiating
-evidence of the technology's potential to significantly impact/address the
-problem; 
--->
-
-## The team
-
-<!--
-a strong justification that makes the case that the team is
-qualified to conduct this work.
--->
-
-
-* PIs are established in scientific python / statistics / communities
-* Well positioned to lead community building effort
-
-
-Our team is uniquely positioned for creating a community around this project:
-
-- Jonathan Taylor and Jarrod Millman were founding members of the statsmodels project.
-- Jarrod Millman and Stéfan van der Walt have been contributors to, and community maintainers in, the scientific Python community for close to two decades.
-  Together, the started the Scientific Python project, that helps coordinate a large community of developers.
-  Jarrod helped found scikit-learn, a highly successful machine learning library in Python.
-- Iain Carmichael wrote YAGLM, the product that forms the core of this exploration.
-- Jonathan Taylor, in collaboration with Trevor Hastie, is working on producing fundamental educational material surrounding generalized linear models.
-
-
+To form a small OSE around an example concept, but to generalize that OSE to enable a larger scale transformation of the statistical Python ecosystem, to where statisticians and researchers, experienced and newly trained, contribute to a diverse, vibrant collection of open source packages that turn Python into a highly viable, desirable computational platform of choice for statistics.
 
 # Context of OSE
 
@@ -110,7 +51,79 @@ broader impacts of the OSE.
 
 ## Context and vision
 
-## 
+<!--
+Proposals must also have (1) a pointer to the existing publicly-available
+open-source product that is being transitioned; (2) details on the current
+status of the open-source product, development model, methods of dissemination,
+and user base; (3) a description of the problem being addressed, and the
+novelty of the intended product being transitioned, including substantiating
+evidence of the technology's potential to significantly impact/address the
+problem; and (4) a strong justification that makes the case that the team is
+qualified to conduct this work.
+-->
+
+### Scientific Python
+
+#### Scientific Python Ecosystem
+
+core projects, engineering best practices,
+
+#### Domain Stacks
+
+astropy, scikit-hep, pangeo, nipy
+
+### Statistics
+
+#### R
+
+#### Python
+
+#### YAGML
+
+- details on the current status of the open-source product, development model, methods of dissemination,
+and user base;
+
+- missing engineering / community work (ci, tests, documentation, governance, onboarding, code of conduct, etc.)
+
+#### ISLP
+
+### Team
+
+Our team is uniquely positioned for creating a community around this project:
+
+- Jonathan Taylor and Jarrod Millman were founding members of the statsmodels project.
+- Jarrod Millman and Stéfan van der Walt have been contributors to, and community maintainers in, the scientific Python community for close to two decades.
+  Together, the started the Scientific Python project, that helps coordinate a large community of developers.
+  Jarrod helped found scikit-learn, a highly successful machine learning library in Python.
+- Iain Carmichael wrote YAGLM, the product that forms the core of this exploration.
+- Jonathan Taylor, in collaboration with Trevor Hastie, is working on producing fundamental educational material surrounding generalized linear models.
+
+
+## Long term vision
+
+* Community meetings (training, governance)
+
+- better statistical software for Python developed by statisticians
+
+- better software engineering and practices for statisticians
+
+- improved software engineering and practices for R
+
+### Societal or national needs: 
+
+* statistical models underpin scientific research, a domain for all science
+
+### Guiding principles
+
+* Community based governance
+  * Scientific Python-style governance
+* Mimic orgs like scipy-hep, pangeo, astropy other domain stacks, a stack for statistics (bioconductor)
+
+# Program of Work
+
+## YAGML (pilot project)
+
+Stefan and Jarrod will work with Iain to see what is needed to add the missing engineering and practices.
 
 Specific goals will be to:
 
@@ -125,24 +138,9 @@ While this proposal will not fund the implementation of the above, it
 may reasonably expected that members of the OSE will implement parts
 of it as guidelines are established.
 
+## Scientific Python Domain Stacks
 
-
-## Long term vision
-
-* Community meetings (training, governance)
-
-
-### Societal or national needs: 
-
-* statistical models underpin scientific research, a domain for all science
-
-### Guiding principles
-
-* Community based governance
-  * Scientific Python-style governance
-* Mimic orgs like scipy-hep, pangeo, astropy other domain stacks, a stack for statistics (bioconductor)
-
-# Ecosystem Discovery
+## Ecosystem Discovery
 
 <!--
 Include a plan for developing a strategy that: (1) describes methods to
@@ -152,7 +150,7 @@ further develop the technology; and (3) outlines methods to identify potential
 users who will utilize this technology.
 -->
 
-# Organization and Governance
+## Organization and Governance
 
 <!--
 Describe specific activities and their rationale that will identify: (1) the
@@ -167,7 +165,7 @@ methodology, support for users, and on-boarding mechanisms for new
 contributors.
 -->
 
-# Community Building
+## Community Building
 
 <!--
 Describe the specific activities to engage potential users and intellectual
@@ -177,13 +175,14 @@ development capabilities required of the potential contributor communities; and
 competitions, research coordination networks, and Ideas Labs).
 -->
 
+## Project Timeline and Workshop Overview
+
 # Intellectual Merit
 
 <!--
 The Intellectual Merit criterion encompasses the potential to advance knowledge;
 -->
 
-# Results from Prior NSF Support
 
 # Broader Impacts
 
@@ -195,6 +194,8 @@ contribute to the achievement of specific, desired societal outcomes.
 <!--
 Broader impacts may be accomplished through the research itself, through the activities that are directly related to specific research projects, or through activities that are supported by, but are complementary to, the project. NSF values the advancement of scientific knowledge and activities that contribute to achievement of societally relevant outcomes. Such outcomes include, but are not limited to: full participation of women, persons with disabilities, and other underrepresented groups in science, technology, engineering, and mathematics (STEM); improved STEM education and educator development at any level; increased public scientific literacy and public engagement with science and technology; improved well-being of individuals in society; development of a diverse, globally competitive STEM workforce; increased partnerships between academia, industry, and others; improved national security; increased economic competitiveness of the United States; and enhanced infrastructure for research and education.
 -->
+
+# Results from Prior NSF Support
 
 <!--
 
