@@ -126,10 +126,17 @@ Our team is uniquely positioned for creating a community around this project:
   NetworkX, scikit-image, pygraphviz, numpydoc, and a few other packages. He
   cofounded the Scientific Python project in 2020 with Stéfan van der Walt.
 - Iain Carmichael wrote YAGLM, the product that forms the core of this exploration.
-- Jonathan Taylor is a professor of statistics at Stanford University. His research focuses
+- Jonathan Taylor is a professor of statistics at Stanford University and is recognized
+  both in the academic statistics community and the scientific `python` community. His research focuses
   on selective inference and signal detection in structured noise.
-  In collaboration with Trevor Hastie, is working on producing
-  fundamental educational material surrounding generalized linear models.
+  He has been involved in the scientific python community for many years, including
+  early work on `statsmodels`, `nipy` among others.
+  As part of this, he has learned some of the best practices from the scientific `python` world.
+  He also works closely with statisticians in the `R` community. 
+  In collaboration with Trevor Hastie, he is the main developer on `ISLP` a package bridging
+  the `R` and `python` worlds in that it provides `python` support for course material in a
+  hugely successful `R` book: "Introduction to Statistical Learning with Applications in R".
+
 
 ## Long term vision
 
@@ -215,6 +222,19 @@ competitions, research coordination networks, and Ideas Labs).
 The Intellectual Merit criterion encompasses the potential to advance knowledge;
 -->
 
+This proposal addresses two gaps in the statistical software ecosystem. On the one hand,
+there  are many small groups or individual developers of statistical packages who lack the training
+in best (or better) practices in software engineering needed for open source an project to survive. On the other hand,
+the scientific python community adheres closely to such projects, resulting in well-engineered software
+packages such as `numpy`, `scipy` and `sklearn`. This proposal seeks to learn and document how to bridge this gap, starting with `yagml` as a pilot project. With this knowledge, the OSE will be able to propogate this model
+for other projects, resulting in better engineered software in the statistical community.
+
+The context of statistical software today is such that the `R` developer community consists of many
+individual or small groups, while the scientific `python` core projects and domain stacks are closer to the
+software engineering models. As a byproduct, any build between small and well-engineered will necessitate
+a bridge between `R` and the scientific `python` community. Learning what works best in each development community
+and what common ground exists in the two developer communities is expected to build stable parts of this
+bridge between the two developer communities.
 
 # Broader Impacts
 
