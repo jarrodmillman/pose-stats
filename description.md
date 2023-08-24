@@ -74,9 +74,25 @@ astropy, scikit-hep, pangeo, nipy
 
 ### Statistics
 
-#### R
+#### R developer community
+
+Through `CRAN`, the `R` community has been successful in enabling publication of many and varied
+software packages for statistical analysis. The packages vary widely in terms of adherence to best practices
+in software engineering, ranging from professional level (e.g. the tidy-verse package `tidyr`) to
+course projects from Master's or PhD courses. One of the successes of `CRAN` is that it broad facilitates
+distribution of packages, though there is little oversight into how these packages are related.
+Certain subcommunities, such as the tidy-verse or BioconductoR community do have a governance model for how
+packages are related, released, quality standards, etc.
 
 #### Python
+
+In contrast to `R`, the statistical software environment in `python` is most recognizable as larger
+packages such as `pandas` and `sklearn`. By and large, these large statistical software packages
+adhere to best practices in software development.
+There is no analog to `CRAN` to (at least loosely) organize
+statistical software in `python`. Many packages are available on `pip` or `github` but there is
+no centralized "domain stack" of statistical software to organize such packages. 
+
 
 #### `YAGLM`
 
@@ -266,7 +282,7 @@ This proposal addresses two gaps in the statistical software ecosystem. On the o
 there  are many small groups or individual developers of statistical packages who lack the training
 in best (or better) practices in software engineering needed for open source an project to survive. On the other hand,
 the scientific python community adheres closely to such projects, resulting in well-engineered software
-packages such as `numpy`, `scipy` and `sklearn`. This proposal seeks to learn and document how to bridge this gap, starting with `yagml` as a pilot project. With this knowledge, the OSE will be able to propogate this model
+packages such as `numpy`, `scipy`, `pandas` and `sklearn`. This proposal seeks to learn and document how to bridge this gap, starting with `yagml` as a pilot project. With this knowledge, the OSE will be able to propogate this model
 for other projects, resulting in better engineered software in the statistical community.
 
 The context of statistical software today is such that the `R` developer community consists of many
