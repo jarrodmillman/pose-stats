@@ -198,11 +198,29 @@ Our team is uniquely positioned for creating a community around this project:
 
 * Community meetings (training, governance)
 
-- better statistical software for Python developed by statisticians
+As described above, the current state of open source statistical software is mixed. The `R` community
+has many individual or small group contributors, though many lack proper training in best practices for open source software. In the
+`python` community, at least as represented by the larger packages, is represented by larger, well-organized
+groups with clear governance practices.
 
-- better software engineering and practices for statisticians
+This proposal aims to bridge these two worlds: it is unreasonable to assume statisticians trained in
+cutting-edge methodology to simultaneously master best practices in software engineering. Similarly,
+software engineers are not trained at the cutting edge of statistical methodology. However, there is certainly
+a middle ground: graduate students in statistics can be trained in good (i.e. not as extensively as required
+for "best") practices in software engineering. Similarly, those with strong software engineering skills
+can learn what are the types of APIs required to implement cutting edge methodology in software. 
 
-- improved software engineering and practices for R
+In colonizing this middle ground, we hope to achieve several goals.
+
+1. Better software engineering practices for academically trained statisticians writing software both in `R` and `python`.
+
+2. Establishment of new, well-engineered and robust APIs (building on the
+success of `sklearn`'s simple but powerful API) for implementation of cutting-edge statistical
+methodology in different modelling paradigms. 
+
+3. Cross-pollination between `R` and `python` statistical software communities. The current state sees
+`R` with mostly small development groups with `python` leaning towards larger groups. Meeting in this middle
+ground will necessitate communication between the groups. 
 
 ### Societal or national needs: 
 
