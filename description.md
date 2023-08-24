@@ -21,9 +21,9 @@ We believe that there is benefit to involving statisticians in improving and exp
 
 We envision an Open Source Ecosystem for Statistics in Python that coordinates, provides a community of practice, and acts as a gathering place for statisticians and researchers that want to disseminate their work in Python.
 To create such an ecosystem requires narrowing our focus to an example that will provide the necessary practical learning opportunity.
-For this purpose, we have identified YAGLM \cite{carmichael2021yaglm}: a library for generalized statistical models (GLM) in Python.
+For this purpose, we have identified `YAGLM` \cite{carmichael2021yaglm}: a library for generalized statistical models (GLM) in Python.
 
-Using YAGLM as a pilot project, we will investigate the typical challenges of bringing an existing package, developed by researchers, into the Python software ecosystem.
+Using `YAGLM` as a pilot project, we will investigate the typical challenges of bringing an existing package, developed by researchers, into the Python software ecosystem.
 We will build a community of statisticians and researchers that give input on what an ideal GLM implementation should look like in Python.
 This same community could eventually help explore the wider statistical space.
 We will connect with existing OSEs (of which several exist in scientific Python), to learn more about successful governance, social, and technical practices.
@@ -78,14 +78,54 @@ astropy, scikit-hep, pangeo, nipy
 
 #### Python
 
-#### YAGLM
+#### `YAGLM`
 
-- details on the current status of the open-source product, development model, methods of dissemination,
-and user base;
+The `YAGLM` package was developed to make the framework of modern GLM
+methodology (various loss function, regularizer, solvers) available and easily accessible to data analysts \cite{
+yaglm2021carmichael}. Beyond the basic lasso/ridge,
+the package supports structured penalties such as the nuclear norm as
+well as the group, exclusive, fused, and generalized lasso and non-convex but linearizable
+penalties. `YAGLM` comes with a variety
+of tuning parameter selection methods including: cross-validation,
+information criteria that have favorable model selection properties,
+and degrees of freedom estimators.
 
-- missing engineering / community work (ci, tests, documentation, governance, onboarding, code of conduct, etc.)
+Standard statistical software design patterns had to be rethought in
+order to handle the breadth of the GLM framework. For example,
+scikit-learn’s API and estimator object backend [TODO: CITATIONS] have
+become a frequently used template for developing statistical and
+machine learning software [TODO: perhaps some citations
+e.g. celer]. Initial attempts at extending scikit-learn quickly
+revealed different backend and frontend API design choices would need
+to be made. Some of these design choices (e.g. config objects to
+specify models or a separate solver object class for the optimization
+algorithm) will be useful for other statistical software pacakges.
+
+The initial development of `YAGLM` was done in short bursts by a few
+core developers. It is currently available on github and has a few
+users. `YAGLM` is missing important engineering details like continuous
+integration, extensive testing, and quality documentation. It is also
+missing community support like governance, developer onboarding and a
+code of conduct.
+
+
+
 
 #### ISLP
+
+Ths `ISLP` package is written to accompany an introductory text on statistical learning and `python`,
+closely following the examples in the hugely successful `R` version. Besides just providing labs,
+it provides pythonic design matrix building, a simple implementation of Bayesian Additive Regression Trees
+and object oriented stepwise model selection. Planned development include extending the `pygam` package;
+regularized regression specification (to be used by `yagml`); integration of a `python` version
+of the very popular `glmnet` package in `R`.
+
+The corresponding textbook was published in July.  The project aims to
+use good (if not best) software engineering practices.  It is expected
+that it will be used in several introductory data science and
+statistics courses nationwide which will serve as a test of the robustness
+of these practices, evidenced by the responsiveness to (GitHub) and other issues that arise.
+
 
 ### Team
 
@@ -125,7 +165,7 @@ Our team is uniquely positioned for creating a community around this project:
   served on its board from 2011 to 2015.  Currently, he is the release manager of
   NetworkX, scikit-image, pygraphviz, numpydoc, and a few other packages. He
   cofounded the Scientific Python project in 2020 with Stéfan van der Walt.
-- Iain Carmichael wrote YAGLM, the product that forms the core of this exploration.
+- Iain Carmichael wrote `YAGLM`, the product that forms the core of this exploration.
 - Jonathan Taylor is a professor of statistics at Stanford University and is recognized
   both in the academic statistics community and the scientific `python` community. His research focuses
   on selective inference and signal detection in structured noise.
@@ -160,7 +200,7 @@ Our team is uniquely positioned for creating a community around this project:
 
 # Program of Work
 
-## YAGLM (pilot project)
+## `YAGLM` (pilot project)
 
 Stefan and Jarrod will work with Iain to see what is needed to add the missing engineering and practices.
 
