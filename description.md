@@ -78,7 +78,7 @@ astropy, scikit-hep, pangeo, nipy
 
 #### Python
 
-#### YAGML
+#### YAGLM
 
 - details on the current status of the open-source product, development model, methods of dissemination,
 and user base;
@@ -121,7 +121,7 @@ Our team is uniquely positioned for creating a community around this project:
 
 # Program of Work
 
-## YAGML (pilot project)
+## YAGLM (pilot project)
 
 Stefan and Jarrod will work with Iain to see what is needed to add the missing engineering and practices.
 
