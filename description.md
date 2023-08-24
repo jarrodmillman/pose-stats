@@ -51,6 +51,8 @@ broader impacts of the OSE.
 
 ## Context and vision
 
+### Scientific Python
+
 The entire space of Python libraries for scientific computation is most often referred to as the scientific Python ecosystem.
 Inside it, there exist several OSE-like organizations.
 Notable examples include The Scientific Python Project, scikit-HEP (high energy physics), pangeo (earth sciences), astropy (astronomy), and nipy (neuroimaging).
@@ -79,37 +81,23 @@ problem; and (4) a strong justification that makes the case that the team is
 qualified to conduct this work.
 -->
 
-### Scientific Python
-
-#### Scientific Python Ecosystem
-
-core projects, engineering best practices,
-
-#### Domain Stacks
-
-astropy, scikit-hep, pangeo, nipy
-
 ### Statistics
-
-#### R developer community
 
 Through `CRAN`, the `R` community has been successful in enabling publication of many and varied
 software packages for statistical analysis. The packages vary widely in terms of adherence to best practices
 in software engineering, ranging from professional level (e.g. the tidy-verse package `tidyr`) to
-course projects from Master's or PhD courses. One of the successes of `CRAN` is that it broad facilitates
-distribution of packages, though there is little oversight into how these packages are related.
-Certain subcommunities, such as the tidy-verse or BioconductoR community do have a governance model for how
-packages are related, released, quality standards, etc.
+course projects from Master's or PhD courses. One of the successes of `CRAN` is that it broadly facilitates
+distribution of packages, although there is little oversight of how these packages are related.
+Certain subcommunities, such as tidy-verse and BioconductoR, do have governance models, and guidelines on how packages should related to one another, be released, how quality standards are enforced, etc.
 
-#### Python
-
-In contrast to `R`, the statistical software environment in `python` is most recognizable as larger
-packages such as `pandas` and `sklearn`. By and large, these large statistical software packages
+In contrast to `R`, the statistical software environment in Python is most recognizable as larger foundational data-structure and algorithmic
+libraries such as `pandas` and `scikit-learn`. By and large, these well-established statistical software libraries
 adhere to best practices in software development.
-There is no analog to `CRAN` to (at least loosely) organize
-statistical software in `python`. Many packages are available on `pip` or `github` but there is
-no centralized "domain stack" of statistical software to organize such packages. 
+Other than publishing to the central, general Python Packaging Index, there is no coordinating mechanism similar to `CRAN` for loosely organizing
+small or experimental packages in Python into applicable, domain- or method-specific "stacks".
 
+The proposed OSE provides a "best of both worlds" solution: a place where statistical packages for scientific Python can be explored and developed, while distributing knowledge on software engineering methodology to their developers and to statisticians at large.
+This knowledge could be beneficial also to those developing libraries for R, resulting in the cross-pollination of modern software engineering and healthy community practices.
 
 #### `YAGLM`
 
@@ -140,9 +128,6 @@ users. `YAGLM` is missing important engineering details like continuous
 integration, extensive testing, and quality documentation. It is also
 missing community support like governance, developer onboarding and a
 code of conduct.
-
-
-
 
 #### ISLP
 
@@ -224,13 +209,13 @@ In colonizing this middle ground, we hope to achieve several goals.
 
 2. Establishment of new, well-engineered and robust APIs (building on the
 success of `sklearn`'s simple but powerful API) for implementation of cutting-edge statistical
-methodology in different modeling paradigms. 
+methodology in different modeling paradigms.
 
 3. Cross-pollination between `R` and `python` statistical software communities. The current state sees
 `R` with mostly small development groups with `python` leaning towards larger groups. Meeting in this middle
-ground will necessitate communication between the groups. 
+ground will necessitate communication between the groups.
 
-### Societal or national needs: 
+### Societal or national needs:
 
 * statistical models underpin scientific research, a domain for all science
 
