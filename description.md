@@ -115,7 +115,7 @@ e.g. celer]. Initial attempts at extending scikit-learn quickly
 revealed different backend and frontend API design choices would need
 to be made. Some of these design choices (e.g. config objects to
 specify models or a separate solver object class for the optimization
-algorithm) will be useful for other statistical software pacakges.
+algorithm) will be useful for other statistical software packages.
 
 The initial development of `YAGLM` was done in short bursts by a few
 core developers. It is currently available on github and has a few
@@ -157,7 +157,7 @@ Our team is uniquely positioned for creating a community around this project:
   released several research software libraries, such as SupReMe for
   super-resolution imaging, and DPT for calculating Discrete Pulse Transforms.
   Stéfan is a director of NumFOCUS, and serves on the steering committees of NumPy, SciPy, and the
-  PSF's Scientific Working Group.He   cofounded the Scientific Python project in 2020 with Jarrod Millman.
+  PSF's Scientific Working Group. He cofounded the Scientific Python project in 2020 with Jarrod Millman.
 - Jarrod Millman is a senior open source scientific Python developer at UC
   Berkeley. He cofounded the Neuroimaging in Python project.
   He was the NumPy and SciPy release manager from 2007 to 2009.
@@ -183,13 +183,11 @@ Our team is uniquely positioned for creating a community around this project:
   hugely successful `R` book: "Introduction to Statistical Learning with Applications in R".
 - Matt Haberland is assistant professor of the bioResource and agricultural engineering at
   California Polytechnic State University. He is the maintainer of `scipy.stats`, which
-  provdes a large number of probability distributions, summary and frequency statistics,
+  provides a large number of probability distributions, summary and frequency statistics,
   correlation functions and statistical tests, masked statistics, kernel density estimation,
   quasi-Monte Carlo functionality, and more.
 
 ## Long term vision
-
-* Community meetings (training, governance)
 
 As described above, the current state of open source statistical software is mixed. The `R` community
 has many individual or small group contributors, though many lack proper training in best practices for open source software. In the
@@ -209,7 +207,7 @@ In colonizing this middle ground, we hope to achieve several goals.
 
 2. Establishment of new, well-engineered and robust APIs (building on the
 success of `sklearn`'s simple but powerful API) for implementation of cutting-edge statistical
-methodology in different modelling paradigms. 
+methodology in different modeling paradigms. 
 
 3. Cross-pollination between `R` and `python` statistical software communities. The current state sees
 `R` with mostly small development groups with `python` leaning towards larger groups. Meeting in this middle
@@ -293,7 +291,7 @@ This proposal addresses two gaps in the statistical software ecosystem. On the o
 there  are many small groups or individual developers of statistical packages who lack the training
 in best (or better) practices in software engineering needed for open source an project to survive. On the other hand,
 the scientific python community adheres closely to such projects, resulting in well-engineered software
-packages such as `numpy`, `scipy`, `pandas` and `sklearn`. This proposal seeks to learn and document how to bridge this gap, starting with `yagml` as a pilot project. With this knowledge, the OSE will be able to propogate this model
+packages such as `numpy`, `scipy`, `pandas` and `sklearn`. This proposal seeks to learn and document how to bridge this gap, starting with `yagml` as a pilot project. With this knowledge, the OSE will be able to propagate this model
 for other projects, resulting in better engineered software in the statistical community.
 
 The context of statistical software today is such that the `R` developer community consists of many
