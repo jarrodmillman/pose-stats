@@ -126,7 +126,9 @@ Our team is uniquely positioned for creating a community around this project:
   NetworkX, scikit-image, pygraphviz, numpydoc, and a few other packages. He
   cofounded the Scientific Python project in 2020 with Stéfan van der Walt.
 - Iain Carmichael wrote YAGLM, the product that forms the core of this exploration.
-- Jonathan Taylor, in collaboration with Trevor Hastie, is working on producing
+- Jonathan Taylor is a professor of statistics at Stanford University. His research focuses
+  on selective inference and signal detection in structured noise.
+  In collaboration with Trevor Hastie, is working on producing
   fundamental educational material surrounding generalized linear models.
 
 ## Long term vision
