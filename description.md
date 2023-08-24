@@ -51,6 +51,23 @@ broader impacts of the OSE.
 
 ## Context and vision
 
+The entire space of Python libraries for scientific computation is most often referred to as the scientific Python ecosystem.
+Inside it, there exist several OSE-like organizations.
+Notable examples include The Scientific Python Project, scikit-HEP (high energy physics), pangeo (earth sciences), astropy (astronomy), and nipy (neuroimaging).
+The first of these, founded by PIs SJvdW and KJM, aims to better coordinate the development of scientific Python projects as well as their associated communities of contributors.
+The others are domain-specific communities that foster the development of libraries and infrastructure that address field-specific concerns.
+
+We envision that the proposed OSE, similarly, will become a community-owned structure that provides operational and governance guidelines, and that supports the organization of, contribution to, and sustainance of computational libraries.
+However, instead of being specific to any *domain*, it will focus on *statistical methods* as a whole.
+While the boundaries of the OSE are yet to be established, it may, for example, provide technical and community guidance, host technique-specific or software engineering knowledge, or provide shared infrastructure.
+
+Scientific Python is characterized by several larger, well-established libraries that have coalesced from smaller, experimental packages.
+While smaller packages are developed relatively freely, large libraries have a strong focus on best-in-class software engineering, such as testing and continuous integration.
+In addition, the emphasize best practices of collaboration, such as community-driven governance and decision making, documentation, and newcomer onboarding.
+We foresee that the OSE will act as point of coagulation, by which important functionality that benefit many researchers is identified and incorporated into existing libraries.
+In addition, the OSE will distribute knowledge on best practices to smaller projects, offering a transition pathway for expanding the offering of high-quality algorithm implementations to researchers.
+Distributing and assisting with the adoption of such knowledge further democratizes the contribution landscape, and expands the community of participating researcher-developers.
+
 <!--
 Proposals must also have (1) a pointer to the existing publicly-available
 open-source product that is being transitioned; (2) details on the current
