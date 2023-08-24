@@ -126,10 +126,17 @@ Our team is uniquely positioned for creating a community around this project:
   NetworkX, scikit-image, pygraphviz, numpydoc, and a few other packages. He
   cofounded the Scientific Python project in 2020 with Stéfan van der Walt.
 - Iain Carmichael wrote YAGLM, the product that forms the core of this exploration.
-- Jonathan Taylor is a professor of statistics at Stanford University. His research focuses
+- Jonathan Taylor is a professor of statistics at Stanford University and is recognized
+  both in the academic statistics community and the scientific `python` community. His research focuses
   on selective inference and signal detection in structured noise.
-  In collaboration with Trevor Hastie, is working on producing
-  fundamental educational material surrounding generalized linear models.
+  He has been involved in the scientific python community for many years, including
+  early work on `statsmodels`, `nipy` among others.
+  As part of this, he has learned some of the best practices from the scientific `python` world.
+  He also works closely with statisticians in the `R` community. 
+  In collaboration with Trevor Hastie, he is the main developer on `ISLP` a package bridging
+  the `R` and `python` worlds in that it provides `python` support for course material in a
+  hugely successful `R` book: "Introduction to Statistical Learning with Applications in R".
+
 
 ## Long term vision
 
