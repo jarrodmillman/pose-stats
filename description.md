@@ -256,6 +256,9 @@ further develop the technology; and (3) outlines methods to identify potential
 users who will utilize this technology.
 -->
 
+The project team will organize 10 workshops---seven in-person and two hybrid.
+
+
 ## Organization and Governance
 
 <!--
@@ -282,6 +285,29 @@ competitions, research coordination networks, and Ideas Labs).
 -->
 
 ## Project Timeline and Workshop Overview
+
+The first three workshops will be held within the first quarter of the funding cycle.
+The next four workshops will be held during the second and third quarters.
+The final three workshops will be held during the final quarter.
+Each in-person workshop is expected to include up to 20 people and
+the virtual workshops will include up to 30 people.
+
+**Workshop 1:** yaglm
+
+**Workshop 2:** islp
+
+**Workshop 3:** statitisticians working in Python
+
+**Workshops 4, 5, 6:** graduate students / postdocs (stanford)
+
+**Workshop 7:** teachers
+
+**Workshop 8 (virtual):** yaglm
+
+**Workshop 9 (virtual):** islp
+
+**Workshop 10:** final plan
+
 
 # Intellectual Merit
 
