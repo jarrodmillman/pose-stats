@@ -21,7 +21,7 @@ We believe that there is benefit to involving statisticians in improving and exp
 
 We envision an Open Source Ecosystem for Statistics in Python that coordinates, provides a community of practice, and acts as a gathering place for statisticians and researchers that want to disseminate their work in Python.
 To create such an ecosystem requires narrowing our focus to an example that will provide the necessary practical learning opportunity.
-For this purpose, we have identified two open source Python packages:
+For this purpose, we have identified two open source Python packages to serve as pilot projects and anchor the OSE:
 
 - `YAGLM` \cite{carmichael2021yaglm}: a library for generalized statistical models (GLM) in Python.
 - `ISPL` 
@@ -100,6 +100,8 @@ small or experimental packages in Python into applicable, domain- or method-spec
 
 The proposed OSE provides a "best of both worlds" solution: a place where statistical packages for scientific Python can be explored and developed, while distributing knowledge on software engineering methodology to their developers and to statisticians at large.
 This knowledge could be beneficial also to those developing libraries for R, resulting in the cross-pollination of modern software engineering and healthy community practices.
+
+## Pilot Projects
 
 ### `YAGLM`
 
@@ -235,7 +237,9 @@ ground will necessitate communication between the groups.
 
 # Program of Work
 
-## `YAGLM` (pilot project)
+## Pilot Projects
+
+ `YAGLM` and `ISLP`
 
 Stefan and Jarrod will work with Iain to see what is needed to add the missing engineering and practices.
 
@@ -268,6 +272,7 @@ users who will utilize this technology.
 
 The project team will organize 10 workshops---seven in-person and two hybrid.
 
+To inform those workshops, we will create surveys.
 
 ## Organization and Governance
 
