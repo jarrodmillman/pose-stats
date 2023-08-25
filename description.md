@@ -21,9 +21,12 @@ We believe that there is benefit to involving statisticians in improving and exp
 
 We envision an Open Source Ecosystem for Statistics in Python that coordinates, provides a community of practice, and acts as a gathering place for statisticians and researchers that want to disseminate their work in Python.
 To create such an ecosystem requires narrowing our focus to an example that will provide the necessary practical learning opportunity.
-For this purpose, we have identified `YAGLM` \cite{carmichael2021yaglm}: a library for generalized statistical models (GLM) in Python.
+For this purpose, we have identified two open source Python packages:
 
-Using `YAGLM` as a pilot project, we will investigate the typical challenges of bringing an existing package, developed by researchers, into the Python software ecosystem.
+- `YAGLM` \cite{carmichael2021yaglm}: a library for generalized statistical models (GLM) in Python.
+- `ISPL` 
+
+Using `YAGLM` and `ISPL` as pilot projects, we will investigate the typical challenges of bringing an existing package, developed by researchers, into the Python software ecosystem.
 We will build a community of statisticians and researchers that give input on what an ideal GLM implementation should look like in Python.
 This same community could eventually help explore the wider statistical space.
 We will connect with existing OSEs (of which several exist in scientific Python), to learn more about successful governance, social, and technical practices.
@@ -100,7 +103,7 @@ This knowledge could be beneficial also to those developing libraries for R, res
 
 ### `YAGLM`
 
-The `YAGLM` package was developed to make the framework of modern GLM
+The `YAGLM` open-source Python package (https://github.com/yaglm/yaglm) was developed to make the framework of modern GLM
 methodology (various loss function, regularizer, solvers) available and easily accessible to data analysts \cite{
 yaglm2021carmichael}. Beyond the basic lasso/ridge,
 the package supports structured penalties such as the nuclear norm as
@@ -130,7 +133,7 @@ code of conduct.
 
 ### ISLP
 
-Ths `ISLP` package is written to accompany an introductory text on statistical learning and `python`,
+Ths `ISLP` open-source Python package (https://github.com/intro-stat-learning/ISLP) is written to accompany an introductory text on statistical learning and `python`,
 closely following the examples in the hugely successful `R` version. Besides just providing labs,
 it provides pythonic design matrix building, a simple implementation of Bayesian Additive Regression Trees
 and object oriented stepwise model selection. Planned development include extending the `pygam` package;
@@ -146,47 +149,53 @@ of these practices, evidenced by the responsiveness to (GitHub) and other issues
 
 ## Team
 
-Our team is uniquely positioned for creating a community around this project:
+Our team are well established in the statistics and scientific Python
+communities. We are uniquely positioned for creating a community around
+this OSE:\
 
-- Stéfan van der Walt is a research scientist at UC Berkeley. He is the founder
-  of scikit-image and co-author of Elegant SciPy.
-  He regularly teaches Python at bootcamps, campus courses, and at the
-  annual G-Node Advanced Scientific Programming in Python summer schools.
-  He contributes to numerous packages in the ecosystem
-  including NumPy, SciPy, DiPy, IPython, scikit-learn, scikit-image, and NetworkX.
-  He is the software architect of the Cesium machine-learning library and web platform, and
-  released several research software libraries, such as SupReMe for
-  super-resolution imaging, and DPT for calculating Discrete Pulse Transforms.
-  Stéfan is a director of NumFOCUS, and serves on the steering committees of NumPy, SciPy, and the
-  PSF's Scientific Working Group. He cofounded the Scientific Python project in 2020 with Jarrod Millman.
-- Jarrod Millman is a senior open source scientific Python developer at UC
-  Berkeley. He cofounded the Neuroimaging in Python project.
-  He was the NumPy and SciPy release manager from 2007 to 2009.
-  He was on the SciPy steering committee from
-  2007 to 2010.  He was the SciPy conference chair from 2008 to 2011 and the
-  SciPy India conference chair from 2009 to 2012. He cofounded NumFOCUS and
-  served on its board from 2011 to 2015.  Currently, he is the release manager of
-  NetworkX, scikit-image, pygraphviz, numpydoc, and a few other packages. He
-  cofounded the Scientific Python project in 2020 with Stéfan van der Walt.
-- Iain Carmichael is an assistant professor of statistics at UC Berkeley.
-  His research focuses on developing statistical/machine learning algorithms for data with
-  a complex structure such as networks, images, and multi-view/modal data. 
-  He wrote `YAGLM`, the product that forms the core of this exploration.
-- Jonathan Taylor is a professor of statistics at Stanford University and is recognized
-  both in the academic statistics community and the scientific `python` community. His research focuses
-  on selective inference and signal detection in structured noise.
-  He has been involved in the scientific python community for many years, including
-  early work on `statsmodels`, `nipy` among others.
-  As part of this, he has learned some of the best practices from the scientific `python` world.
-  He also works closely with statisticians in the `R` community. 
-  In collaboration with Trevor Hastie, he is the main developer on `ISLP` a package bridging
-  the `R` and `python` worlds in that it provides `python` support for course material in a
-  hugely successful `R` book: "Introduction to Statistical Learning with Applications in R".
-- Matt Haberland is assistant professor of the bioResource and agricultural engineering at
-  California Polytechnic State University. He is the maintainer of `scipy.stats`, which
-  provides a large number of probability distributions, summary and frequency statistics,
-  correlation functions and statistical tests, masked statistics, kernel density estimation,
-  quasi-Monte Carlo functionality, and more.
+**Stéfan van der Walt** is a research scientist at UC Berkeley. He is the founder
+of scikit-image and co-author of Elegant SciPy.
+He regularly teaches Python at bootcamps, campus courses, and at the
+annual G-Node Advanced Scientific Programming in Python summer schools.
+He contributes to numerous packages in the ecosystem
+including NumPy, SciPy, DiPy, IPython, scikit-learn, scikit-image, and NetworkX.
+He is the software architect of the Cesium machine-learning library and web platform, and
+released several research software libraries, such as SupReMe for
+super-resolution imaging, and DPT for calculating Discrete Pulse Transforms.
+Stéfan is a director of NumFOCUS, and serves on the steering committees of NumPy, SciPy, and the
+PSF's Scientific Working Group. He cofounded the Scientific Python project in 2020 with Jarrod Millman.
+
+**Jarrod Millman** is a senior open source scientific Python developer at UC
+Berkeley. He cofounded the Neuroimaging in Python project.
+He was the NumPy and SciPy release manager from 2007 to 2009.
+He was on the SciPy steering committee from
+2007 to 2010.  He was the SciPy conference chair from 2008 to 2011 and the
+SciPy India conference chair from 2009 to 2012. He cofounded NumFOCUS and
+served on its board from 2011 to 2015.  Currently, he is the release manager of
+NetworkX, scikit-image, pygraphviz, numpydoc, and a few other packages. He
+cofounded the Scientific Python project in 2020 with Stéfan van der Walt.
+
+**Iain Carmichael** is an assistant professor of statistics at UC Berkeley.
+His research focuses on developing statistical/machine learning algorithms for data with
+a complex structure such as networks, images, and multi-view/modal data. 
+He wrote `YAGLM`, the product that forms the core of this exploration.
+
+**Jonathan Taylor** is a professor of statistics at Stanford University and is recognized
+both in the academic statistics community and the scientific `python` community. His research focuses
+on selective inference and signal detection in structured noise.
+He has been involved in the scientific python community for many years, including
+early work on `statsmodels`, `nipy` among others.
+As part of this, he has learned some of the best practices from the scientific `python` world.
+He also works closely with statisticians in the `R` community. 
+In collaboration with Trevor Hastie, he is the main developer on `ISLP` a package bridging
+the `R` and `python` worlds in that it provides `python` support for course material in a
+hugely successful `R` book: "Introduction to Statistical Learning with Applications in R".
+
+**Matt Haberland** is assistant professor of the bioResource and agricultural engineering at
+California Polytechnic State University. He is the maintainer of `scipy.stats`, which
+provides a large number of probability distributions, summary and frequency statistics,
+correlation functions and statistical tests, masked statistics, kernel density estimation,
+quasi-Monte Carlo functionality, and more.
 
 ## Long term vision
 
@@ -244,6 +253,8 @@ may reasonably expected that members of the OSE will implement parts
 of it as guidelines are established.
 
 ## Scientific Python Domain Stacks
+
+## Bioconductor and Tidyverse
 
 ## Ecosystem Discovery
 
