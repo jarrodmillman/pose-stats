@@ -183,6 +183,13 @@ ground will necessitate communication between the groups.
 
 ### Societal or national needs:
 
+Statistics software are a fundamental component to almost any research software stack.
+This work disseminates best software engineering practices to both the R and Python ecosystems.
+It brings the methods expertise of statisticians to research software development, while providing statisticians with the capability to improve the quality of software they develop.
+The OSE distills knowledge on how to transform experimental research products into robust, high-quality research software into a centralized resource; that resource, in turn, is then used to transform other research products.
+By hosting fundamental educational resources on both statistical techniques and software development best practices, the OSE builds pathways that onboard academics to statistical scientific software development.
+This empowers young researchers, and increases participation both in research and research software development.
+
 * statistical models underpin scientific research, a domain for all science
 
 ### Guiding principles
