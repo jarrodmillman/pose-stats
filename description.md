@@ -49,9 +49,8 @@ societal or national need(s) that the OSE will address, and the anticipated
 broader impacts of the OSE.
 -->
 
-## Context and vision
 
-### Scientific Python
+## Scientific Python
 
 The entire space of Python libraries for scientific computation is most often referred to as the scientific Python ecosystem.
 Inside it, there exist several OSE-like organizations.
@@ -81,7 +80,7 @@ problem; and (4) a strong justification that makes the case that the team is
 qualified to conduct this work.
 -->
 
-### Statistics
+## Statistics
 
 Through `CRAN`, the `R` community has been successful in enabling publication of many and varied
 software packages for statistical analysis. The packages vary widely in terms of adherence to best practices
@@ -99,7 +98,7 @@ small or experimental packages in Python into applicable, domain- or method-spec
 The proposed OSE provides a "best of both worlds" solution: a place where statistical packages for scientific Python can be explored and developed, while distributing knowledge on software engineering methodology to their developers and to statisticians at large.
 This knowledge could be beneficial also to those developing libraries for R, resulting in the cross-pollination of modern software engineering and healthy community practices.
 
-#### `YAGLM`
+### `YAGLM`
 
 The `YAGLM` package was developed to make the framework of modern GLM
 methodology (various loss function, regularizer, solvers) available and easily accessible to data analysts \cite{
@@ -129,7 +128,7 @@ integration, extensive testing, and quality documentation. It is also
 missing community support like governance, developer onboarding and a
 code of conduct.
 
-#### ISLP
+### ISLP
 
 Ths `ISLP` package is written to accompany an introductory text on statistical learning and `python`,
 closely following the examples in the hugely successful `R` version. Besides just providing labs,
@@ -145,7 +144,7 @@ statistics courses nationwide which will serve as a test of the robustness
 of these practices, evidenced by the responsiveness to (GitHub) and other issues that arise.
 
 
-### Team
+## Team
 
 Our team is uniquely positioned for creating a community around this project:
 
