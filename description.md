@@ -169,7 +169,7 @@ a middle ground: graduate students in statistics can be trained in good (i.e. no
 for "best") practices in software engineering. Similarly, those with strong software engineering skills
 can learn what are the types of APIs required to implement cutting edge methodology in software. 
 
-In colonizing this middle ground, we hope to achieve several goals.
+Bridging these worlds achieves several goals:
 
 1. Better software engineering practices for academically trained statisticians writing software both in `R` and `python`.
 
