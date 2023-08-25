@@ -55,6 +55,8 @@ broader impacts of the OSE.
 
 ## Scientific Python
 
+![Scientific Python Ecosystem](./figures/ose-ecosystem.pdf)
+
 The entire space of Python libraries for scientific computation is most often referred to as the scientific Python ecosystem.
 Inside it, there exist several OSE-like organizations.
 Notable examples include The Scientific Python Project, scikit-HEP (high energy physics), pangeo (earth sciences), astropy (astronomy), and nipy (neuroimaging).
