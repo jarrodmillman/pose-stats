@@ -144,9 +144,9 @@ code of conduct.
 
 Ths `ISLP` open-source Python package (https://github.com/intro-stat-learning/ISLP) is written to accompany an introductory text on statistical learning and `python`,
 closely following the examples in the hugely successful `R` version. Besides just providing labs,
-it provides pythonic design matrix building, a simple implementation of Bayesian Additive Regression Trees
+it provides Pythonic design matrix building, a simple implementation of Bayesian Additive Regression Trees
 and object oriented stepwise model selection. Planned development include extending the `pygam` package;
-regularized regression specification (to be used by `yagml`); integration of a `python` version
+regularized regression specification (to be used by `yagml`); integration of a Python version
 of the very popular `glmnet` package in `R`.
 
 The corresponding textbook was published in July.  The project aims to
@@ -194,12 +194,12 @@ This empowers young researchers, and increases participation both in research an
 
 - Set up OSE that it works in SP ecosystem with domain stacks
 - Guiding principle: learn how existing domain stacks work, and distill best practices into a blueprint
-- Incorporate the strengths and best practices of R ecosystems like bioconductoR and tidyverse
+- Incorporate the strengths and best practices of R ecosystems like Bioconductor and tidyverse
 - Use principles derived from the above and pilot projects, to learn how to best support other projects and developers as the ecosystem grows
 
 * Community based governance
   * Scientific Python-style governance
-* Mimic orgs like scipy-hep, pangeo, astropy other domain stacks, a stack for statistics (bioconductor)
+* Mimic orgs like scipy-hep, pangeo, astropy other domain stacks, a stack for statistics (Bioconductor)
 
 
 ## Team
