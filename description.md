@@ -190,9 +190,12 @@ The OSE distills knowledge on how to transform experimental research products in
 By hosting fundamental educational resources on both statistical techniques and software development best practices, the OSE builds pathways that onboard academics to statistical scientific software development.
 This empowers young researchers, and increases participation both in research and research software development.
 
-* statistical models underpin scientific research, a domain for all science
-
 ### Guiding principles
+
+- Set up OSE that it works in SP ecosystem with domain stacks
+- Guiding principle: learn how existing domain stacks work, and distill best practices into a blueprint
+- Incorporate the strengths and best practices of R ecosystems like bioconductoR and tidyverse
+- Use principles derived from the above and pilot projects, to learn how to best support other projects and developers as the ecosystem grows
 
 * Community based governance
   * Scientific Python-style governance
