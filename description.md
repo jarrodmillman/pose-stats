@@ -55,7 +55,12 @@ broader impacts of the OSE.
 
 ## Scientific Python
 
-![Scientific Python Ecosystem](./figures/ose-ecosystem.pdf)
+\begin{wrapfigure}{r}{0.5\textwidth}
+  \begin{center}
+    \includegraphics[width=0.4\textwidth]{./figures/ose-ecosystem.pdf}
+    \caption{Scientific Python and Domain Stack OSEs}
+  \end{center}
+\end{wrapfigure}
 
 The entire space of Python libraries for scientific computation is most often referred to as the scientific Python ecosystem.
 Inside it, there exist several OSE-like organizations.
