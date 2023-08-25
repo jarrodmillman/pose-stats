@@ -251,28 +251,34 @@ quasi-Monte Carlo functionality, and more.
 
 # Program of Work
 
+We will undertake scoping activity that will look closely at how to create a
+Statistical Python OSE formed around our two pilot projects in the preparation
+of a Phase II proposal that would aim to build a sustainable and robust ecosystem. 
+The main deliverable for the current proposal will be the creation of a
+detailed plan dictating the Statistical Python OSE infrastructure and
+identifying an expanded contributor and user base. The activities that
+will craft this plan includes auditing the two pilot projects,
+understanding how the existing scientific Python domain stacks, Bioconductor,
+and Tidyverse work, gathering feedback from the statistical community through
+interviews and workshops.
+
 ## Pilot Projects
 
- `YAGLM` and `ISLP`
-
-Stefan and Jarrod will work with Iain to see what is needed to add the missing engineering and practices.
-
-Specific goals will be to:
-
-(1) Identify a wide array of use-cases for a Python GLM implementation,
-    and the associated requirements.
-(2) In response, explore ideal Application Programming Interface (APIs) for such an implementation.
-(3) Ensure that adequate resources exist for coordinating work on the project.
-(4) Establish clear guidelines for product governance collaboration.
-(4) Create educational resources to widen community involvement in the project.
-
-While this proposal will not fund the implementation of the above, it
-may reasonably expected that members of the OSE will implement parts
-of it as guidelines are established.
+We will perform detailed code audits on `YAGLM` and `ISLP`.  The goal of these
+audits is to better understand what type of training, support infrastructure,
+and software development practices these projects need to become rigourous and
+sustainable open source projects like many existing projects in the scientific
+Python ecosystem.
 
 ## Scientific Python Domain Stacks
 
+We will interview community members and leaders of existing Scientific Python
+Domain Stacks to understand how they work and to learn from their individual
+successes and failures.
+
 ## Bioconductor and Tidyverse
+
+We will 
 
 ## Ecosystem Discovery
 
@@ -284,7 +290,7 @@ further develop the technology; and (3) outlines methods to identify potential
 users who will utilize this technology.
 -->
 
-The project team will organize 10 workshops---seven in-person and two hybrid.
+We will organize 10 workshops---seven in-person and two hybrid.
 
 To inform those workshops, we will create surveys.
 
@@ -303,6 +309,10 @@ methodology, support for users, and on-boarding mechanisms for new
 contributors.
 -->
 
+We will leverage our experience of establishing and growing the Scientific
+Python OSE, the NIPY OSE, various successful open-source projects such as
+scikit-learn and NetworkX, as well as the non-profit organization NumFOCUS.
+
 ## Community Building
 
 <!--
@@ -313,7 +323,11 @@ development capabilities required of the potential contributor communities; and
 competitions, research coordination networks, and Ideas Labs).
 -->
 
-## Project Timeline and Workshop Overview
+Workshop discussions will focus significant attention on community building for
+the Statistical Python OSE. The scoping activities will also include
+involvement in community engagement activities.
+
+# Project Timeline and Workshop Overview
 
 The first three workshops will be held within the first quarter of the funding cycle.
 The next four workshops will be held during the second and third quarters.
