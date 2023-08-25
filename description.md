@@ -90,7 +90,7 @@ distribution of packages, although there is little oversight of how these packag
 Certain subcommunities, such as tidy-verse and BioconductoR, do have governance models, and guidelines on how packages should related to one another, be released, how quality standards are enforced, etc.
 
 In contrast to `R`, the statistical software environment in Python is most recognizable as larger foundational data-structure and algorithmic
-libraries such as `pandas` and `scikit-learn`. By and large, these well-established statistical software libraries
+libraries such as `scipy`, `pandas`, and `scikit-learn`. By and large, these well-established statistical software libraries
 adhere to best practices in software development.
 Other than publishing to the central, general Python Packaging Index, there is no coordinating mechanism similar to `CRAN` for loosely organizing
 small or experimental packages in Python into applicable, domain- or method-specific "stacks".
