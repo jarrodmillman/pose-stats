@@ -381,16 +381,13 @@ The Intellectual Merit criterion encompasses the potential to advance knowledge;
 This proposal addresses two gaps in the statistical software ecosystem. On the one hand,
 there  are many small groups or individual developers of statistical packages who lack the training
 in best (or better) practices in software engineering needed for open source an project to survive. On the other hand,
-the scientific Python community adheres closely to such projects, resulting in well-engineered software
-packages such as NumPy, SciPy, pandas, and scikit-learn. This proposal seeks to learn and document how to bridge this gap, starting with `yagml` as a pilot project. With this knowledge, the OSE will be able to propagate this model
-for other projects, resulting in better engineered software in the statistical community.
+the scientific Python community adheres closely to such standards, resulting in well-engineered software
+packages such as NumPy, SciPy, pandas, and scikit-learn. This proposal seeks to learn and document how to bridge this gap, starting with YAGLM as a pilot project. From this knowledge, the OSE will be able to derive and propagate models of best practices, resulting in better engineered software in the statistical community, as well improved software development skills among statisticians.
 
-The context of statistical software today is such that the `R` developer community consists of many
-individual or small groups, while the scientific Python core projects and domain stacks are closer to the
-software engineering models. As a byproduct, any build between small and well-engineered will necessitate
-a bridge between `R` and the scientific Python community. Learning what works best in each development community
-and what common ground exists in the two developer communities is expected to build stable parts of this
-bridge between the two developer communities.
+The context of statistical software today is such that the `R` developer community, which are responsible for many of the innovative statistical implementations, consists of many
+individual or small groups, while scientific Python core projects and domain stacks tend to be larger projects that operate on a scale and have resources to apply modern software engineering practices. Building small, exploratory packages that are also well-engineered will necessitate
+a bridge between the `R` and scientific Python communities. Learning what works best in each development community,
+uncovering the common ground that exists between them, and communicating those concepts, will form the foundation of this bridge.
 
 # Broader Impacts
 
