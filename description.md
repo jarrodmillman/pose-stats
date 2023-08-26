@@ -271,13 +271,13 @@ detailed plan dictating the Statistical Python OSE infrastructure and
 identifying an expanded contributor and user base. The activities that
 will craft this plan includes auditing the two pilot projects,
 understanding how the existing scientific Python domain stacks, Bioconductor,
-and Tidyverse work, gathering feedback from the statistical community through
+and Tidyverse work, and gathering feedback from the statistical community through
 interviews and workshops.
 
 ## Pilot Projects
 
-We will perform detailed code audits on `YAGLM` and `ISLP`.  The goal of these
-audits is to better understand what type of training, support infrastructure,
+We will perform detailed code and governance audits on `YAGLM` and `ISLP`.
+The goal of these audits is to better understand what type of training, technical & social infrastructure,
 and software development practices these projects need to become rigourous and
 sustainable open source projects like many existing projects in the scientific
 Python ecosystem.
@@ -290,7 +290,13 @@ successes and failures.
 
 ## Bioconductor and Tidyverse
 
-We will 
+We will engage with leaders of Bioconductor, as well as developers and users of the Tidyverse,
+to better learn how they differ from similar organizations in scientific Python.
+We will also determine what social and technical structures they deem important,
+and which deficiencies they'd like to see addressed.
+We will enquire about the history of those projects, and determine
+lessons learned that may benefit the design of the statistical Python
+OSE.
 
 ## Ecosystem Discovery
 
