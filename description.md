@@ -222,17 +222,12 @@ Our team is well established in the statistics and scientific Python
 communities. We are uniquely positioned for creating a community around
 this OSE:\
 
-**Stéfan van der Walt** is a research scientist at UC Berkeley. He is the founder
-of scikit-image and co-author of Elegant SciPy.
-He regularly teaches Python at bootcamps, campus courses, and at the
-annual G-Node Advanced Scientific Programming in Python summer schools.
-He contributes to numerous packages in the ecosystem
-including NumPy, SciPy, DiPy, IPython, scikit-learn, scikit-image, and NetworkX.
-He is the software architect of the Cesium machine-learning library and web platform, and
-released several research software libraries, such as SupReMe for
-super-resolution imaging, and DPT for calculating Discrete Pulse Transforms.
-Stéfan is a director of NumFOCUS, and serves on the steering committees of NumPy, SciPy, and the
-PSF's Scientific Working Group. He cofounded the Scientific Python project in 2020 with Jarrod Millman.
+**Stéfan van der Walt** is a research scientist at UC Berkeley. He is the founder of scikit-image and co-author of Elegant SciPy.
+He regularly teaches Python at bootcamps, campus courses, and at the annual G-Node Advanced Scientific Programming in Python summer schools.
+He contributes to numerous packages in the ecosystem including NumPy, SciPy, scikit-image, and NetworkX.
+He is the software architect of the SkyPortal astronomy platform that is being used by the ZTF-II sky survey at Caltech.
+Stéfan is a director of NumFOCUS, and serves on the steering committees of NumPy, SciPy, and the PSF's Scientific Working Group.
+He cofounded the Scientific Python project in 2020 with Jarrod Millman.
 
 **Jarrod Millman** is a senior open source scientific Python developer at UC
 Berkeley. He cofounded the Neuroimaging in Python project.
