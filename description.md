@@ -330,6 +330,7 @@ contributors.
 We will leverage our experience of establishing and growing the Scientific
 Python OSE, the NIPY OSE, various successful open-source projects such as
 scikit-learn and NetworkX, as well as the non-profit organization NumFOCUS.
+In addition, we will actively engage with other active Domain Stacks in the Python ecosystem to learn which modern practices they have adopted that significantly contribute to the success of their platforms.
 
 ## Community Building
 
@@ -344,6 +345,7 @@ competitions, research coordination networks, and Ideas Labs).
 Workshop discussions will focus significant attention on community building for
 the Statistical Python OSE. The scoping activities will also include
 involvement in community engagement activities.
+We will utilize our existing connections, and platforms created for, Scientific Python to engage that community, who very likely have shared interests, and ask them to help us introduce statisticians, developers, and potential users in the project.
 
 # Project Timeline and Workshop Overview
 
