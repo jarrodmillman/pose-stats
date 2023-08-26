@@ -391,6 +391,13 @@ uncovering the common ground that exists between them, and communicating those c
 
 # Broader Impacts
 
+- Staticians better trained in software engineering.
+- More statistical libraries available to researchers using Python.
+- Cross pollination of best practices between `R` and Python.
+- Better onboarding pathways to involve young researchers.
+- Healthier and more inclusive community practices.
+- Resources that can be applied to other projects and fields.
+
 <!--
 The Broader Impacts criterion encompasses the potential to benefit society and
 contribute to the achievement of specific, desired societal outcomes.
