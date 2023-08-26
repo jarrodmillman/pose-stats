@@ -156,7 +156,7 @@ code of conduct.
 
 ### ISLP
 
-Ths `ISLP` open-source Python package (https://github.com/intro-stat-learning/ISLP) is written to accompany an introductory text on statistical learning and `python`,
+Ths `ISLP` open-source Python package (https://github.com/intro-stat-learning/ISLP) is written to accompany an introductory text on statistical learning and Python,
 closely following the examples in the hugely successful `R` version. Besides just providing labs,
 it provides Pythonic design matrix building, a simple implementation of Bayesian Additive Regression Trees
 and object oriented stepwise model selection. Planned development include extending the `pygam` package;
@@ -173,7 +173,7 @@ of these practices, evidenced by the responsiveness to (GitHub) and other issues
 
 As described above, the current state of open source statistical software is mixed. The `R` community
 has many individual or small group contributors, though many lack proper training in best practices for open source software. In the
-`python` community, at least as represented by the larger packages, is represented by larger, well-organized
+Python community, at least as represented by the larger packages, is represented by larger, well-organized
 groups with clear governance practices.
 
 This proposal aims to bridge these two worlds: it is unreasonable to assume statisticians trained in
@@ -185,14 +185,14 @@ can learn what are the types of APIs required to implement cutting edge methodol
 
 Bridging these worlds achieves several goals:
 
-1. Better software engineering practices for academically trained statisticians writing software both in `R` and `python`.
+1. Better software engineering practices for academically trained statisticians writing software both in `R` and Python.
 
 2. Establishment of new, well-engineered and robust APIs (building on the
 success of `sklearn`'s simple but powerful API) for implementation of cutting-edge statistical
 methodology in different modeling paradigms.
 
-3. Cross-pollination between `R` and `python` statistical software communities. The current state sees
-`R` with mostly small development groups with `python` leaning towards larger groups. Meeting in this middle
+3. Cross-pollination between `R` and Python statistical software communities. The current state sees
+`R` with mostly small development groups with Python leaning towards larger groups. Meeting in this middle
 ground will necessitate communication between the groups.
 
 ### Societal or national needs:
@@ -250,14 +250,14 @@ a complex structure such as networks, images, and multi-view/modal data.
 He wrote `YAGLM`, the product that forms the core of this exploration.
 
 **Jonathan Taylor** is a professor of statistics at Stanford University and is recognized
-both in the academic statistics community and the scientific `python` community. His research focuses
+both in the academic statistics community and the scientific Python community. His research focuses
 on selective inference and signal detection in structured noise.
-He has been involved in the scientific python community for many years, including
+He has been involved in the scientific Python community for many years, including
 early work on `statsmodels`, `nipy` among others.
-As part of this, he has learned some of the best practices from the scientific `python` world.
+As part of this, he has learned some of the best practices from the scientific Python world.
 He also works closely with statisticians in the `R` community. 
 In collaboration with Trevor Hastie, he is the main developer on `ISLP` a package bridging
-the `R` and `python` worlds in that it provides `python` support for course material in a
+the `R` and Python worlds in that it provides Python support for course material in a
 hugely successful `R` book: "Introduction to Statistical Learning with Applications in R".
 
 **Matt Haberland** is assistant professor of the bioResource and agricultural engineering at
@@ -378,14 +378,14 @@ The Intellectual Merit criterion encompasses the potential to advance knowledge;
 This proposal addresses two gaps in the statistical software ecosystem. On the one hand,
 there  are many small groups or individual developers of statistical packages who lack the training
 in best (or better) practices in software engineering needed for open source an project to survive. On the other hand,
-the scientific python community adheres closely to such projects, resulting in well-engineered software
-packages such as `numpy`, `scipy`, `pandas` and `sklearn`. This proposal seeks to learn and document how to bridge this gap, starting with `yagml` as a pilot project. With this knowledge, the OSE will be able to propagate this model
+the scientific Python community adheres closely to such projects, resulting in well-engineered software
+packages such as NumPy, SciPy, pandas, and scikit-learn. This proposal seeks to learn and document how to bridge this gap, starting with `yagml` as a pilot project. With this knowledge, the OSE will be able to propagate this model
 for other projects, resulting in better engineered software in the statistical community.
 
 The context of statistical software today is such that the `R` developer community consists of many
-individual or small groups, while the scientific `python` core projects and domain stacks are closer to the
+individual or small groups, while the scientific Python core projects and domain stacks are closer to the
 software engineering models. As a byproduct, any build between small and well-engineered will necessitate
-a bridge between `R` and the scientific `python` community. Learning what works best in each development community
+a bridge between `R` and the scientific Python community. Learning what works best in each development community
 and what common ground exists in the two developer communities is expected to build stable parts of this
 bridge between the two developer communities.
 
