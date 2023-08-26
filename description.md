@@ -77,7 +77,7 @@ The first of these, founded by PIs SJvdW and KJM, aims to better coordinate the 
 The others are domain-specific communities that foster the development of libraries and infrastructure that address field-specific concerns.
 
 We envision that the proposed OSE, similarly, will become a community-owned structure that provides operational and governance guidelines, and that supports the organization of, contribution to, and sustainance of computational libraries.
-However, instead of being specific to any *domain*, it will focus on *statistical methods* as a whole.
+However, instead of being specific to a specific *domain*, it will focus on *statistical methods* as a whole.
 While the boundaries of the OSE are yet to be established, it may, for example, provide technical and community guidance, host technique-specific or software engineering knowledge, or provide shared infrastructure.
 
 Scientific Python is characterized by several larger, well-established libraries that have coalesced from smaller, experimental packages.
@@ -101,11 +101,11 @@ qualified to conduct this work.
 ## Statistics
 
 Through `CRAN`, the `R` community has been successful in enabling publication of many and varied
-software packages for statistical analysis. The packages vary widely in terms of adherence to best practices
+software packages for statistical analysis. The packages differ widely in terms of adherence to best practices
 in software engineering, ranging from professional level (e.g. the tidy-verse package `tidyr`) to
 course projects from Master's or PhD courses. One of the successes of `CRAN` is that it broadly facilitates
 distribution of packages, although there is little oversight of how these packages are related.
-Certain subcommunities, such as tidy-verse and BioconductoR, do have governance models, and guidelines on how packages should related to one another, be released, how quality standards are enforced, etc.
+Certain subcommunities, such as tidy-verse and Bioconductor, do have governance models and guidelines on how packages should relate to one another, are released, and assure that standards are followed.
 
 In contrast to `R`, the statistical software environment in Python is most recognizable as larger foundational data-structure and algorithmic
 libraries such as `scipy`, `pandas`, and `scikit-learn`. By and large, these well-established statistical software libraries
@@ -114,9 +114,15 @@ Other than publishing to the central, general Python Packaging Index, there is n
 small or experimental packages in Python into applicable, domain- or method-specific "stacks".
 
 The proposed OSE provides a "best of both worlds" solution: a place where statistical packages for scientific Python can be explored and developed, while distributing knowledge on software engineering methodology to their developers and to statisticians at large.
-This knowledge could be beneficial also to those developing libraries for R, resulting in the cross-pollination of modern software engineering and healthy community practices.
+Since this knowledge is shared with all practitioners, not just those focused on software development in Python, it will likely permeate across computational ecosystems, resulting in the cross-pollination of modern software engineering and healthy community practices.
 
 ## Pilot Projects
+
+Two pilot projects have been chosen to inform the needs of an OSE in statistical Python.
+As such, they are intentionally at different phases of maturity, and have different emphases.
+The first implements established and experimental algorithms to be employed by practitioners, while the second aims to educate students and researchers on foundational methods.
+By examining the needs of the developer and user communities of these packages, we aim to learn not only what functionality is missing, but also which community, onboarding, and engineering practices can be improved.
+Furthermore, we want to better understand how an OSE can, in the longer term, support and sustain such efforts.
 
 ### `YAGLM`
 
