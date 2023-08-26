@@ -355,21 +355,21 @@ The final three workshops will be held during the final quarter.
 Each in-person workshop is expected to include up to 20 people and
 the virtual workshops will include up to 30 people.
 
-**Workshop 1:** yaglm
+**Workshop 1:** YAGLM: Assessment
 
-**Workshop 2:** islp
+**Workshop 2:** ISLP: Assessment
 
-**Workshop 3:** statitisticians working in Python
+**Workshop 3:** Statitisticians working in Python
 
-**Workshops 4, 5, 6:** graduate students / postdocs (stanford)
+**Workshops 4, 5, 6:** Graduate students & postdocs (Stanford/Berkeley)
 
-**Workshop 7:** teachers
+**Workshop 7:** Teachers
 
-**Workshop 8 (virtual):** yaglm
+**Workshop 8 (virtual):** YAGLM: Work Plan
 
-**Workshop 9 (virtual):** islp
+**Workshop 9 (virtual):** ISLP: Work Plan
 
-**Workshop 10:** final plan
+**Workshop 10:** Final plan
 
 
 # Intellectual Merit
