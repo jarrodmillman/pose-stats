@@ -66,7 +66,7 @@ broader impacts of the OSE.
 \begin{wrapfigure}{r}{0.6\textwidth}
   \begin{center}
     \includegraphics[width=0.58\textwidth]{./figures/ose-ecosystem.pdf}
-    \caption{Scientific Python and Domain Stack OSEs}
+    \caption{Relationship between the Domain Stacks and Scientific Python.}
   \end{center}
 \end{wrapfigure}
 
