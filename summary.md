@@ -34,6 +34,8 @@ contribute to the achievement of specific, desired societal outcomes.
 
 # Overview
 
+*OUTDATED: WILL BE UPDATED ONCE DESCRIPTION IS COMPLETE*
+
 Generalized linear models (GLMs) play a central role in much of the statistics
 employed by scientific researchers, including fields as wide as neuroimaging,
 biology, chemistry, astronomy, and epidemiology.
