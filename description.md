@@ -294,9 +294,9 @@ and software development practices these projects need to become rigorous and
 sustainable open source projects like many existing projects in the scientific
 Python ecosystem.
 
-**Related OSE Engagement.**
+**Engagement with Related OSEs.**
 We will engage community members and leaders of existing Scientific Python
-Domain Stacks as well as of Bioconductor and Tidyverse.
+domain-specific OSEs as well as of Bioconductor and Tidyverse.
 We will determine what social and technical structures they deem important,
 and which deficiencies they'd like to see addressed.
 We will inquire about the history of those projects, and determine
@@ -309,13 +309,19 @@ surveys---targeted at students, teachers, and researchers---to better
 understand the statistics community's interest and need for a Statistical
 Python OSE.
 We will also organize nine workshops.
-The first three workshops (YAGLM: Assessment; ISLP: Assessment;
-Statisticians working in Python) will be held within the first
-quarter of the funding cycle.
-The next three workshops (Graduate Students; Postdocs; Teachers)
-will be held during the second and third quarters.
-The final three workshops (YAGLM: Plan; ISLP: Plan; Statistical Python: OSE Plan)
-will be held during the final quarter.
+
+**Workshop 1:** This meeting will include YAGML community members (users and developers), experts in generalized linear models, as well as teachers.
+Sessions will focus on YAGML's current technical landscape and ways of
+moving toward broader adoption and project maturity. This discussion will also identify potential new users and contributors.
+
+**Workshop 2:** This meeting will include ISLP community members (users and developers), experts in statistical learning, as well as teachers.
+Sessions will focus on YAGML's current technical landscape and ways of
+moving toward broader adoption and project maturity. This discussion will also identify potential new users and contributors.
+
+**Workshop 3:** This meeting will focus on statitisticians working in Python more generally. In particular, we will identify through the survey and the previous meetings statisticians who have developed additional open-source products that may benefit from a Statistical Python OSE.
+
+**Workshop 10:** The final meeting will focus on creating the structure of a final plan to be developed for the Phase II proposal. The results of this final
+event will aim to identify specific resources needed to create a sustainable infrastructure for the Statistical Python OSE.
 
 ## Organization and Governance
 
