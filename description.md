@@ -396,6 +396,32 @@ Broader impacts may be accomplished through the research itself, through the act
 # Results from Prior NSF Support
 
 <!--
+The purpose of this section is to assist reviewers in assessing the quality of prior work conducted with prior or current NSF funding. If any PI or co-PI identified on the proposal has received prior NSF support including:
+
+    an award with an end date in the past five years; or
+
+    any current funding, including any no cost extensions,
+
+information on the award is required for each PI and co-PI, regardless of whether the support was directly related to the proposal or not. In cases where the PI or any co-PI has received more than one award (excluding amendments to existing awards), they need only report on the one award that is most closely related to the proposal. Support means salary support, as well as any other funding awarded by NSF, including research, Graduate Research Fellowship, Major Research Instrumentation, conference, equipment, travel, and center awards, etc.
+
+The following information must be provided:
+
+(a) the NSF award number, amount and period of support;
+
+(b) the title of the project;
+
+(c) a summary of the results of the completed work, including accomplishments, supported by the award. The results must be separately described under two distinct headings: Intellectual Merit and Broader Impacts;
+
+(d) a listing of the publications resulting from the NSF award (a complete bibliographic citation for each publication must be provided either in this section or in the References Cited section of the proposal); if none, state “No publications were produced under this award.”
+
+(e) evidence of research products and their availability, including, but not limited to: data, publications, samples, physical collections, software, and models, as described in any Data Management Plan; and
+
+(f) if the proposal is for renewed support, a description of the relation of the completed work to the proposed work.
+
+If the project was recently awarded and therefore no new results exist, describe the major goals and broader impacts of the project. Note that the proposal may contain up to five pages to describe the results. Results may be summarized in fewer than five pages, which would give the balance of the 15 pages for the Project Description.
+-->
+
+<!--
 
 Phase I proposals will be evaluated on the basis of the following solicitation-specific review criteria:
 
