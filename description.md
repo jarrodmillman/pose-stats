@@ -268,7 +268,7 @@ understanding how the existing scientific Python domain stacks, Bioconductor,
 and Tidyverse work, and gathering feedback from the statistical community through
 interviews and workshops.
 
-## Pilot Projects
+## Pilot Project Audits
 
 We will perform detailed code and governance audits on `YAGLM` and `ISLP`.
 The goal of these audits is to better understand what type of training, technical & social infrastructure,
@@ -276,17 +276,11 @@ and software development practices these projects need to become rigourous and
 sustainable open source projects like many existing projects in the scientific
 Python ecosystem.
 
-## Scientific Python Domain Stacks
+## Related OSE Engagement
 
-We will interview community members and leaders of existing Scientific Python
-Domain Stacks to understand how they work and to learn from their individual
-successes and failures.
-
-## Bioconductor and Tidyverse
-
-We will engage with leaders of Bioconductor, as well as developers and users of the Tidyverse,
-to better learn how they differ from similar organizations in scientific Python.
-We will also determine what social and technical structures they deem important,
+We will engage community members and leaders of existing Scientific Python
+Domain Stacks as well as of Bioconductor and Tidyverse.
+We will determine what social and technical structures they deem important,
 and which deficiencies they'd like to see addressed.
 We will enquire about the history of those projects, and determine
 lessons learned that may benefit the design of the statistical Python
