@@ -315,7 +315,7 @@ Sessions will focus on YAGML's current technical landscape and ways of
 moving toward broader adoption and project maturity. This discussion will also identify potential new users and contributors.
 
 **Workshop 2:** This meeting will include ISLP community members (users and developers), experts in statistical learning, as well as teachers.
-Sessions will focus on YAGML's current technical landscape and ways of
+Sessions will focus on ISLP's current technical landscape and ways of
 moving toward broader adoption and project maturity. This discussion will also identify potential new users and contributors.
 
 **Workshop 3:** This meeting will focus on statisticians working in Python more generally. In particular, we will identify through the survey and the previous meetings statisticians who have developed additional open-source products that may benefit from a Statistical Python OSE.
