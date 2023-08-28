@@ -235,7 +235,7 @@ served on its board from 2011 to 2015.  Currently, he is the release manager of
 NetworkX, scikit-image, pygraphviz, numpydoc, and a few other packages. He
 cofounded the Scientific Python project in 2020 with SvdW.
 
-**Iain Carmichael** is an assistant professor of statistics at UC Berkeley.
+**Iain Carmichael** is a visiting assistant professor of statistics at UC Berkeley.
 His research focuses on developing statistical/machine learning algorithms for data with
 a complex structure such as networks, images, and multi-view/modal data. 
 He wrote `YAGLM`, the product that forms the core of this exploration.
