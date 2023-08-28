@@ -34,38 +34,18 @@ contribute to the achievement of specific, desired societal outcomes.
 
 # Overview
 
-*OUTDATED: WILL BE UPDATED ONCE DESCRIPTION IS COMPLETE*
+We propose investigating the formation of an Open Source Ecosystem (OSE) that will catalyze the development of a robust set of statistical software for Python, and build a vibrant ecosystem of statisticians, domain practitioners, and software developers around it.
 
-Generalized linear models (GLMs) play a central role in much of the statistics
-employed by scientific researchers, including fields as wide as neuroimaging,
-biology, chemistry, astronomy, and epidemiology.
+Such an OSE would provide a central coordinating mechanism, through which knowledge around software engineering and community best practices can be aggregated and disseminated to statistics method developers and the researchers that apply those techniques.
 
-Over the past decade, Python has become the de-facto tool for computational research.
-Yet, for some applications in statistics, there are still gaps in its
-ecosystem, resulting in researchers having to use multiple computational
-platforms for their work.
+To inform the design of the OSE, several meetings will be held that bring together statisticians, researchers, developers, students, and teachers.
 
-Packages like `statsmodels` and `scipy.stats` cover much of the needed GLM
-functionality, but up until now there was no sophisticated GLM implementation
-that covered more advanced use cases.
-Sponsored by the NSF (grant-XXXX), Iain Carmichael, in 20XX, implemented YAGLM:
-a modern, comprehensive, and flexible Python package for fitting and tuning
-penalized generalized linear models and other supervised M-estimators in
-Python.
-YAGLM has great potential to strengthen the statistical ecosystem for Python,
-but much remains to be done before that can happen.
+We will investigate existing OSEs, both in the Python and R worlds, and learn from each which effective social and technological practices to adopt.
 
-We propose bringing together domain researchers, developers, statisticians, and
-Python community managers to explore what an ideal class of generalized linear
-model implementations would look like.
-We will use yaglm as a nucleus around which to form an Open Source Ecosystem.
-This Ecosystem which will support the extension, maintenance, and governance of
-the yaglm, as well as provide a structure with which other projects can
-connect, or be incorporated into, to form a stable, comprehensive class of
-solutions that address advanced GLM-related needs.
-We also propose educating new researchers on the theoretical principles of
-GLMs, so that they may better be able to apply these techniques to their work,
-and also participate actively in the Ecosystem.
+To anchor the effort, two pilot projects, with different scopes, target audiences, and levels of maturity will be audited to determine how they should be modified to comply with modern software engineering and community governance best practices.
+Through this audit, we will discover the nature of activities that are valuable to support through the OSE, and that are beneficial to the statistics developer community.
+
+Our vision for the OSE is that it will catalyze growth of a vibrant, inclusive statistical developer community in Python, that will also have repercussion more broadly as it builds bridges between scientific Python and other computational communities.
 
 # Intellectual Merit
 
