@@ -311,7 +311,7 @@ Python OSE.
 We will also organize nine workshops.
 
 **Workshop 1 & 2:** These meetings (targeting YAGLM & ISLP respectively) will focus on each project's current technical landscape, and identify ways of
-maturing the project and facilitating broader adoption. Participants will include community members (users and developers), experts in generalized linear models, as well as teachers.
+maturing the project and facilitating broader adoption. Participants will include community members (users and developers), experts in generalized linear models and/or statistical learning, as well as teachers.
  This discussion will also identify potential new users and contributors.
 
 **Workshop 3:** This meeting will focus on the needs of statisticians working in Python. We will also identify, through the previous meetings and a survey, statisticians who have developed additional open-source products that may benefit from a Statistical Python OSE.
