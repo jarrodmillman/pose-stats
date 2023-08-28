@@ -235,7 +235,7 @@ served on its board from 2011 to 2015.  Currently, he is the release manager of
 NetworkX, scikit-image, pygraphviz, numpydoc, and a few other packages. He
 cofounded the Scientific Python project in 2020 with SvdW.
 
-**Iain Carmichael** is an assistant professor of statistics at UC Berkeley.
+**Iain Carmichael** is a visiting assistant professor of statistics at UC Berkeley.
 His research focuses on developing statistical/machine learning algorithms for data with
 a complex structure such as networks, images, and multi-view/modal data. 
 He wrote `YAGLM`, the product that forms the core of this exploration.
@@ -369,7 +369,12 @@ This proposal addresses two gaps in the statistical software ecosystem. On the o
 there  are many small groups or individual developers of statistical packages who lack the training
 in best (or better) practices in software engineering needed for open source an project to survive. On the other hand,
 the scientific Python community adheres closely to such standards, resulting in well-engineered software
-packages such as NumPy, SciPy, pandas, and scikit-learn. This proposal seeks to learn and document how to bridge this gap, starting with YAGLM as a pilot project. From this knowledge, the OSE will be able to derive and propagate models of best practices, resulting in better engineered software in the statistical community, as well improved software development skills among statisticians.
+packages such as NumPy, SciPy, pandas, and scikit-learn. This proposal seeks to
+learn and document how to bridge this gap, starting with YAGLM and ISLP as a pilot
+projects. From this knowledge, the OSE will be able to derive and propagate
+models of best practices, resulting in better engineered software in the
+statistical community, as well improved software development skills among
+statisticians.
 
 The context of statistical software today is such that the `R` developer community, which are responsible for many of the innovative statistical implementations, consists of many
 individual or small groups, while scientific Python core projects and domain stacks tend to be larger projects that operate on a scale and have resources to apply modern software engineering practices. Building small, exploratory packages that are also well-engineered will necessitate
