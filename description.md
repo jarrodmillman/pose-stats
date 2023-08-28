@@ -378,12 +378,12 @@ uncovering the common ground that exists between them, and communicating those c
 
 # Broader Impacts
 
-- Statisticians better trained in software engineering.
-- More statistical libraries available to researchers using Python.
-- Cross pollination of best practices between `R` and Python.
-- Better onboarding pathways to involve young researchers.
-- Healthier and more inclusive community practices.
-- Resources that can be applied to other projects and fields.
+The broader impacts of this proposal are in establishing
+better software engineering practices in the  statistical community.
+This will result in better onboarding pathways to involve young researchers,
+healthier and more inclusive community practices and resources that can be applied to other projects and fields.
+In addition, this is expected to result in more statistical libraries available to researchers using Python
+as well as a cross pollination of best practices between `R` and Python.
 
 <!--
 The Broader Impacts criterion encompasses the potential to benefit society and
