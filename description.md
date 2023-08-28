@@ -154,7 +154,7 @@ specify models or a separate solver object class for the optimization
 algorithm) will be useful for other statistical software packages.
 
 The initial development of `YAGLM` was done in short bursts by a few
-core developers. It is currently available on github and has a few
+core developers. It is currently available on GitHub and has a few
 users. `YAGLM` is missing important engineering details like continuous
 integration, extensive testing, and quality documentation. It is also
 missing community support like governance, developer onboarding and a
@@ -318,7 +318,7 @@ moving toward broader adoption and project maturity. This discussion will also i
 Sessions will focus on YAGML's current technical landscape and ways of
 moving toward broader adoption and project maturity. This discussion will also identify potential new users and contributors.
 
-**Workshop 3:** This meeting will focus on statitisticians working in Python more generally. In particular, we will identify through the survey and the previous meetings statisticians who have developed additional open-source products that may benefit from a Statistical Python OSE.
+**Workshop 3:** This meeting will focus on statisticians working in Python more generally. In particular, we will identify through the survey and the previous meetings statisticians who have developed additional open-source products that may benefit from a Statistical Python OSE.
 
 **Workshop 10:** The final meeting will focus on creating the structure of a final plan to be developed for the Phase II proposal. The results of this final
 event will aim to identify specific resources needed to create a sustainable infrastructure for the Statistical Python OSE.
