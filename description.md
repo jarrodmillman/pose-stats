@@ -223,7 +223,7 @@ He regularly teaches Python at bootcamps, campus courses, and at the annual G-No
 He contributes to numerous packages in the ecosystem including NumPy, SciPy, scikit-image, and NetworkX.
 He is the software architect of the SkyPortal astronomy platform that is being used by the ZTF-II sky survey at Caltech.
 Stéfan is a director of NumFOCUS, and serves on the steering committees of NumPy, SciPy, and the PSF's Scientific Working Group.
-He cofounded the Scientific Python project in 2020 with JM.
+He cofounded the Scientific Python project in 2020 with KJM.
 
 **Jarrod Millman** is a senior open source scientific Python developer at UC
 Berkeley. He cofounded the Neuroimaging in Python project.
@@ -427,6 +427,24 @@ The following information must be provided:
 
 If the project was recently awarded and therefore no new results exist, describe the major goals and broader impacts of the project. Note that the proposal may contain up to five pages to describe the results. Results may be summarized in fewer than five pages, which would give the balance of the 15 pages for the Project Description.
 -->
+
+<!-- Iain's award: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1902440&HistoricalAwards=false -->
+IC was awarded an NSF PostDoctoral Research Fellowship (#1902440) of $150,000 from
+July 1, 2019 to June 30, 2023 (?).
+
+
+SJvdW is co-PI on NSF Award #2206744 in the amount of $572,926.00 to the University of California, Berkeley.
+He is an unfunded member of the collaboration that advises on the development of the `nbi` software package (https://github.com/kmzzhang/nbi).
+The project has produced two conference publications, a technical report, and an abstract.
+
+- Keming Zhang, Tharindu Jayasinghe, Joshua Bloom (2023). Stellar Spectra Fitting with Amortized Neural Posterior Estimation and nbi. ICML 2023 Workshop on Machine Learning for Astrophysics. Hawaii. Status = PUBLISHED;  Acknowledgement of Federal Support = Yes
+
+- Keming Zhang, Joshua Bloom, Nina Hernitschek (2023). nbi: the Astronomer’s Package for Neural Posterior Estimation. Machine Learning for Astrophysics Workshop at the Fortieth International Conference on Machine Learning (ICML 2023). Hawaii. Status = PUBLISHED;  Acknowledgement of Federal Support = Yes
+
+- {Zhang}, Keming and {Gaudi}, B. Scott and {Bloom}, Joshua (2022). {A Ubiquitous Unifying Degeneracy in 2-body Microlensing Systems}. Bulletin of the American Astronomical Society. . Status = PUBLISHED;  Acknowledgement of Federal Support = No
+
+- {Blaum}, Jacqueline and {Bloom}, Joshua (2022). {Stellar Insights at Scale with Likelihood-Free Inference}. American Astronomical Society Meeting Abstracts. . Status = PUBLISHED;  Acknowledgement of Federal Support = No
+
 
 <!--
 
