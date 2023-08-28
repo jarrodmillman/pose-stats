@@ -310,18 +310,13 @@ understand the statistics community's interest and need for a Statistical
 Python OSE.
 We will also organize nine workshops.
 
-**Workshop 1:** This meeting will include YAGML community members (users and developers), experts in generalized linear models, as well as teachers.
-Sessions will focus on YAGML's current technical landscape and ways of
-moving toward broader adoption and project maturity. This discussion will also identify potential new users and contributors.
+**Workshop 1 & 2:** These meetings (targeting YAGLM & ISLP respectively) will focus on each project's current technical landscape, and identify ways of
+maturing the project and facilitating broader adoption. Participants will include community members (users and developers), experts in generalized linear models, as well as teachers.
+ This discussion will also identify potential new users and contributors.
 
-**Workshop 2:** This meeting will include ISLP community members (users and developers), experts in statistical learning, as well as teachers.
-Sessions will focus on ISLP's current technical landscape and ways of
-moving toward broader adoption and project maturity. This discussion will also identify potential new users and contributors.
+**Workshop 3:** This meeting will focus on the needs of statisticians working in Python. We will also identify, through the previous meetings and a survey, statisticians who have developed additional open-source products that may benefit from a Statistical Python OSE.
 
-**Workshop 3:** This meeting will focus on statisticians working in Python more generally. In particular, we will identify through the survey and the previous meetings statisticians who have developed additional open-source products that may benefit from a Statistical Python OSE.
-
-**Workshop 4:** The final meeting will focus on creating the structure of a final plan to be developed for the Phase II proposal. The results of this final
-event will aim to identify specific resources needed to create a sustainable infrastructure for the Statistical Python OSE.
+**Workshop 4:** The final meeting will focus on a plan for developing the Phase II proposal. The plan should identify specific resources needed to create a sustainable infrastructure for the Statistical Python OSE.
 
 ## Organization and Governance
 
