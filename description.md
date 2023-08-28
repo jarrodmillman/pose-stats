@@ -30,8 +30,9 @@ To create such an ecosystem requires examining a few exemplar packages that typi
 These exemplars provide an opportunity to learn what is required of an OSE in practice.
 We have identified two open source Python packages to serve as pilot projects and anchor of the OSE:
 
-- `YAGLM` \cite{carmichael2021yaglm}: a library for generalized statistical models (GLM) in Python.
-- `ISLP`: \cite{james2023introduction}: a library that implements algorithms from the accompanying fundamentals textbook.
+- `YAGLM` \cite{carmichael2021yaglm}: a library for penalized generalized linear models (GLM) in Python.
+- `ISLP`: \cite{james2023introduction}: a library that provides functions and datasets for the accompanying fundamentals textbook
+  "Introduction to Statistical Learning with Python."
 
 <!-- https://github.com/intro-stat-learning/ISLP -->
 
