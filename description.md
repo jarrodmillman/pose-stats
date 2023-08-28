@@ -296,9 +296,18 @@ further develop the technology; and (3) outlines methods to identify potential
 users who will utilize this technology.
 -->
 
-We will organize 10 workshops---seven in-person and two hybrid.
-
-To inform those workshops, we will create surveys.
+At the start of the funding cycle, we will create and widely-circulate
+surveys---targetted at students, teachers, and researchers---to better
+understand the statistcs community's interest and need for a Statistical
+Python OSE.
+We will also organize nine workshops.
+The first three workshops (YAGLM: Assessment; ISLP: Assessment;
+Statitisticians working in Python) will be held within the first
+quarter of the funding cycle.
+The next three workshops (Graduate Students; Postdocs; Teachers)
+will be held during the second and third quarters.
+The final three workshops (YAGLM: Plan; ISLP: Plan; Statistical Python: OSE Plan)
+will be held during the final quarter.
 
 ## Organization and Governance
 
@@ -335,29 +344,6 @@ the Statistical Python OSE. The scoping activities will also include
 involvement in community engagement activities.
 We will utilize our existing connections, and platforms created for, Scientific Python to engage that community, who very likely have shared interests, and ask them to help us introduce statisticians, developers, and potential users in the project.
 
-# Project Timeline and Workshop Overview
-
-The first three workshops will be held within the first quarter of the funding cycle.
-The next four workshops will be held during the second and third quarters.
-The final three workshops will be held during the final quarter.
-Each in-person workshop is expected to include up to 20 people and
-the virtual workshops will include up to 30 people.
-
-**Workshop 1:** YAGLM: Assessment
-
-**Workshop 2:** ISLP: Assessment
-
-**Workshop 3:** Statitisticians working in Python
-
-**Workshops 4, 5, 6:** Graduate students & postdocs (Stanford/Berkeley)
-
-**Workshop 7:** Teachers
-
-**Workshop 8 (virtual):** YAGLM: Work Plan
-
-**Workshop 9 (virtual):** ISLP: Work Plan
-
-**Workshop 10:** Final plan
 
 
 # Intellectual Merit
