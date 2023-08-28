@@ -1,5 +1,5 @@
 BUILDDIR := build
-FILES := description summary
+FILES := data-management description facilities summary
 TEX := $(addprefix $(BUILDDIR)/,$(FILES:=.tex))
 SVGS := $(wildcard figures/*.svg)
 FIGURES := $(addprefix $(BUILDDIR)/,$(SVGS:.svg=.pdf))
