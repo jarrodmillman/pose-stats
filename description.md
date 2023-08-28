@@ -435,8 +435,9 @@ July 1, 2019 to June 30, 2023 (?).
 
 SJvdW is co-PI on NSF Award #2206744 in the amount of $572,926.00 to the University of California, Berkeley.
 He is an unfunded member of the collaboration that advises on the development of the `nbi` software package (https://github.com/kmzzhang/nbi).
-The project has produced two conference publications, a technical report, and an abstract.
+The project has produced two conference publications (\cite{nbi0}, \cite{nbi1}), a technical report (\cite{nbi2}), and an abstract (\cite{nbi3}).
 
+<!--
 - Keming Zhang, Tharindu Jayasinghe, Joshua Bloom (2023). Stellar Spectra Fitting with Amortized Neural Posterior Estimation and nbi. ICML 2023 Workshop on Machine Learning for Astrophysics. Hawaii. Status = PUBLISHED;  Acknowledgement of Federal Support = Yes
 
 - Keming Zhang, Joshua Bloom, Nina Hernitschek (2023). nbi: the Astronomer’s Package for Neural Posterior Estimation. Machine Learning for Astrophysics Workshop at the Fortieth International Conference on Machine Learning (ICML 2023). Hawaii. Status = PUBLISHED;  Acknowledgement of Federal Support = Yes
@@ -444,7 +445,7 @@ The project has produced two conference publications, a technical report, and an
 - {Zhang}, Keming and {Gaudi}, B. Scott and {Bloom}, Joshua (2022). {A Ubiquitous Unifying Degeneracy in 2-body Microlensing Systems}. Bulletin of the American Astronomical Society. . Status = PUBLISHED;  Acknowledgement of Federal Support = No
 
 - {Blaum}, Jacqueline and {Bloom}, Joshua (2022). {Stellar Insights at Scale with Likelihood-Free Inference}. American Astronomical Society Meeting Abstracts. . Status = PUBLISHED;  Acknowledgement of Federal Support = No
-
+-->
 
 <!--
 
