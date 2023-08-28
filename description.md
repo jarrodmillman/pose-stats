@@ -211,11 +211,11 @@ The OSE distills knowledge on how to transform experimental research products in
 By hosting fundamental educational resources on both statistical techniques and software development best practices, the OSE builds pathways that onboard academics to statistical scientific software development.
 This empowers young researchers, and increases participation both in research and research software development.
 
-## Team
+# Team
 
 Our team is well established in the statistics and scientific Python
 communities. We are uniquely positioned for creating a community around
-this OSE:
+this OSE:\
 
 **Stéfan van der Walt** is a research scientist at UC Berkeley. He is the founder of scikit-image and co-author of Elegant SciPy.
 He regularly teaches Python at bootcamps, campus courses, and at the annual G-Node Advanced Scientific Programming in Python summer schools.
@@ -239,15 +239,15 @@ His research focuses on developing statistical/machine learning algorithms for d
 a complex structure such as networks, images, and multi-view/modal data. 
 He wrote `YAGLM`, the product that forms the core of this exploration.
 
-**Jonathan Taylor** is a professor of statistics at Stanford University and is recognized
-both in the academic statistics community and the scientific Python community. His research focuses
-on selective inference and signal detection in structured noise.
-He has been involved in the scientific Python community for many years, including
-early work on `statsmodels`, `nipy` among others.
-He also works closely with statisticians in the `R` community. 
-In collaboration with Trevor Hastie, he is the main developer on `ISLP` a package bridging
-the `R` and Python worlds in that it provides Python support for course material in a
-hugely successful `R` book: "Introduction to Statistical Learning with Applications in R".
+**Jonathan Taylor** is a professor of statistics at Stanford University. His
+research focuses on selective inference and signal detection in structured
+noise.  He has been involved in the scientific Python community for many years,
+including early work on `statsmodels`, `nipy` among others.  He also works
+closely with statisticians in the `R` community.  In collaboration with Trevor
+Hastie, he is the main developer on `ISLP` a package bridging the `R` and
+Python worlds in that it provides Python support for course material in a
+hugely successful `R` book: "Introduction to Statistical Learning with
+Applications in R".
 
 # Program of Work
 
@@ -265,8 +265,12 @@ hugely successful `R` book: "Introduction to Statistical Learning with Applicati
 We will undertake scoping activity that will look closely at how to create a
 Statistical Python OSE formed around our two pilot projects in the preparation
 of a Phase II proposal that would aim to build a sustainable and robust ecosystem. 
-
-## Plan
+The main deliverable for the current proposal will be the creation of a
+detailed plan documenting the need for the innovation within the current
+technological landscape, explaining why an OSE is the right approach,
+outlining methods to identify potential contributors and users,
+and specifying the Statistical Python OSE infrastructure, organization,
+governance, and long-term sustainability.
 
 <!--
 Include a plan for developing a strategy that: (1) describes methods to
@@ -276,12 +280,8 @@ further develop the technology; and (3) outlines methods to identify potential
 users who will utilize this technology.
 -->
 
-The main deliverable for the current proposal will be the creation of a
-detailed plan documenting the need for the innovation within the current
-technological landscape, explaining why an OSE is the right approach,
-outlining methods to identify potential contributors and users,
-and specifying the Statistical Python OSE infrastructure, organization,
-governance, and long-term sustainability.
+## Activities
+
 The activities that will craft this plan includes auditing the two pilot
 projects, understanding how related OSEs work, and gathering feedback from the
 statistical community through surveys and workshops.
