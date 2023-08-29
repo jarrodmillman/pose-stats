@@ -71,12 +71,14 @@ Notable examples include Scientific Python, scikit-HEP (high energy physics), pa
 The first of these, founded by PI SJvdW and KJM, aims to better coordinate the development of scientific Python projects as well as their associated communities of contributors.
 The others are domain-specific communities that foster the development of libraries and infrastructure that address field-specific concerns.
 
+<!--
 \begin{wrapfigure}{r}{0.6\textwidth}
   \begin{center}
     \includegraphics[width=0.58\textwidth]{./figures/ose-ecosystem.pdf}
     \caption{The proposed Statistical Python OSE would in the larger ecosystem in the same way other domain-specific OSEs.}
   \end{center}
 \end{wrapfigure}
+-->
 
 We envision that the proposed OSE, similarly, will become a community-owned structure that provides operational and governance guidelines, and that supports the organization of, contribution to, and sustenance of computational libraries.
 However, instead of being specific to a specific *domain*, it will focus on *statistical methods* as a whole.
