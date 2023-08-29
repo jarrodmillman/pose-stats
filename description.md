@@ -133,8 +133,7 @@ Furthermore, we want to better understand how an OSE can, in the longer term, su
 -->
 
 The `YAGLM` open-source Python package (https://github.com/yaglm/yaglm) was developed to make the framework of modern GLM
-methodology (various loss function, regularizer, solvers) available and easily accessible to data analysts \cite{
-yaglm2021carmichael}. Beyond the basic lasso/ridge,
+methodology (various loss function, regularizer, solvers) available and easily accessible to data analysts \cite{carmichael2021yaglm}. Beyond the basic lasso/ridge,
 the package supports structured penalties such as the nuclear norm as
 well as the group, exclusive, fused, and generalized lasso and non-convex but linearizable
 penalties. `YAGLM` comes with a variety
@@ -443,9 +442,11 @@ The project has produced several publications \cite{nbi0, nbi1, nbi2, nbi3}.
 -->
 <!-- Iain's award: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1902440&HistoricalAwards=false -->
 
-IC was awarded an NSF PostDoctoral Research Fellowship (#1902440) of $150,000 from
-July 1, 2019 to June 30, 2023 (?).
-
+IC was awarded an NSF PostDoctoral Research Fellowship #1902440 ("Modeling, integration, and analysis of complex, hierarchical, and multi-view data") of $150,000 from
+July 1, 2019 to June 30, 2023. 
+The project has produced several publications \cite{carmichael2021yaglm, carmichael2021joint, carmichael2020learning, perry2021mvlearn, carmichael2021folded, carmichael2021geometric, gazzola2023s, gazzola2022cohort}.
+**Intellectual Merit:** The development of the yaglm package required the development of improved statistical software design patterns. The creation of the package also required summarizing the modern state of the art of generalized model statistical and optimization methodology into a coherent framework. My work on block-diagonal sparsity required the development of new modeling tools (e.g. the folded concave laplacian penalty). My work provided both computational and statistical guarantees for algorithms that involved non-convex optimization procedures.
+**Broader Impacts:** The yaglm package has significant potential to impact all fields of science because generalized linear models are widely used statistical tools. Currently, few of the modern statistical or optimization tools are actually available to data scientists and yaglom is a big step forward in making these advanced tools broadly available.  My work on multi-view clustering models may lead to better scientific understanding in domains where scientific domains where multi-view data are studied such as cancer genetics and neuroscience. My work on the folded concave laplacian penalty may help people with network structured model parameters better understand their complex models.
 
 
 <!--
