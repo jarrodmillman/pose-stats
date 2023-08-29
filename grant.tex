@@ -35,9 +35,6 @@
 \evensidemargin0.15cm
 \textwidth16.1cm
 %
-%% Part formatting
-\usepackage[newparttoc]{titlesec}
-%
 \renewcommand{\footnotesize}{\small\spaceskip4pt plus1.5pt}
 %
 \newtheorem{thm}{Theorem}[section]
@@ -72,8 +69,11 @@
 %% Handle  section numbering within parts
 \usepackage{chngcntr}
 \counterwithin*{section}{part}
-\patchcmd{\part}{\normalfont}{\Large}{}{}
-\def\partname{}
+%\patchcmd{\part}{\normalfont}{\Large}{}{}
+\usepackage{etoolbox}
+\pretocmd{\part}{\begingroup\centering\large}{}{}
+\patchcmd{\part}{\raggedright\endgroup}{}{}{}
+\renewcommand{\partname}{}
 %%
 \title{POSE: Phase I: An open-source ecosystem for statistical Python}
 
@@ -84,25 +84,25 @@ Jonathan Taylor\\ Stanford University}
 %
 \maketitle
 %
-\part{Project Summary}
+\part*{Project Summary}
 \input{summary}
 
 \newpage
 
-\part{Project Description}
+\part*{Project Description}
 \input{description}
 
 % uncomment to include bibliography
 \newpage
-\part{References}
+\part*{References}
 \printbibliography[heading=none]
 
 \newpage
-\part{Data Management}
+\part*{Data Management}
 \input{data-management}
 
 \newpage
-\part{Facilities}
+\part*{Facilities}
 \input{facilities}
 
 \end{document}
