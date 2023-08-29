@@ -134,7 +134,7 @@ Furthermore, we want to better understand how an OSE can, in the longer term, su
 ### `YAGLM`
 -->
 
-The `YAGLM` open-source Python package (https://github.com/yaglm/yaglm) was developed to make the framework of modern GLM
+The `YAGLM` open-source Python package was developed to make the framework of modern GLM
 methodology (various loss function, regularizer, solvers) available and easily accessible to data analysts \cite{carmichael2021yaglm}. Beyond the basic lasso/ridge,
 the package supports structured penalties such as the nuclear norm as
 well as the group, exclusive, fused, and generalized lasso and non-convex but linearizable
@@ -165,7 +165,7 @@ code of conduct.
 ### ISLP
 -->
 
-The `ISLP` open-source Python package (https://github.com/intro-stat-learning/ISLP) is written to accompany an introductory text on statistical learning and Python,
+The `ISLP` open-source Python package is written to accompany an introductory text on statistical learning and Python,
 closely following the examples in the hugely successful `R` version. Besides just providing labs,
 it provides Pythonic design matrix building, a simple implementation of Bayesian Additive Regression Trees
 and object oriented stepwise model selection. Planned development include extending the `pygam` package;
@@ -430,7 +430,7 @@ If the project was recently awarded and therefore no new results exist, describe
 -->
 
 SJvdW is co-PI on NSF Award #2206744 in the amount of $572,926.00 to the University of California, Berkeley.
-He is an unfunded member of the collaboration that advises on the development of the `nbi` software package (https://github.com/kmzzhang/nbi).
+He is an unfunded member of the collaboration that advises on the development of the `nbi` software package.
 The project has produced several publications \cite{nbi0, nbi1, nbi2, nbi3}.
 
 <!--
