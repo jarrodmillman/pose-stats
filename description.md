@@ -314,7 +314,7 @@ We will also organize nine workshops.
 maturing the project and facilitating broader adoption. Participants will include community members (users and developers), experts in generalized linear models and/or statistical learning, as well as teachers.
  This discussion will also identify potential new users and contributors.
 
-**Workshop 3:** This meeting will focus on the needs of statisticians working in Python. We will also identify, through the previous meetings and a survey, statisticians who have developed additional open-source products that may benefit from a Statistical Python OSE.
+**Workshop 3:** This meeting will focus on the needs of statisticians working in Python. We will identify, through the previous meetings and a survey, statisticians who have developed additional open-source products that may benefit from a Statistical Python OSE.
 
 **Workshop 4:** The final meeting will focus on a plan for developing the Phase II proposal. The plan should identify specific resources needed to create a sustainable infrastructure for the Statistical Python OSE.
 
@@ -428,14 +428,9 @@ The following information must be provided:
 If the project was recently awarded and therefore no new results exist, describe the major goals and broader impacts of the project. Note that the proposal may contain up to five pages to describe the results. Results may be summarized in fewer than five pages, which would give the balance of the 15 pages for the Project Description.
 -->
 
-<!-- Iain's award: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1902440&HistoricalAwards=false -->
-IC was awarded an NSF PostDoctoral Research Fellowship (#1902440) of $150,000 from
-July 1, 2019 to June 30, 2023 (?).
-
-
 SJvdW is co-PI on NSF Award #2206744 in the amount of $572,926.00 to the University of California, Berkeley.
 He is an unfunded member of the collaboration that advises on the development of the `nbi` software package (https://github.com/kmzzhang/nbi).
-The project has produced two conference publications (\cite{nbi0}, \cite{nbi1}), a technical report (\cite{nbi2}), and an abstract (\cite{nbi3}).
+The project has produced two conference publications \cite{nbi0, nbi1}, a technical report \cite{nbi2}, and an abstract \cite{nbi3}.
 
 <!--
 - Keming Zhang, Tharindu Jayasinghe, Joshua Bloom (2023). Stellar Spectra Fitting with Amortized Neural Posterior Estimation and nbi. ICML 2023 Workshop on Machine Learning for Astrophysics. Hawaii. Status = PUBLISHED;  Acknowledgement of Federal Support = Yes
@@ -446,6 +441,12 @@ The project has produced two conference publications (\cite{nbi0}, \cite{nbi1}),
 
 - {Blaum}, Jacqueline and {Bloom}, Joshua (2022). {Stellar Insights at Scale with Likelihood-Free Inference}. American Astronomical Society Meeting Abstracts. . Status = PUBLISHED;  Acknowledgement of Federal Support = No
 -->
+<!-- Iain's award: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1902440&HistoricalAwards=false -->
+
+IC was awarded an NSF PostDoctoral Research Fellowship (#1902440) of $150,000 from
+July 1, 2019 to June 30, 2023 (?).
+
+
 
 <!--
 
