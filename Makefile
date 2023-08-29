@@ -23,3 +23,7 @@ grant: $(BUILDDIR) $(TEX) $(FIGURES)
 
 clean: $(BUILDDIR)
 	rm -rf $(BUILDDIR)
+
+submit: grant
+	python split_pdf.py build/grant.pdf
+	cp build/[0,1]*.pdf ~/Dropbox/docs/bids/2023-08-nsf-documents/proposal
