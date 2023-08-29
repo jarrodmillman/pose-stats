@@ -432,7 +432,9 @@ If the project was recently awarded and therefore no new results exist, describe
 SJvdW is co-PI on NSF Award #2206744 in the amount of $572,926.00 to the University of California, Berkeley.
 He is an unfunded member of the collaboration that advises on the development of the `nbi` software package (https://github.com/kmzzhang/nbi).
 The project has produced several publications \cite{nbi0, nbi1, nbi2, nbi3}.
-
+**Intellectual Merit:** This effort provides a new, practical path to accelerate model-based inference across NSF-supported science. Extensible to sequential data common in a wide range of  domains, the proposed software product will allow non-machine learning savvy scientists to apply LFI as a drop-in replacement for traditional sampling-based approaches. Fast inference with LFI also opens new avenues for conducting inquiry.
+**Broader Impacts:** A multidisciplinary LFI workshop will bring together a diverse group of participants from across astronomy, computer science, and other physical domains with model-based inference.
+Incorporating likelihood-free methods into undergraduate and graduate courses, with open-source lecture materials, the proposed effort will help improve STEM education and enhance the infrastructure for research in all fields where computationally expensive forward models are an impediment to inference. By reducing the costs for inference by orders of magnitude, the proposed work has the potential to reduce the carbon footprint of the entire computation-based scientific endeavor.
 <!--
 - Keming Zhang, Tharindu Jayasinghe, Joshua Bloom (2023). Stellar Spectra Fitting with Amortized Neural Posterior Estimation and nbi. ICML 2023 Workshop on Machine Learning for Astrophysics. Hawaii. Status = PUBLISHED;  Acknowledgement of Federal Support = Yes
 
