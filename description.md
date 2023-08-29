@@ -430,7 +430,7 @@ If the project was recently awarded and therefore no new results exist, describe
 
 SJvdW is co-PI on NSF Award #2206744 in the amount of $572,926.00 to the University of California, Berkeley.
 He is an unfunded member of the collaboration that advises on the development of the `nbi` software package (https://github.com/kmzzhang/nbi).
-The project has produced two conference publications \cite{nbi0, nbi1}, a technical report \cite{nbi2}, and an abstract \cite{nbi3}.
+The project has produced several publications \cite{nbi0, nbi1, nbi2, nbi3}.
 
 <!--
 - Keming Zhang, Tharindu Jayasinghe, Joshua Bloom (2023). Stellar Spectra Fitting with Amortized Neural Posterior Estimation and nbi. ICML 2023 Workshop on Machine Learning for Astrophysics. Hawaii. Status = PUBLISHED;  Acknowledgement of Federal Support = Yes
