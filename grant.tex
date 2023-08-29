@@ -71,8 +71,7 @@
 %
 %% Handle  section numbering within parts
 \usepackage{chngcntr}
-% Use \counterwithin* to not prepend part nr to section
-\counterwithin{section}{part}
+\counterwithin*{section}{part}
 \patchcmd{\part}{\normalfont}{\Large}{}{}
 \def\partname{}
 %%
