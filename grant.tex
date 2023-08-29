@@ -13,9 +13,9 @@
 %
 \usepackage{amsmath,amsthm,amssymb,amscd}
 \usepackage{graphicx}
-
+%
 \usepackage{epsf}
-\usepackage{cite}		% compress citations
+%\usepackage{cite}		% compress citations
 \pagenumbering{gobble}		% Research.gov wants no page numbering
 \tolerance9000
 \pagestyle{empty}               % no headers or footers on pages
@@ -35,6 +35,8 @@
 \evensidemargin0.15cm
 \textwidth16.1cm
 %
+%% Part formatting
+\usepackage[newparttoc]{titlesec}
 %
 \renewcommand{\footnotesize}{\small\spaceskip4pt plus1.5pt}
 %
@@ -63,46 +65,45 @@
 \hypersetup{
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
-
+%
+\usepackage[style=ieee]{biblatex}
+\addbibresource{grant.bib}
+%
+%% Handle  section numbering within parts
+\usepackage{chngcntr}
+% Use \counterwithin* to not prepend part nr to section
+\counterwithin{section}{part}
+\patchcmd{\part}{\normalfont}{\Large}{}{}
+\def\partname{}
+%%
 \title{POSE: Phase I: An open-source ecosystem for statistical Python}
 
 \author{Stéfan J. van der Walt, Iain Carmichael, and K. Jarrod Millman\\ University of California, Berkeley\\
 \\
 Jonathan Taylor\\ Stanford University}
 \begin{document}
-
+%
 \maketitle
-
-\centerline{\bf Project Summary}
-\setcounter{section}{0}
-\vskip-.7\linespacing
-
+%
+\part{Project Summary}
 \input{summary}
 
 \newpage
 
-\centerline{\bf Project Description}
-\setcounter{section}{0}
-\vskip-.7\linespacing
-
+\part{Project Description}
 \input{description}
 
 % uncomment to include bibliography
-\bibliographystyle{unsrt}
-\vfil\eject
-\bibliography{grant}
+\newpage
+\part{References}
+\printbibliography[heading=none]
 
 \newpage
-\centerline{\bf Data Management}
-\setcounter{section}{0}
-\vskip-.7\linespacing
-
+\part{Data Management}
 \input{data-management}
 
 \newpage
-\centerline{\bf Facilities}
-\setcounter{section}{0}
-
+\part{Facilities}
 \input{facilities}
 
 \end{document}
