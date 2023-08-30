@@ -3,6 +3,7 @@ FILES := data-management description facilities summary
 TEX := $(addprefix $(BUILDDIR)/,$(FILES:=.tex))
 SVGS := $(wildcard figures/*.svg)
 FIGURES := $(addprefix $(BUILDDIR)/,$(SVGS:.svg=.pdf))
+DROPBOX := ~/Dropbox/docs/bids/2023-08-nsf-documents/proposal
 
 .PHONY: default clean $(FILES) grant
 default: grant
@@ -26,4 +27,5 @@ clean: $(BUILDDIR)
 
 submit: grant
 	python split_pdf.py build/grant.pdf
-	cp build/[0,1]*.pdf ~/Dropbox/docs/bids/2023-08-nsf-documents/proposal
+	rm $(DROPBOX)/*.pdf
+	cp build/[0,1]*.pdf $(DROPBOX)
