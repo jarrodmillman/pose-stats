@@ -216,36 +216,34 @@ Our team is well established in the statistics and scientific Python
 communities. We are uniquely positioned for creating a community around a Statistial Python OSE:\
 
 **Stéfan van der Walt** is a research scientist at UC Berkeley. He is the founder of scikit-image and co-author of Elegant SciPy.
-He regularly teaches Python at bootcamps, campus courses, and at the annual G-Node Advanced Scientific Programming in Python summer schools.
 He contributes to numerous packages in the ecosystem including NumPy, SciPy, scikit-image, and NetworkX.
-He is the software architect of the SkyPortal astronomy platform that is being used by the ZTF-II sky survey at Caltech.
 Stéfan is a director of NumFOCUS, and serves on the steering committees of NumPy, SciPy, and the PSF's Scientific Working Group.
-He cofounded the Scientific Python project in 2020 with KJM.
+He cofounded the Scientific Python project.
 
-**Jarrod Millman** is a senior open source scientific Python developer at UC
+**Jarrod Millman** is a senior developer at UC
 Berkeley. He cofounded the Neuroimaging in Python project.
 He was the NumPy and SciPy release manager from 2007 to 2009.
 He was on the SciPy steering committee from
-2007 to 2010.  He was the SciPy conference chair from 2008 to 2011 and the
-SciPy India conference chair from 2009 to 2012. He cofounded NumFOCUS and
+2007 to 2010.
+He cofounded NumFOCUS and
 served on its board from 2011 to 2015.  Currently, he is the release manager of
 NetworkX, scikit-image, pygraphviz, numpydoc, and a few other packages. He
-cofounded the Scientific Python project in 2020 with SvdW.
+cofounded the Scientific Python project.
 
 **Iain Carmichael** is a visiting assistant professor of statistics at UC Berkeley.
 His research focuses on developing statistical/machine learning algorithms for data with
 a complex structure such as networks, images, and multi-view/modal data. 
-He wrote `YAGLM`, the product that forms the core of this exploration.
+He wrote `YAGLM`.
 
 **Jonathan Taylor** is a professor of statistics at Stanford University. His
 research focuses on selective inference and signal detection in structured
-noise.  He has been involved in the scientific Python community for many years,
-including early work on `statsmodels`, `nipy` among others.  He also works
-closely with statisticians in the `R` community.  In collaboration with Trevor
-Hastie, he is the main developer on `ISLP` a package bridging the `R` and
-Python worlds in that it provides Python support for course material in a
-hugely successful `R` book: "Introduction to Statistical Learning with
-Applications in R".
+noise. He has been involved in the scientific Python community for many years
+and works closely with statisticians in the `R` community.
+He cofounded the Neuroimaging in Python project.
+In collaboration with Trevor Hastie, he is the main developer on `ISLP` a package bridging the `R` and
+Python worlds by providing Python support for course material in the
+hugely successful "Introduction to Statistical Learning with
+Applications in R."
 
 # Program of Work
 
