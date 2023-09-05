@@ -29,14 +29,14 @@ We have identified two open source Python packages to serve as pilot projects an
 
 - `YAGLM` \cite{carmichael2021yaglm}: a library for penalized generalized linear models (GLM) in Python.
 - `ISLP`: \cite{james2023introduction}: a library that provides functions and datasets for the accompanying fundamentals textbook
-  "Introduction to Statistical Learning with Python."
+  *Introduction to Statistical Learning with Python*.
 
 <!-- https://github.com/intro-stat-learning/ISLP -->
 
-Using `YAGLM` and `ISLP` as pilot projects, we will investigate the typical challenges of bringing an existing package, developed by statisticians, into the Python software ecosystem.
+We will investigate the typical challenges of bringing these packages, developed by statisticians, fully into the Python software ecosystem.
 We will build a community of statisticians, researchers, and students that give input on what an ideal statistical landscape should look like in Python.
 We will connect with existing OSEs in both the Python and R worlds, to learn more about successful governance, social, and technical practices.
-We will distill these ideas into documents that are of benefit to other OSEs, but also to our own.
+We will distill these ideas into documents that are of benefit to OSEs, in general and also our own.
 Finally, we will build governance, testing, and contributor scaffolding around the example products, with an eye toward learning how the same can be done for other statistical packages.
 
 In order to support the statistical ecosystem, we need to widen participation in the developer community.
