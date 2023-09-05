@@ -372,7 +372,7 @@ there  are many small groups or individual developers of statistical packages wh
 in best (or better) practices in software engineering needed for open source an project to survive. On the other hand,
 the scientific Python community adheres closely to such standards, resulting in well-engineered software
 packages such as NumPy, SciPy, pandas, and scikit-learn. This proposal seeks to
-learn and document how to bridge this gap, starting with `YAGLM` and `ISLP` as a pilot
+learn and document how to bridge this gap, starting with `YAGLM` and `ISLP` as pilot
 projects. From this knowledge, the OSE will be able to derive and propagate
 models of best practices, resulting in better engineered software in the
 statistical community, as well improved software development skills among
