@@ -213,8 +213,7 @@ This empowers young researchers, and increases participation both in research an
 # Team
 
 Our team is well established in the statistics and scientific Python
-communities. We are uniquely positioned for creating a community around
-this OSE:\
+communities. We are uniquely positioned for creating a community around a Statistial Python OSE:\
 
 **Stéfan van der Walt** is a research scientist at UC Berkeley. He is the founder of scikit-image and co-author of Elegant SciPy.
 He regularly teaches Python at bootcamps, campus courses, and at the annual G-Node Advanced Scientific Programming in Python summer schools.
@@ -306,15 +305,20 @@ At the start of the funding cycle, we will create and widely-circulate
 surveys---targeted at students, teachers, and researchers---to better
 understand the statistics community's interest and need for a Statistical
 Python OSE.
+We will also engage our colleagues in informal gatherings or Birds of a Feather sessions (BOFs)
+at community meetings such as SciPy, EuroSciPy, Joint Statistical Meetings, and other meetings
+that the senior personnel attend.
+
 We will also organize four workshops.
 
-**Workshop 1 & 2:** These meetings (targeting `YAGLM` & `ISLP` respectively) will focus on each project's current technical landscape, and identify ways of
-maturing the project and facilitating broader adoption. Participants will include community members (users and developers), experts in generalized linear models and/or statistical learning, as well as teachers.
+- **Workshop 1 & 2** (targeting `YAGLM` & `ISLP`) will focus on each project's current technical landscape, and identify ways of
+maturing the project and facilitating broader adoption. Participants will include community members (users and developers),
+experts in generalized linear models and statistical learning, as well as teachers.
  This discussion will also identify potential new users and contributors.
 
-**Workshop 3:** This meeting will focus on the needs of statisticians working in Python. We will identify, through the previous meetings and a survey, statisticians who have developed additional open-source products that may benefit from a Statistical Python OSE.
+- **Workshop 3** will focus on statisticians working in Python. We will identify, through the previous meetings and a survey, statisticians who have developed additional open-source products that may benefit from a Statistical Python OSE.
 
-**Workshop 4:** The final meeting will focus on a plan for developing the Phase II proposal. The plan should identify specific resources needed to create a sustainable infrastructure for the Statistical Python OSE.
+- **Workshop 4** will focus on a plan for developing the Phase II proposal including iidentify specific resources needed to create a sustainable infrastructure for the Statistical Python OSE.
 
 ## Organization and Governance
 
