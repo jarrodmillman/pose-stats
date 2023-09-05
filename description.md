@@ -34,17 +34,17 @@ We have identified two open source Python packages to serve as pilot projects an
 <!-- https://github.com/intro-stat-learning/ISLP -->
 
 We will investigate the typical challenges of bringing these packages, developed by statisticians, fully into the Python software ecosystem.
-We will build a community of statisticians, researchers, and students that give input on what an ideal statistical landscape should look like in Python.
-We will connect with existing OSEs in both the Python and R worlds, to learn more about successful governance, social, and technical practices.
-We will distill these ideas into documents that are of benefit to OSEs, in general and also our own.
-Finally, we will build governance, testing, and contributor scaffolding around the example products, with an eye toward learning how the same can be done for other statistical packages.
+Aspects could include improving governance, testing, and contributor scaffolding, with an eye toward learning how the same can be done for other statistical packages.
 
-In order to support the statistical ecosystem, we need to widen participation in the developer community.
-One way to involve the next generation, as well as those without previous access to such communities, is to provide statistical training of the concepts involved.
-Again, using these products as a catalyst, we will outline workshops that combine theoretical and practical software training, to create a pathway toward contributing to the statistical OSE.
+The OSE will also strive to widen participation in the developer community and the OSE itself---especially by involving the next generation of researchers and developers, and those who do not already have access to such communities.
+That outreach will happen predominantly through statistical and technical training, informed in part by the needs of the pilot projects and their developers.
+
 Our overarching goal eventually is to extend what we learn from two pilots to the entire class of products that span statistical Python.
+We will achieve this by building a community of statisticians, researchers, and students that give input on what an ideal statistical landscape should look like in Python;
+by connecting with existing OSEs in both the Python and R worlds, to learn more about successful governance, social, and technical practices;
+and by distilling these ideas into documents that are of benefit to OSEs---in general, but also our own.
 
-We plan for an OSE that has the capacity to catalyze a large scale transformation of the statistical Python ecosystem, to where statisticians and researchers, experienced and newly trained, contribute to a diverse, vibrant collection of open source packages that turn Python into a highly viable, desirable computational platform for statistics.
+We plan for an OSE that has the capacity to catalyze a large scale transformation of the statistical Python ecosystem, such that statisticians and researchers, experienced and newly trained, contribute to a diverse, vibrant collection of open source packages that turn Python into a highly viable computational platform for statistics in applied science and education.
 
 # Context of OSE
 
