@@ -11,15 +11,12 @@ Look at this proposal if we can: https://www.nsf.gov/awardsearch/showAward?AWD_I
 # Overview
 
 Python and `R` are the two most popular computational platforms for data science.
-Each has its various strengths and weaknesses.
+Yet, they are structured fairly differently.
 In particular, when it comes to statistics, `R` has the benefit that many methodological innovations are published on that platform by its authors, often as loose-standing, exploratory packages.
-Python, on the other hand, is a general purpose language with broad scope.
-Computational libraries there tend to be larger: they aggregate many algorithmic implementations, and are developed by bigger teams using stringent software engineering principles.
+Python, on the other hand, is a general purpose language with broad scope, and computational libraries there tend to be larger: they aggregate many algorithmic implementations, and are developed by bigger teams using stringent software engineering principles.
 
-The choice of language is relevant, since more and more students and young searchers now receive training in Python.
-Naturally, this means that some research groups, or even fields (such as astronomy) transition to Python, requiring that established computational libraries be rewritten.
-The gap in functionality, however, is a concern;
-users, both new and established, would benefit greatly from an improved statistical offering in Python.
+There is increasing demand for Python among students and researchers, but the lack of involvement by statisticians in the development of Python libraries is an obstacle.
+Users could benefit greatly from an improved statistical offering in Python, as could statisticians from wider dissemination of their work.
 
 The goal of this grant is to investigate the formation of an OSE that will foster the growth of statistical software, as well as its surrounding developer community, in Python.
 Such an OSE, as a community of practice, would support statisticians and researchers that wish to distribute implementations of statistical innovations in Python.
