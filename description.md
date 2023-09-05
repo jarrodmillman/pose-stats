@@ -455,8 +455,10 @@ Phase I proposals will be evaluated on the basis of the following solicitation-s
 - Does the proposal present clear plans for discovering the ecosystem within which the OSE will be operating?
 - Does the proposal present a credible plan for exploring the establishment of a sustainable organizational structure?
 - Does the proposal present a credible plan to develop a strategy for building a community of contributors?
-- Does the proposing team have the required expertise and experience to undertake the Phase I activities described in the solicitation?
 - Will NSF support serve as a critical catalyst for the establishment of the OSE?
+
+
+- Does the proposing team have the required expertise and experience to undertake the Phase I activities described in the solicitation?
 - Does the proposal include third-party letters of collaboration from current users of the open-source product that is the subject of the OSE?
 
 -->
