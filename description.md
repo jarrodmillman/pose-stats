@@ -234,7 +234,7 @@ Bridging these worlds achieves several goals:
 Statistics software are a fundamental component to almost any research software stack.
 It is imperative that algorithmic developments are made available as widely as possible, in the form of robust, well tested, and maintained algorithmic implementations.
 This proposal aims to facilitate that, by encouraging a two-directional exchange: disseminating best software engineering practices to statisticians in both the R and Python ecosystems, while bringing the methods expertise of statisticians to research software development.
-The OSE distills knowledge on how to transform experimental research products into robust, high-quality research software into a centralized resource; that resource, in turn, is then used to transform other research products.
+The OSE aggregates knowledge on how to transition experimental research products to robust, high-quality research software into a centralized resource; that resource, in turn, is then used to transform other research products.
 By hosting fundamental educational resources on statistical techniques, and by propagating software development best practices, the OSE provides pathways for onboarding academics, both new and established, to statistical scientific software development.
 This empowers young researchers, grows the community, and enriches both statistical research and research software development.
 
