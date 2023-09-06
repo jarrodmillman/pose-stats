@@ -10,15 +10,12 @@ Look at this proposal if we can: https://www.nsf.gov/awardsearch/showAward?AWD_I
 
 # Overview
 
-Python and `R` are the two most popular computational platforms for data science.
-Yet, those platforms, and the open source ecosystems that sustain them, are structured fairly differently.
-In particular, when it comes to statistics, `R` has the benefit that many methodological innovations are published directly on that platform by its authors, often as loose-standing, exploratory packages.
-Python, on the other hand, is a general purpose language with broad scope, and computational libraries there tend to be larger: they aggregate many algorithmic implementations, and are developed by bigger teams, often using modern software engineering practices.
-
-There is increasing demand for Python among students and researchers, but the lack of involvement by statisticians in the development of Python libraries is an obstacle.
-Users could benefit greatly from an improved statistical offering in Python, as could statisticians from wider dissemination of their work.
-Statisticians may also benefit from closer interactions with those whose primary efforts are building scientific software.
-
+Python \cite{millman2011python,perez2011python} and `R` \cite{r2023r}
+are the two most popular computational platforms for data science.
+`R` is largely developed by statisticians, while Python has few developers
+from the statistics community.
+This naturally results in Python having missing statistical functionality
+and limits the impact of statistical research.
 The goal of this grant, then, is to investigate the formation of an OSE that will foster the growth of statistical software, as well as its surrounding developer community, in Python.
 Such an OSE, as a community of practice, would support statisticians and researchers that wish to distribute implementations of statistical innovations in Python.
 It would act as a bridge between statisticians, library developers, and researchers.
