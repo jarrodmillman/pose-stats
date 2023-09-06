@@ -121,7 +121,7 @@ Certain subcommunities, such as tidy-verse \cite{wickham2019welcome} and Biocond
 In contrast to `R`, the statistical software environment in Python is most recognizable as larger foundational data-structure and algorithmic
 libraries such as `numpy` \cite{harris2020array}, `scipy` \cite{virtanen2020scipy}, `pandas` \cite{mckinney-proc-scipy-2010},
 `networkx` \cite{hagberg2008}, `scikit-image` \cite{vanderwalt2014scikit}, and `scikit-learn` \cite{scikit-learn}. By and large, these well-established statistical software libraries
-adhere to best practices in software development.
+adhere to best practices in software development \cite{millman2014developing}.
 Other than publishing to the central, general Python Packaging Index, there is no coordinating mechanism similar to `CRAN` for loosely organizing
 small or experimental packages in Python into applicable, domain- or method-specific "stacks".
 
