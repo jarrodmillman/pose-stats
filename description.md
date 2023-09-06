@@ -381,7 +381,7 @@ the Statistical Python OSE. The scoping activities will also include
 involvement in community engagement activities.
 We will utilize our existing connections, and platforms created for, Scientific
 Python to engage that community, who very likely have shared interests, and ask
-them to help introduce us to statisticians, as well as developers and potential users of statistics software.
+them to help introduce us to statisticians, as well as potential developers and users of statistical software in Python.
 
 
 # Intellectual Merit
