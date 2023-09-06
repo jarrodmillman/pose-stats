@@ -286,14 +286,13 @@ Applications in R* \cite{james2013introduction}.
 -->
 
 We will undertake scoping activity for a
-Statistical Python OSE formed around our two pilot projects in the preparation
+Statistical Python OSE formed around two pilot projects in the preparation
 of a Phase II proposal that will aim to build a sustainable and robust ecosystem. 
 The main deliverable for the current proposal will be the creation of a
-detailed plan documenting the need for the innovation within the current
-technological landscape, explaining why an OSE is the right approach,
-outlining methods to identify potential contributors and users,
-and specifying the Statistical Python OSE infrastructure, organization,
-governance, and long-term sustainability.
+detailed plan that: documents the need for innovation within the current
+technological landscape; explains why an OSE is the right approach;
+outlines methods by which to identify potential contributors and users; specifies the Statistical Python OSE infrastructure, organization, and
+governance; and explores mechanisms for long-term sustainability.
 
 <!--
 Include a plan for developing a strategy that: (1) describes methods to
@@ -317,7 +316,7 @@ sustainable open-source projects like many existing projects in the scientific
 Python ecosystem.
 
 **Engagement with Related OSEs.**
-We will engage community members and leaders of existing Scientific Python
+We will engage community members and leaders of existing scientific Python
 domain-specific OSEs as well as of Bioconductor and Tidyverse.
 We will determine what social and technical structures they deem important,
 and which deficiencies they'd like to see addressed.
@@ -331,7 +330,7 @@ surveys---targeted at students, teachers, and researchers---to better
 understand the statistics community's interest and need for a Statistical
 Python OSE.
 We will also engage our colleagues in informal gatherings or Birds of a Feather sessions (BOFs)
-at community meetings such as SciPy, EuroSciPy, Joint Statistical Meetings, and other meetings
+at community meetings such as SciPy, EuroSciPy, Joint Statistical Meetings, and similar gatherings
 that the senior personnel attend.
 
 We will also organize four workshops.
@@ -382,8 +381,7 @@ the Statistical Python OSE. The scoping activities will also include
 involvement in community engagement activities.
 We will utilize our existing connections, and platforms created for, Scientific
 Python to engage that community, who very likely have shared interests, and ask
-them to help us introduce statisticians, developers, and potential users in the
-project.
+them to help introduce us to statisticians, as well as developers and potential users of statistics software.
 
 
 # Intellectual Merit
