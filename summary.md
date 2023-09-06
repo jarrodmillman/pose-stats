@@ -51,4 +51,4 @@ Our vision for the OSE is that it will catalyze growth of a vibrant, inclusive s
 
 # Broader Impacts
 
-Keywords: MPS; Statistics; Science Education; Genomics;
+Keywords: MPS; Statistics; Generalized Linear Models; Statistical Learning; Science Education
