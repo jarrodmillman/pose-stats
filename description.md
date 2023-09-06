@@ -386,7 +386,6 @@ them to help us introduce statisticians, developers, and potential users in the
 project.
 
 
-
 # Intellectual Merit
 
 <!--
@@ -394,15 +393,15 @@ The Intellectual Merit criterion encompasses the potential to advance knowledge;
 -->
 
 This proposal addresses two gaps in the statistical software ecosystem. On the one hand,
-there  are many small groups or individual developers of statistical packages who lack the training
-in best (or better) practices in software engineering needed for open-source an project to survive. On the other hand,
-the scientific Python community adheres closely to such standards, resulting in well-engineered software
-packages such as NumPy, SciPy, pandas, and scikit-learn. This proposal seeks to
-learn and document how to bridge this gap, starting with `YAGLM` and `ISLP` as pilot
+there are many small groups or individual developers of statistical packages who lack the training
+in best (or better) practices in software engineering needed for their open-source projects to survive. On the other hand,
+the scientific Python community, which adheres closely to such standards, resulting in larger, well-engineered software
+packages, lacks participation of statistical methods developers. This proposal seeks to
+learn, and document how, to bridge this gap, starting with `YAGLM` and `ISLP` as pilot
 projects. From this knowledge, the OSE will be able to derive and propagate
-models of best practices, resulting in better engineered software in the
-statistical community, as well improved software development skills among
-statisticians.
+models of best technical and social practices, resulting in better engineered software in the
+statistical community, improved software development skills among
+statisticians, and wider participation of statisticians in scientific Python.
 
 The context of statistical software today is such that the `R` developer community, which are responsible for many of the innovative statistical implementations, consists of many
 individual or small groups, while scientific Python core projects and domain stacks tend to be larger projects that operate on a scale and have resources to apply modern software engineering practices. Building small, exploratory packages that are also well-engineered will necessitate
@@ -411,11 +410,11 @@ uncovering the common ground that exists between them, and communicating those c
 
 # Broader Impacts
 
-The broader impacts of this proposal are in establishing
-better software engineering practices in the  statistical community.
-This will result in better onboarding pathways to involve young researchers,
-healthier and more inclusive community practices and resources that can be applied to other projects and fields.
-In addition, this is expected to result in more statistical libraries available to researchers using Python
+The proposed OSE will act to establish
+better software engineering practices in the statistical community,
+provide onboarding pathways for involving young researchers, while documenting and implementing
+healthy and inclusive community practices that can be replicated in other communities.
+This is expected to result in more statistical libraries being available to researchers using Python,
 as well as a cross pollination of best practices between `R` and Python.
 
 <!--
