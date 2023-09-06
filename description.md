@@ -197,10 +197,11 @@ of these practices, evidenced by the responsiveness to (GitHub) and other issues
 
 ## Guiding Principles and Long Term Vision
 
-As described above, the current state of open-source statistical software is mixed. The `R` community has many individual or small group contributors, though many lack proper training in best practices for open-source software.
-In the Python community, at least as represented by the larger packages, is represented by larger, well-organized groups with clear governance practices.
+As described above, the current state of open-source statistical software is mixed. The `R` community has many individual or small group contributors. These include many statisticians whom have not been trained in best practices for open-source software engineering.
+In the Python community, there are fewer packages, many of which are represented by larger, well-organized groups with clear governance practices.
+It can be harder to participate in these projects without some software engineering experience, resulting in a lack of contributions by the statistical community.
 
-This proposal aims to bridge these two worlds: it is unreasonable to assume statisticians trained in cutting-edge methodology to simultaneously master best practices in software engineering.
+This proposal aims to bridge two worlds: it is unreasonable to assume statisticians trained in cutting-edge methodology to simultaneously master best practices in software engineering.
 Similarly, software engineers are not trained at the cutting edge of statistical methodology.
 However, there is certainly a middle ground: graduate students in statistics can be trained in good (i.e. not as extensively as required
 for "best") practices in software engineering.
@@ -210,13 +211,9 @@ Bridging these worlds achieves several goals:
 
 1. Better software engineering practices for academically trained statisticians writing software both in `R` and Python.
 
-2. Establishment of new, well-engineered and robust APIs (building on the
-success of `sklearn`'s simple but powerful API \cite{sklearn_api}) for implementation of cutting-edge statistical
-methodology in different modeling paradigms.
+2. New, well-engineered, and robust APIs implementing cutting-edge statistical methodology in different modeling paradigms.
 
-3. Cross-pollination between `R` and Python statistical software communities. The current state sees
-`R` with mostly small development groups with Python leaning toward larger groups. Meeting in this middle
-ground will necessitate communication between the groups.
+3. Cross-pollination between the `R` and Python statistical software communities.
 
 ## Societal Needs and Broader Impact
 
