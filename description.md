@@ -158,7 +158,7 @@ Furthermore, we want to better understand how an OSE can, in the longer term, su
 
 The `YAGLM` open-source Python package was developed to make the framework of modern generalized linear models (GLM) methodology (various loss function, regularizer, solvers) available and easily accessible to data scientists \cite{carmichael2021yaglm}.
 GLMs are a flexible and powerful generalization of ordinary linear regression and cover many statistical models widely used in applications.
-Beyond the basic LASSO/ridge methods, the package supports structured penalties such as the nuclear norm as well as the group, exclusive, fused, and generalized lasso and non-convex penalties.
+Beyond the basic LASSO/ridge penalties, the package supports structured penalties such as the nuclear norm as well as the group, exclusive, fused, and generalized lasso and non-convex penalties.
 `YAGLM` comes with a variety of tuning parameter selection methods including: cross-validation, information criteria that have favorable model selection properties, and degrees of freedom estimators.
 
 <!--
