@@ -16,11 +16,11 @@ are the two most popular computational platforms for data science.
 from the statistics community.
 This naturally results in Python having missing statistical functionality
 and limits the impact of statistical research.
-The goal of this grant, then, is to investigate the formation of an OSE that will foster the growth of statistical software, as well as its surrounding developer community, in Python.
-Such an OSE, as a community of practice, would support statisticians and researchers that wish to distribute implementations of statistical innovations in Python.
-It would act as a bridge between statisticians, library developers, and researchers.
-By widely disseminating lessons learned: about statistical methodology, software engineering, and community management, the OSE would enrich its community of contributors.
-A positive side-effect would be the cross-pollination of ideas between the `R` and Python platforms.
+The goal of this grant is to investigate the formation of an OSE that will foster the growth of statistical software, as well as its surrounding developer community, in Python.
+Such an OSE, as a community of practice, will support statisticians and researchers that wish to distribute implementations of statistical innovations in Python.
+It will act as a bridge between statisticians, library developers, and researchers.
+By widely disseminating lessons learned: about statistical methodology, software engineering, and community management, the OSE will enrich its community of contributors.
+A positive side-effect will be the cross-pollination of ideas between the `R` and Python platforms.
 
 We will use `YAGLM` \cite{yaglm-github} (an open-source library for penalized
 generalized linear models \cite{carmichael2021yaglm}) and `ISLP`
@@ -36,11 +36,11 @@ Aspects include improving governance, testing, and contributor
 scaffolding, with an eye toward learning how the same can be done for other
 statistical packages.
 
-The OSE would strive to widen participation in the developer community and the OSE itself---especially by involving the next generation of researchers and developers, and those outside of existing contributor communities.
-Such outreach would involve statistical and technical training, informed in part by the needs of the pilot projects and their developers.
+The OSE will strive to widen participation in the developer community and the OSE itself---especially by involving the next generation of researchers and developers, and those outside of existing contributor communities.
+Such outreach will involve statistical and technical training, informed in part by the needs of the pilot projects and their developers.
 
-An overarching goal of the OSE would be to extend what is learnt from the pilot projects to the entire class of products that span statistical Python.
-This would be achieved by building a community of statisticians, researchers, and students that give input on what an ideal statistical landscape should look like in Python;
+An overarching goal of the OSE will be to extend what is learnt from the pilot projects to the entire class of products that span statistical Python.
+This will be achieved by building a community of statisticians, researchers, and students that give input on what an ideal statistical landscape should look like in Python;
 connecting with existing OSEs in both the Python and R worlds, to learn more about successful governance, social, and technical practices;
 and distilling those ideas into documents that are of broad benefit to OSEs, including our own.
 
@@ -64,7 +64,7 @@ broader impacts of the OSE.
 
 The entire space of Python libraries for scientific computation is most often referred to as the scientific Python ecosystem \cite{perez2011python}.
 Inside it, there exist several OSEs.
-Notable examples include Scientific Python, scikit-HEP (high energy physics), pangeo (earth sciences), astropy (astronomy), and nipy (neuroimaging).
+Notable examples include Scientific Python, scikit-HEP (high energy physics) \cite{rodrigues2020syo}, pangeo (earth sciences), astropy (astronomy) \cite{price2018astropy}, and nipy (neuroimaging) \cite{millman2007analysis}.
 The first of these, founded by PI SJvdW and KJM, aims to better coordinate the development of scientific Python projects as well as their associated communities of contributors.
 The others are domain-specific communities that foster the development of libraries and infrastructure that address field-specific concerns.
 
@@ -72,7 +72,7 @@ The others are domain-specific communities that foster the development of librar
 \begin{wrapfigure}{r}{0.6\textwidth}
   \begin{center}
     \includegraphics[width=0.58\textwidth]{./figures/ose-ecosystem.pdf}
-    \caption{The Statistical Python OSE would play a similar role to other domain-specific OSEs.}
+    \caption{The Statistical Python OSE will play a similar role to other domain-specific OSEs.}
   \end{center}
 \end{wrapfigure}
 -->
@@ -105,10 +105,10 @@ qualified to conduct this work.
 
 Through `CRAN`, the `R` community has been successful in enabling publication of many and varied
 software packages for statistical analysis. The packages differ widely in terms of adherence to best practices
-in software engineering, ranging from professional level (e.g. the tidy-verse package `tidyr`) to
+in software engineering, ranging from professional level to
 course projects from Master's or PhD courses. One of the successes of `CRAN` is that it broadly facilitates
 distribution of packages, although there is little oversight of how these packages are related.
-Certain subcommunities, such as tidy-verse and Bioconductor, do have governance models and guidelines on how packages should relate to one another, are released, and assure that standards are followed.
+Certain subcommunities, such as tidy-verse \cite{wickham2019welcome} and Bioconductor \cite{gentleman2004bioconductor}, do have governance models and guidelines on how packages should relate to one another, are released, and assure that standards are followed.
 
 In contrast to `R`, the statistical software environment in Python is most recognizable as larger foundational data-structure and algorithmic
 libraries such as `numpy` \cite{harris2020array}, `scipy` \cite{virtanen2020scipy}, `pandas` \cite{mckinney-proc-scipy-2010},
@@ -132,6 +132,8 @@ Furthermore, we want to better understand how an OSE can, in the longer term, su
 ### `YAGLM`
 -->
 
+###
+
 The `YAGLM` open-source Python package was developed to make the framework of modern GLM
 methodology (various loss function, regularizer, solvers) available and easily accessible to data analysts \cite{carmichael2021yaglm}. Beyond the basic lasso/ridge,
 the package supports structured penalties such as the nuclear norm as
@@ -147,7 +149,7 @@ scikit-learn’s API \cite{sklearn_api} and estimator object backend [TODO: CITA
 become a frequently used template for developing statistical and
 machine learning software [TODO: perhaps some citations
 e.g. celer]. Initial attempts at extending scikit-learn quickly
-revealed different backend and frontend API design choices would need
+revealed different backend and frontend API design choices will need
 to be made. Some of these design choices (e.g. config objects to
 specify models or a separate solver object class for the optimization
 algorithm) will be useful for other statistical software packages.
@@ -163,11 +165,13 @@ code of conduct.
 ### ISLP
 -->
 
+###
+
 The `ISLP` open-source Python package is written to accompany an introductory text on statistical learning and Python,
 closely following the examples in the hugely successful `R` version. Besides just providing labs,
 it provides Pythonic design matrix building, a simple implementation of Bayesian Additive Regression Trees
-and object oriented stepwise model selection. Planned development include extending the `pygam` package;
-regularized regression specification (to be used by `yagml`); integration of a Python version
+and object oriented stepwise model selection. Planned development include extending the `pygam` package,
+regularized regression specification (to be used by `YAGLM`), and  integration of a Python version
 of the very popular `glmnet` package in `R`.
 
 The corresponding textbook was published in July.  The project aims to
@@ -176,7 +180,7 @@ that it will be used in several introductory data science and
 statistics courses nationwide which will serve as a test of the robustness
 of these practices, evidenced by the responsiveness to (GitHub) and other issues that arise.
 
-## Guiding Principles and Long term vision
+## Guiding Principles and Long Term Vision
 
 As described above, the current state of open source statistical software is mixed. The `R` community
 has many individual or small group contributors, though many lack proper training in best practices for open source software. In the
@@ -243,8 +247,8 @@ and works closely with statisticians in the `R` community.
 He cofounded the Neuroimaging in Python project.
 In collaboration with Trevor Hastie, he is the main developer on `ISLP` a package bridging the `R` and
 Python worlds by providing Python support for course material in the
-hugely successful "Introduction to Statistical Learning with
-Applications in R."
+hugely successful *Introduction to Statistical Learning with
+Applications in R* \cite{james2013introduction}.
 
 # Program of Work
 
@@ -261,7 +265,7 @@ Applications in R."
 
 We will undertake scoping activity that will look closely at how to create a
 Statistical Python OSE formed around our two pilot projects in the preparation
-of a Phase II proposal that would aim to build a sustainable and robust ecosystem. 
+of a Phase II proposal that will aim to build a sustainable and robust ecosystem. 
 The main deliverable for the current proposal will be the creation of a
 detailed plan documenting the need for the innovation within the current
 technological landscape, explaining why an OSE is the right approach,
@@ -283,12 +287,16 @@ The activities that will craft this plan includes auditing the two pilot
 projects, understanding how related OSEs work, and gathering feedback from the
 statistical community through surveys and workshops.
 
+###
+
 **Pilot Project Audits.**
 We will perform detailed code and governance audits on `YAGLM` and `ISLP`.
 The goal of these audits is to better understand what type of training, technical & social infrastructure,
 and software development practices these projects need to become rigorous and
 sustainable open source projects like many existing projects in the scientific
 Python ecosystem.
+
+###
 
 **Engagement with Related OSEs.**
 We will engage community members and leaders of existing Scientific Python
@@ -298,6 +306,8 @@ and which deficiencies they'd like to see addressed.
 We will inquire about the history of those projects, and determine
 lessons learned that may benefit the design of the Statistical Python
 OSE.
+
+###
 
 **Ecosystem Discovery.**
 At the start of the funding cycle, we will create and widely-circulate
@@ -426,7 +436,7 @@ The following information must be provided:
 
 (f) if the proposal is for renewed support, a description of the relation of the completed work to the proposed work.
 
-If the project was recently awarded and therefore no new results exist, describe the major goals and broader impacts of the project. Note that the proposal may contain up to five pages to describe the results. Results may be summarized in fewer than five pages, which would give the balance of the 15 pages for the Project Description.
+If the project was recently awarded and therefore no new results exist, describe the major goals and broader impacts of the project. Note that the proposal may contain up to five pages to describe the results. Results may be summarized in fewer than five pages, which will give the balance of the 15 pages for the Project Description.
 -->
 
 SJvdW is co-PI on NSF Award #2206744 in the amount of $572,926.00 to the University of California, Berkeley.
