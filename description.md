@@ -94,7 +94,7 @@ These OSEs were typically established as part of focused research grants or majo
 Such a funding model does not lend itself well to a broad, methods-based field such as statistics.
 While statistical methods are currently, by necessity, implemented as part of applied work, it makes sense to consider them in a more generalized context, allowing for implementations with wider reach.
 Such an approach covers new terrain for scientific Python, so that it is prudent to first consult widely on *planning* what needs to be built, and how.
-These activities then lay the groundwork for a self-sustaining, community-run organization around which a community of developers and users can coalesce.
+These activities would lay the groundwork for a self-sustaining, community-run organization around which a community of developers and users can coalesce.
 <!--
 That community will, in turn, implement the plan and help to support the resulting products.
 -->
@@ -122,7 +122,7 @@ qualified to conduct this work.
 ## Statistical Software
 
 Through `CRAN`, the `R` community has been successful in enabling publication of many and varied
-software packages for statistical analysis. The packages differ widely in terms of adherence to best practices
+software packages for statistical analysis. The packages differ widely in the degree to which they adhere to best practices
 in software engineering, ranging from professional level to
 course projects from Master's or PhD courses. One of the successes of `CRAN` is that it broadly facilitates
 distribution of packages, although there is little oversight of how these packages are related.
@@ -132,21 +132,21 @@ and guidance to contributors and users in the form of governance models,
 developer guidelines, testing infrastructure, and release management.
 
 In contrast to `R`, the statistical software environment in Python is most recognizable as larger foundational data-structure and algorithmic
-libraries such as `numpy` \cite{harris2020array}, `scipy` \cite{virtanen2020scipy}, `pandas` \cite{mckinney-proc-scipy-2010},
-`networkx` \cite{hagberg2008}, `scikit-image` \cite{vanderwalt2014scikit}, and `scikit-learn` \cite{scikit-learn}. By and large, these well-established statistical software libraries
+libraries such as NumPy \cite{harris2020array}, SciPy \cite{virtanen2020scipy}, pandas \cite{mckinney-proc-scipy-2010},
+NetworkX \cite{hagberg2008}, scikit-image \cite{vanderwalt2014scikit}, and scikit-learn \cite{scikit-learn}. By and large, these well-established software libraries
 adhere to best practices in software development \cite{millman2014developing}.
 Other than publishing to the central, general Python Packaging Index, there is no coordinating mechanism similar to `CRAN` for loosely organizing
 small or experimental packages in Python into applicable, domain- or method-specific "stacks".
 
-The proposed OSE provides a "best of both worlds" solution: a place where statistical packages for scientific Python can be explored and developed, while distributing knowledge on software engineering methodology to their developers and to statisticians at large.
-Since this knowledge is shared with all practitioners, not just those focused on software development in Python, it will likely permeate across computational ecosystems, resulting in the cross-pollination of modern software engineering and healthy community practices.
+The proposed OSE provides a place where statistical packages for scientific Python can be explored and developed, while distributing knowledge on software engineering methodology to their developers and to statisticians at large.
+Shared knowledge and experiences will likely permeate across computational ecosystems, resulting in the cross-pollination of modern software engineering and healthy community practices.
 
 ## Pilot Projects
 
 We selected two pilot projects to inform the needs of an OSE in statistical Python.
 They are intentionally at different phases of maturity and have different emphases.
 The first aims to provided data science practitioners with state of the art algorithms for generalized linear models; the second aims to educate students and researchers on foundational statistical methods.
-By examining the needs of the developer and user communities of these two packages we aim to learn not only what functionality is missing, but also how community, onboarding, and engineering practices can be improved.
+By examining the needs of the developer and user communities of these two packages, we aim to learn not only what functionality is missing, but also how community, onboarding, and engineering practices can be improved.
 Furthermore, we want to better understand how an OSE can, in the longer term, support and sustain such efforts.
 
 <!--
@@ -163,13 +163,13 @@ Standard statistical software design patterns had to be rethought in order to ha
 For example, scikit-learn’s API and estimator object backend \cite{sklearn_api} have
 become a frequently used template for developing statistical and
 machine learning software \cite{pmlr-v80-massias18a}. Initial attempts at extending scikit-learn quickly
-revealed different backend and frontend API design choices will need
+revealed that different backend and frontend API design choices will need
 to be made. Some of these design choices (e.g., configuration objects to
 specify models or a separate solver object class for the optimization
 algorithm) will be impactful for other statistical software packages.
 
 The initial development of `YAGLM` was done in short bursts by a few
-core developers. It is currently available on GitHub and has a few
+core developers. It is currently available on GitHub and has some
 users. `YAGLM` is missing important engineering details like continuous
 integration, extensive testing, and quality documentation. It is also
 missing community support like governance, developer onboarding and a
@@ -181,17 +181,18 @@ code of conduct.
 
 ###
 
-The `ISLP` open-source Python package is written to accompany an introductory text on statistical learning and Python,
-closely following the examples in the hugely successful `R` version. Besides just providing labs,
+The `ISLP` open-source Python package is written to accompany an introductory text on statistical learning and Python (*Introduction to Statistical Learning
+with Python* \cite{james2023introduction}),
+closely following the examples in its hugely successful `R` version. Besides just providing labs,
 it provides Pythonic design matrix building, a simple implementation of Bayesian Additive Regression Trees
 and object oriented stepwise model selection. Planned development include extending the `pygam` package,
-regularized regression specification (to be used by `YAGLM`), and  integration of a Python version
+regularized regression specification (to be used by `YAGLM`), and integration of a Python version
 of the very popular `glmnet` package in `R`.
 
 The corresponding textbook was published in July.  The project aims to
 use good (if not best) software engineering practices.  It is expected
 that it will be used in several introductory data science and
-statistics courses nationwide which will serve as a test of the robustness
+statistics courses nationwide which will serve to test the robustness
 of these practices, evidenced by the responsiveness to (GitHub) and other issues that arise.
 
 ## Guiding Principles and Long Term Vision
