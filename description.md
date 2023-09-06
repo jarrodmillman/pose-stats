@@ -80,14 +80,19 @@ The others are domain-specific communities that foster the development of librar
 
 We envision that the proposed OSE, similarly, will become a community-owned structure that provides operational and governance guidelines, and that supports the organization of, contribution to, and sustenance of computational libraries.
 However, instead of being specific to a specific *domain*, it will focus on *statistical methods* as a whole.
-<!-- 
+<!--
 Remove following sentence and replace with expanding the above to explain the need for funding.
 Other domain-specific OSE were funded by large science or specific grants, the individualized
 work of statisticians necessitates a phase I scoping and phase II implementation to create a
 self-sustaining community run organization supporting and growing the community of developers
 and users of statistical Python.
 -->
-While the boundaries of the OSE are yet to be established, it may, for example, provide technical and community guidance, host technique-specific or software engineering knowledge, or provide shared infrastructure.
+Domain-specific OSEs are typically established as part of focused research grants.
+Such a funding model does not lend itself well to a broad, methods-based field such as statistics.
+While statistical methods are currently, by necessity, implemented as part of applied work, it makes sense to consider them in a more generalized context, allowing for implementations with wider reach.
+Such an approach covers new terrain for scientific Python, so that it is prudent to first consult widely on *planning* what needs to be built, and how.
+These activities then lay the groundwork for a self-sustaining, community-run organization around which a community of developers and users can coalesce.
+That community will, in turn, implement the plan and help to support the resulting products.
 
 <!--
 Scientific Python is characterized by several larger, well-established libraries that have coalesced from smaller, experimental packages.
