@@ -232,11 +232,11 @@ Bridging these worlds achieves several goals:
 ## Societal Needs and Broader Impact
 
 Statistics software are a fundamental component to almost any research software stack.
-This work disseminates best software engineering practices to both the R and Python ecosystems.
-It brings the methods expertise of statisticians to research software development, while providing statisticians with the capability to improve the quality of software they develop.
+It is imperative that algorithmic developments are made available as widely as possible, in the form of robust, well tested, and maintained algorithmic implementations.
+This proposal aims to facilitate that, by encouraging a two-directional exchange: disseminating best software engineering practices to statisticians in both the R and Python ecosystems, while bringing the methods expertise of statisticians to research software development.
 The OSE distills knowledge on how to transform experimental research products into robust, high-quality research software into a centralized resource; that resource, in turn, is then used to transform other research products.
-By hosting fundamental educational resources on both statistical techniques and software development best practices, the OSE builds pathways that onboard academics to statistical scientific software development.
-This empowers young researchers, and increases participation both in research and research software development.
+By hosting fundamental educational resources on statistical techniques, and by propagating software development best practices, the OSE provides pathways for onboarding academics, both new and estabished, to statistical scientific software development.
+This empowers young researchers, grows the community, and enriches both statistical research and research software development.
 
 # Team
 
