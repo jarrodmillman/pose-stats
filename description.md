@@ -10,7 +10,7 @@ Look at this proposal if we can: https://www.nsf.gov/awardsearch/showAward?AWD_I
 
 # Overview
 
-Python \cite{millman2011python,perez2011python} and `R` \cite{r2023r}
+Python \cite{millman2011python} and `R` \cite{r2023r}
 are the two most popular computational platforms for data science.
 `R` is largely developed by statisticians, while Python has few developers
 from the statistics community.
@@ -32,7 +32,7 @@ not matured to have built communities of governance and software development
 around them.
 We will investigating the typical challenges of bringing these packages,
 developed by statisticians, fully into the Python software ecosystem.
-Aspects could include improving governance, testing, and contributor
+Aspects include improving governance, testing, and contributor
 scaffolding, with an eye toward learning how the same can be done for other
 statistical packages.
 
@@ -62,7 +62,7 @@ broader impacts of the OSE.
 ## Scientific Python
 
 
-The entire space of Python libraries for scientific computation is most often referred to as the scientific Python ecosystem.
+The entire space of Python libraries for scientific computation is most often referred to as the scientific Python ecosystem \cite{perez2011python}.
 Inside it, there exist several OSEs.
 Notable examples include Scientific Python, scikit-HEP (high energy physics), pangeo (earth sciences), astropy (astronomy), and nipy (neuroimaging).
 The first of these, founded by PI SJvdW and KJM, aims to better coordinate the development of scientific Python projects as well as their associated communities of contributors.
@@ -72,7 +72,7 @@ The others are domain-specific communities that foster the development of librar
 \begin{wrapfigure}{r}{0.6\textwidth}
   \begin{center}
     \includegraphics[width=0.58\textwidth]{./figures/ose-ecosystem.pdf}
-    \caption{The proposed Statistical Python OSE would in the larger ecosystem in the same way other domain-specific OSEs.}
+    \caption{The Statistical Python OSE would play a similar role to other domain-specific OSEs.}
   \end{center}
 \end{wrapfigure}
 -->
@@ -111,7 +111,8 @@ distribution of packages, although there is little oversight of how these packag
 Certain subcommunities, such as tidy-verse and Bioconductor, do have governance models and guidelines on how packages should relate to one another, are released, and assure that standards are followed.
 
 In contrast to `R`, the statistical software environment in Python is most recognizable as larger foundational data-structure and algorithmic
-libraries such as `scipy`, `pandas`, and `scikit-learn`. By and large, these well-established statistical software libraries
+libraries such as `numpy` \cite{harris2020array}, `scipy` \cite{virtanen2020scipy}, `pandas` \cite{mckinney-proc-scipy-2010},
+`networkx` \cite{hagberg2008}, `scikit-image` \cite{vanderwalt2014scikit}, and `scikit-learn` \cite{scikit-learn}. By and large, these well-established statistical software libraries
 adhere to best practices in software development.
 Other than publishing to the central, general Python Packaging Index, there is no coordinating mechanism similar to `CRAN` for loosely organizing
 small or experimental packages in Python into applicable, domain- or method-specific "stacks".
@@ -142,7 +143,7 @@ and degrees of freedom estimators.
 
 Standard statistical software design patterns had to be rethought in
 order to handle the breadth of the GLM framework. For example,
-scikit-learn’s API and estimator object backend [TODO: CITATIONS] have
+scikit-learn’s API \cite{sklearn_api} and estimator object backend [TODO: CITATIONS] have
 become a frequently used template for developing statistical and
 machine learning software [TODO: perhaps some citations
 e.g. celer]. Initial attempts at extending scikit-learn quickly
@@ -222,13 +223,13 @@ He cofounded the Scientific Python project.
 
 **Jarrod Millman** is a senior developer at UC
 Berkeley. He cofounded the Neuroimaging in Python project.
-He was the NumPy and SciPy release manager from 2007 to 2009.
-He was on the SciPy steering committee from
+He was the NumPy and SciPy release manager from 2007 to 2009
+and the SciPy steering committee from
 2007 to 2010.
 He cofounded NumFOCUS and
-served on its board from 2011 to 2015.  Currently, he is the release manager of
-NetworkX, scikit-image, pygraphviz, numpydoc, and a few other packages. He
-cofounded the Scientific Python project.
+served on its board from 2011 to 2015.
+He is the release manager of NetworkX, scikit-image, pygraphviz, numpydoc, and other packages.
+He cofounded the Scientific Python project.
 
 **Iain Carmichael** is a visiting assistant professor of statistics at UC Berkeley.
 His research focuses on developing statistical/machine learning algorithms for data with
