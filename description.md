@@ -40,8 +40,8 @@ Given our experience and the experience of our colleagues in statistics departme
 Increasing numbers of students are entering our departments already familiar with scientific Python and wanting more training in it.
 For example, a recent poll of UC Berkeley Statistics masters students found the overwhelming majority wanted deeper training in Python statistical software.
 Unfortunately much of the needed infrastructure is missing.
-Our scoping activities will be designed to better understand this potential user and contributor community
-as well as to design a Statistical Python OSE to support and grow this community.
+Our scoping activities will be designed to better understand this potential user and contributor community,
+and design a Statistical Python OSE to grow and support it.
 
 An overarching goal of the OSE will be to extend what is learnt from the pilot projects to the entire class of products that span statistical Python.
 This will be achieved by building a community of statisticians, researchers, and students that give input on what an ideal statistical landscape should look like in Python;
