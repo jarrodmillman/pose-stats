@@ -85,6 +85,13 @@ The others are domain-specific communities that foster the development of librar
 
 We envision that the proposed OSE, similarly, will become a community-owned structure that provides operational and governance guidelines, and that supports the organization of, contribution to, and sustenance of computational libraries.
 However, instead of being specific to a specific *domain*, it will focus on *statistical methods* as a whole.
+<!-- 
+Remove following sentence and replace with expanding the above to explain the need for funding.
+Other domain-specific OSE were funded by large science or specific grants, the individualized
+work of statiticians necessitates a phase I scoping and phase II implementation to create a
+self-sustaining community run organization supporting and growing the community of developers
+and users of statistical Python.
+-->
 While the boundaries of the OSE are yet to be established, it may, for example, provide technical and community guidance, host technique-specific or software engineering knowledge, or provide shared infrastructure.
 
 <!--
@@ -291,7 +298,7 @@ users who will utilize this technology.
 
 The activities that will craft this plan includes auditing the two pilot
 projects, understanding how related OSEs work, and gathering feedback from the
-statistical community through surveys and workshops.
+statistical community through surveys, informal meetings, and two-day workshops.
 
 ###
 
