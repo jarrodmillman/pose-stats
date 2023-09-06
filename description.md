@@ -19,7 +19,7 @@ and limits the impact of statistical research.
 The goal of this grant is to investigate the formation of an OSE that will foster the growth of statistical software, as well as its surrounding developer community, in Python.
 Such an OSE, as a community of practice, will support statisticians and researchers that wish to distribute implementations of statistical innovations in Python.
 It will act as a bridge between statisticians, library developers, and researchers.
-By widely disseminating lessons learned: about statistical methodology, software engineering, and community management, the OSE will enrich its community of contributors.
+By widely disseminating lessons learned---about statistical methodology, software engineering, sustainability, governance, and community management---the OSE will enrich its community of contributors.
 A positive side-effect will be the cross-pollination of ideas between the `R` and Python platforms.
 
 We will use `YAGLM` \cite{yaglm-github} (an open-source library for penalized
@@ -38,6 +38,12 @@ statistical packages.
 
 The OSE will strive to widen participation in the developer community and the OSE itself---especially by involving the next generation of researchers and developers, and those outside of existing contributor communities.
 Such outreach will involve statistical and technical training, informed in part by the needs of the pilot projects and their developers.
+Given our experience and the experience of our colleagues in statistics departments across the
+nation, we believe there is a large demand for such an OSE.
+Increasing numbers of students are entering our departments already familiar with
+scientific Python and wanting more training in it.
+Our scoping activities will be designed to better understand this potential user and contributor community
+as well as to design a Statistical Python OSE to support and grow this community.
 
 An overarching goal of the OSE will be to extend what is learnt from the pilot projects to the entire class of products that span statistical Python.
 This will be achieved by building a community of statisticians, researchers, and students that give input on what an ideal statistical landscape should look like in Python;
@@ -65,7 +71,7 @@ broader impacts of the OSE.
 The entire space of Python libraries for scientific computation is most often referred to as the scientific Python ecosystem \cite{perez2011python}.
 Inside it, there exist several OSEs.
 Notable examples include Scientific Python, scikit-HEP (high energy physics) \cite{rodrigues2020syo}, pangeo (earth sciences), astropy (astronomy) \cite{price2018astropy}, and nipy (neuroimaging) \cite{millman2007analysis}.
-The first of these, founded by PI SJvdW and KJM, aims to better coordinate the development of scientific Python projects as well as their associated communities of contributors.
+The first of these aims to better coordinate the development of scientific Python projects as well as their associated communities of contributors.
 The others are domain-specific communities that foster the development of libraries and infrastructure that address field-specific concerns.
 
 <!--
@@ -150,7 +156,7 @@ become a frequently used template for developing statistical and
 machine learning software [TODO: perhaps some citations
 e.g. celer]. Initial attempts at extending scikit-learn quickly
 revealed different backend and frontend API design choices will need
-to be made. Some of these design choices (e.g. config objects to
+to be made. Some of these design choices (e.g., configuration objects to
 specify models or a separate solver object class for the optimization
 algorithm) will be useful for other statistical software packages.
 
