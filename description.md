@@ -38,6 +38,7 @@ The OSE will widen participation in the developer community and the OSE itself--
 Such outreach will involve statistical and technical training, informed in part by the needs of the pilot projects and their developers.
 Given our experience, and the experience of our colleagues in statistics departments across the nation, we believe there is a large demand for such an OSE.
 Increasing numbers of students are entering our departments already familiar with scientific Python and wanting more training in it.
+For example, a recent poll of UC Berkeley Statistics masters students and alumni found that the overwhelming majority wanted deeper training in Python statistical software.
 Unfortunately much of the needed infrastructure is missing.
 NSF support at this crucial junction in time would serve as a critical catalyst, providing resources to better understand the potential user and contributor community, and to design a Statistical Python OSE that would grow that community and support its needs.
 
