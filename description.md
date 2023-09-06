@@ -23,8 +23,8 @@ We envision an OSE that has the capacity to catalyze a large scale transformatio
 We will use `YAGLM` \cite{yaglm-github} (an open-source library for penalized
 generalized linear models \cite{carmichael2021yaglm}) and `ISLP`
 \cite{islp-github} (an open-source library that provides functions and
-datasets for the accompanying textbook *Introduction to Statistical Learning
-with Python* \cite{james2023introduction}) as exemplar packages that typify
+datasets for the accompanying textbook *An Introduction to Statistical Learning:
+with Applications in Python* \cite{james2023introduction}) as exemplar packages that typify
 different research artifacts that may be found in the ecosystem, but that have
 not matured to have built communities of governance and software development
 around them.
@@ -182,8 +182,7 @@ code of conduct.
 
 ###
 
-The `ISLP` open-source Python package is written to accompany an introductory text on statistical learning and Python (*Introduction to Statistical Learning
-with Python* \cite{james2023introduction}),
+The `ISLP` open-source Python package is written to accompany an introductory text on statistical learning and Python (*An Introduction to Statistical Learning: with Applications in Python* \cite{james2023introduction}),
 closely following the examples in its hugely successful `R` version. Besides just providing labs,
 it provides Pythonic design matrix building, a simple implementation of Bayesian Additive Regression Trees
 and object oriented stepwise model selection. Planned development include extending the `pygam` package,
@@ -259,7 +258,7 @@ and works closely with statisticians in the `R` community.
 He cofounded the Neuroimaging in Python project.
 In collaboration with Trevor Hastie, he is the main developer on `ISLP` a package bridging the `R` and
 Python worlds by providing Python support for course material in the
-hugely successful *Introduction to Statistical Learning with
+hugely successful *An Introduction to Statistical Learning: with
 Applications in R* \cite{james2013introduction}.
 
 # Program of Work
