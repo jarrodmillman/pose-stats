@@ -20,19 +20,21 @@ The goal of this grant, then, is to investigate the formation of an OSE that wil
 Such an OSE, as a community of practice, would support statisticians and researchers that wish to distribute implementations of statistical innovations in Python.
 It would act as a bridge between statisticians, library developers, and researchers.
 By widely disseminating lessons learned: about statistical methodology, software engineering, and community management, the OSE would enrich its community of contributors.
-A positive side-effect would be the cross-pollination of ideas between the `R` and Python ecosystems.
+A positive side-effect would be the cross-pollination of ideas between the `R` and Python platforms.
 
-To create such an ecosystem requires examining exemplar packages that typify different research artifacts that may be found in the ecosystem, but that have not matured to have built communities of governance and software development around them.
-This would be an opportunity to learn what is required of an OSE *in practice*.
-We have identified two open source Python packages to serve as pilot projects and anchor the OSE:
-
-- `YAGLM` \cite{carmichael2021yaglm}: a library for penalized generalized linear models (GLM) in Python.
-- `ISLP`: \cite{james2023introduction}: a library that provides functions and datasets for the accompanying fundamentals textbook *Introduction to Statistical Learning with Python*.
-
-<!-- https://github.com/intro-stat-learning/ISLP -->
-
-We propose investigating the typical challenges of bringing these packages, developed by statisticians, fully into the Python software ecosystem.
-Aspects could include improving governance, testing, and contributor scaffolding, with an eye toward learning how the same can be done for other statistical packages.
+We will use `YAGLM` \cite{yaglm-github} (an open-source library for penalized
+generalized linear models \cite{carmichael2021yaglm}) and `ISLP`
+\cite{islp-github} (an open-source library that provides functions and
+datasets for the accompanying textbook *Introduction to Statistical Learning
+with Python* \cite{james2023introduction}) as exemplar packages that typify
+different research artifacts that may be found in the ecosystem, but that have
+not matured to have built communities of governance and software development
+around them.
+We will investigating the typical challenges of bringing these packages,
+developed by statisticians, fully into the Python software ecosystem.
+Aspects could include improving governance, testing, and contributor
+scaffolding, with an eye toward learning how the same can be done for other
+statistical packages.
 
 The OSE would strive to widen participation in the developer community and the OSE itself---especially by involving the next generation of researchers and developers, and those outside of existing contributor communities.
 Such outreach would involve statistical and technical training, informed in part by the needs of the pilot projects and their developers.
