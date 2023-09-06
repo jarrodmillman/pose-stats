@@ -455,7 +455,7 @@ The following information must be provided:
 If the project was recently awarded and therefore no new results exist, describe the major goals and broader impacts of the project. Note that the proposal may contain up to five pages to describe the results. Results may be summarized in fewer than five pages, which will give the balance of the 15 pages for the Project Description.
 -->
 
-SJvdW is co-PI on NSF Award #2206744 in the amount of $572,926.00 to the University of California, Berkeley.
+SJvdW is co-PI on NSF Award #2206744 ("DS&E: Accelerating Astrophysical Insight at Scale with Likelihood-Free Inference") in the amount of $572,926.00 to the University of California, Berkeley.
 As an unfunded member of the collaboration, he advises on the development of the `nbi` software package.
 The project has produced several publications \cite{nbi0, nbi1, nbi2, nbi3}.
 **Intellectual Merit:** Accelerate model-based inference across NSF-supported science. The proposed software allows likelihood-free inference as a drop-in replacement for traditional sampling-based approaches across a wide range of domains.
