@@ -156,18 +156,21 @@ Furthermore, we want to better understand how an OSE can, in the longer term, su
 
 ###
 
-The `YAGLM` open-source Python package was developed to make the framework of modern GLM methodology (various loss function, regularizer, solvers) available and easily accessible to data analysts \cite{carmichael2021yaglm}.
-Beyond the basic lasso/ridge, the package supports structured penalties such as the nuclear norm as well as the group, exclusive, fused, and generalized lasso and non-convex penalties.
+The `YAGLM` open-source Python package was developed to make the framework of modern generalized linear models (GLM) methodology (various loss function, regularizer, solvers) available and easily accessible to data scientists \cite{carmichael2021yaglm}.
+GLMs are a flexible and powerful generalization of ordinary linear regression and cover many statistical models widely used in applications.
+Beyond the basic LASSO/ridge methods, the package supports structured penalties such as the nuclear norm as well as the group, exclusive, fused, and generalized lasso and non-convex penalties.
 `YAGLM` comes with a variety of tuning parameter selection methods including: cross-validation, information criteria that have favorable model selection properties, and degrees of freedom estimators.
 
+<!--
 Standard statistical software design patterns had to be rethought in order to handle the breadth of the GLM framework.
 For example, scikit-learn’s API and estimator object backend \cite{sklearn_api} have
 become a frequently used template for developing statistical and
 machine learning software \cite{pmlr-v80-massias18a}. Initial attempts at extending scikit-learn quickly
-revealed that different backend and frontend API design choices will need
-to be made. Some of these design choices (e.g., configuration objects to
-specify models or a separate solver object class for the optimization
-algorithm) will be impactful for other statistical software packages.
+revealed that different backend and frontend API design choices were needed.
+The API design choices 
+Leveraging the larger community of statisticians and scientific Python developers would
+make these
+--> 
 
 The initial development of `YAGLM` was done in short bursts by a few
 core developers. It is currently available on GitHub and has some
@@ -178,6 +181,17 @@ code of conduct.
 
 <!--
 ### ISLP
+-->
+
+<!--
+Proposals must also have (1) a pointer to the existing publicly-available
+open-source product that is being transitioned; (2) details on the current
+status of the open-source product, development model, methods of dissemination,
+and user base; (3) a description of the problem being addressed, and the
+novelty of the intended product being transitioned, including substantiating
+evidence of the technology's potential to significantly impact/address the
+problem; and (4) a strong justification that makes the case that the team is
+qualified to conduct this work.
 -->
 
 ###
@@ -193,7 +207,7 @@ The corresponding textbook was published in July.  The project aims to
 use good (if not best) software engineering practices.  It is expected
 that it will be used in several introductory data science and
 statistics courses nationwide which will serve to test the robustness
-of these practices, evidenced by the responsiveness to (GitHub) and other issues that arise.
+of these practices, evidenced by activity on its GitHub repository.
 
 ## Guiding Principles and Long Term Vision
 
