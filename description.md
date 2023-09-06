@@ -22,6 +22,7 @@ It will act as a bridge between statisticians, library developers, and researche
 By widely disseminating lessons learned---about statistical methodology, software engineering, sustainability, governance, and community management---the OSE will enrich its community of contributors.
 A positive side-effect will be the cross-pollination of ideas between the `R` and Python platforms.
 
+We plan for an OSE that has the capacity to catalyze a large scale transformation of the statistical Python ecosystem, such that statisticians and researchers, experienced and newly trained, contribute to a diverse, vibrant collection of open source packages that turn Python into a highly viable computational platform for statistics in applied science and education.
 We will use `YAGLM` \cite{yaglm-github} (an open-source library for penalized
 generalized linear models \cite{carmichael2021yaglm}) and `ISLP`
 \cite{islp-github} (an open-source library that provides functions and
@@ -50,7 +51,6 @@ This will be achieved by building a community of statisticians, researchers, and
 connecting with existing OSEs in both the Python and R worlds, to learn more about successful governance, social, and technical practices;
 and distilling those ideas into documents that are of broad benefit to OSEs, including our own.
 
-We plan for an OSE that has the capacity to catalyze a large scale transformation of the statistical Python ecosystem, such that statisticians and researchers, experienced and newly trained, contribute to a diverse, vibrant collection of open source packages that turn Python into a highly viable computational platform for statistics in applied science and education.
 
 # Context of OSE
 
