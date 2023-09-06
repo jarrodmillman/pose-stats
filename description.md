@@ -276,7 +276,7 @@ Applications in R* \cite{james2013introduction}.
 * Mimic orgs like scipy-hep, pangeo, astropy other domain-specific OSEs, a stack for statistics (Bioconductor)
 -->
 
-We will undertake scoping activity that will look closely at how to create a
+We will undertake scoping activity for a
 Statistical Python OSE formed around our two pilot projects in the preparation
 of a Phase II proposal that will aim to build a sustainable and robust ecosystem. 
 The main deliverable for the current proposal will be the creation of a
