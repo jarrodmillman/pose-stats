@@ -13,7 +13,7 @@ The work will either appear on GitHub in repositories affiliated with the OSE, o
 
 # Licensing of data
 
-Any data artifacts gathered will be published under the CC0 (https://creativecommons.org/share-your-work/public-domain/cc0/) license.
+Any data artifacts gathered will be published under the CC0 (\url{https://creativecommons.org/share-your-work/public-domain/cc0/}) license.
 Feedback gathered on the needs of statistical software will *not* include any identifiable private information.
 All participants to meetings and surveys will be informed of the data management plan prior to participating.
 Although code is not part of the purview of this grant, any code produced as a side-effect will be published under the Modified BSD License.
