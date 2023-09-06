@@ -1,120 +1,577 @@
-\documentclass[titlepage,12pt]{amsart}
-% The Proposal and Award Policies and Procedures Guide
-% (PAPPG: https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg)
-% mandates, in Chapter 2, section B.2, that the main text should have a font size no less
-% than 11 points for *most* typefaces (including Computer Modern Roman and Times (new) Roman).
-% 
-% Actually, Helvetica (a.k.a. Arial), Palatino and Courier New can drop
-% to 10 point font size, according to the PAPPG,  but be aware:
-% 10-point fonts (whatever the typeface) will promote reader fatigue.
-% Reader fatigue never works to the author's advantage.
-%
-% This sample is set in 12 point type.
-%
-\usepackage{amsmath,amsthm,amssymb,amscd}
-\usepackage{graphicx}
-%
-\usepackage{epsf}
-%\usepackage{cite}		% compress citations
-\pagenumbering{gobble}		% Research.gov wants no page numbering
-\tolerance9000
-\pagestyle{empty}               % no headers or footers on pages
-\usepackage{wrapfig}
-%
-% The Proposal and Award Policies and Procedures Guide
-% (PAPPG: https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg)
-% mandates, in Chapter 2, section B.2, that margins must be at least 1 inch in all directions.
-%
-%\advance\paperheight1.00cm
-\advance\textheight1.00cm
-\advance\vsize1.00cm
-\advance\topskip-0.5cm
-\advance\voffset-0.5cm
-%
-\oddsidemargin0.15cm
-\evensidemargin0.15cm
-\textwidth16.1cm
-%
-% Reformat Part headings: no number
-\makeatletter
-\renewcommand{\partname}{}
-\renewcommand\@seccntformat[1]{%
-  \ifstrequal{#1}{part}{%
-  }{
-    \protect\textup{\protect\@secnumfont
-      \csname the#1\endcsname
-      \protect\@secnumpunct
-    }
-  }
+@misc{yaglm-github,
+  author = {},
+  title = {\texttt{YAGLM}},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/yaglm/yaglm}},
 }
-\makeatother
-%
-\renewcommand{\footnotesize}{\small\spaceskip4pt plus1.5pt}
-%
-\newtheorem{thm}{Theorem}[section]
-\newtheorem{prop}[thm]{Proposition}
-\newtheorem{cor}[thm]{Corollary}
-\newtheorem{lemma}[thm]{Lemma}
-\theoremstyle{definition}
-\newtheorem{notn}[thm]{Notation}
-\numberwithin{equation}{section}
 
-\newcommand\Z{{\mathbb Z}}
-\newcommand\Q{{\mathbb Q}}
-\newcommand\R{{\mathbb R}}
-\newcommand\C{{\mathbb C}}
-\newcommand\F{{\mathbb F}}
-\newcommand{\G}{{\mathcal{G}}}
-\newcommand{\T}{{\mathcal{T}}}
-\newcommand\Hom{\text{Hom}}
-\newcommand\rank{\mathop{\text{rank}}}
-\let\tensor=\otimes
+@misc{islp-github,
+  author = {},
+  title = {\texttt{ISLP}},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/intro-stat-learning/ISLP}},
+}
 
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\usepackage{hyperref}
-\hypersetup{
-  hidelinks,
-  pdfcreator={LaTeX via pandoc}}
-%
-\usepackage[style=ieee]{biblatex}
-\addbibresource{grant.bib}
-%
-%% Handle  section numbering within parts
-\usepackage{chngcntr}
-\counterwithin*{section}{part}
-%\patchcmd{\part}{\normalfont}{\Large}{}{}
-\usepackage{etoolbox}
-\patchcmd{\part}{\raggedright}{\hfil}{}{}
-%%
-\title{POSE: Phase I: An open-source ecosystem for statistical Python}
+@article{harris2020array,
+ title         = {Array programming with {NumPy}},
+ author        = {Charles R. Harris and K. Jarrod Millman and St{\'{e}}fan J.
+                 van der Walt and Ralf Gommers and Pauli Virtanen and David
+                 Cournapeau and Eric Wieser and Julian Taylor and Sebastian
+                 Berg and Nathaniel J. Smith and Robert Kern and Matti Picus
+                 and Stephan Hoyer and Marten H. van Kerkwijk and Matthew
+                 Brett and Allan Haldane and Jaime Fern{\'{a}}ndez del
+                 R{\'{i}}o and Mark Wiebe and Pearu Peterson and Pierre
+                 G{\'{e}}rard-Marchant and Kevin Sheppard and Tyler Reddy and
+                 Warren Weckesser and Hameer Abbasi and Christoph Gohlke and
+                 Travis E. Oliphant},
+ year          = {2020},
+ month         = sep,
+ journal       = {Nature},
+ volume        = {585},
+ number        = {7825},
+ pages         = {357--362},
+ doi           = {10.1038/s41586-020-2649-2},
+ publisher     = {Springer Science and Business Media {LLC}},
+ url           = {https://doi.org/10.1038/s41586-020-2649-2}
+}
 
-\author{Stéfan J. van der Walt, Iain Carmichael, and K. Jarrod Millman\\ University of California, Berkeley\\
-\\
-Jonathan Taylor\\ Stanford University}
-\begin{document}
-%
-\maketitle
-%
-\part{Project Summary}
-\input{summary}
+@article{virtanen2020scipy,
+  author =        {Virtanen, P. and Gommers, R. and Oliphant, T. E. and
+                   Haberland, M. and Reddy, T. and Cournapeau, D. and
+                   Burovski, E. and Peterson, P. and Weckesser, W. and
+                   Bright, J. and van der Walt, S. J. and Brett, M. and
+                   Wilson, J. and K. J. Millman and Mayorov, N. and
+                   Nelson, A. R. J. and Jones, E. and Kern, R. and
+                   Larson, E. and Carey, C. J. and Polat, \.{I}. and
+                   Feng, Y. and Moore, E. W. and VanderPlas, J. and
+                   Laxalde, D. and Perktold, J. and Cimrman, R. and
+                   Henriksen, I. and Quintero, E. A. and Harris, C. R. and
+                   Archibald, A. M. and Ribeiro, A. H. and Pedregosa, F. and
+                   van Mulbregt, P. and {SciPy 1.0 Contributors}},
+  journal =       {Nature Methods},
+  pages =         {261--272},
+  title =         {{SciPy} 1.0---Fundamental Algorithms for Scientific
+                   Computing in {Python}},
+  volume =        {17},
+  year =          {2020},
+}
 
-\newpage
+@article{hunter2007matplotlib,
+  author =        {Hunter, John D},
+  journal =       {Computing in Science \& Engineering},
+  number =        {3},
+  pages =         {90--95},
+  publisher =     {IEEE},
+  title =         {Matplotlib: A {2D} graphics environment},
+  volume =        {9},
+  year =          {2007},
+  url =           {https://doi.org/10.1109/MCSE.2007.55},
+}
 
-\part{Project Description}
-\input{description}
+@inproceedings{mckinney-proc-scipy-2010,
+  author =        {Wes McKinney},
+  booktitle =     {Proceedings of the 9th Python in Science Conference},
+  editor =        {St\'efan van der Walt and Jarrod Millman},
+  pages =         {51--56},
+  title =         {Data Structures for Statistical Computing in
+                   {Python}},
+  year =          {2010},
+}
 
-% uncomment to include bibliography
-\newpage
-\part{References}
-\printbibliography[heading=none]
+@article{pedregosa2011scikit,
+  author =        {Pedregosa, Fabian and Varoquaux, Ga{\"e}l and
+                   Gramfort, Alexandre and Michel, Vincent and
+                   Thirion, Bertrand and Grisel, Olivier and
+                   Blondel, Mathieu and Prettenhofer, Peter and
+                   Weiss, Ron and Dubourg, Vincent and Weiss, Ron and
+                   Dubourg, Vincent and Vanderplas, Jake and
+                   Passos, Alexandre and Cournapeau, David and
+                   Brucher, Matthieu and Perrot, Matthieu and
+                   Duchesnay, {\'E}douard},
+  journal =       {Journal of Machine Learning Research},
+  number =        {Oct},
+  pages =         {2825--2830},
+  title =         {Scikit-learn: Machine Learning in {P}ython},
+  volume =        {12},
+  year =          {2011},
+  url =           {http://www.jmlr.org/papers/volume12/pedregosa11a/
+                   pedregosa11a.pdf},
+}
 
-\newpage
-\part{Data Management}
-\input{data-management}
+@article{vanderwalt2014scikit,
+  author =        {van der Walt, St{\'e}fan and
+                   Sch{\"o}nberger, Johannes L and Nunez-Iglesias, Juan and
+                   Boulogne, Fran{\c{c}}ois and Warner, Joshua D and
+                   Yager, Neil and Gouillart, Emmanuelle and Yu, Tony and
+                   {the scikit-image contributors}},
+  journal =       {PeerJ},
+  pages =         {e453},
+  publisher =     {PeerJ Inc.},
+  title =         {{scikit-image}: image processing in {P}ython},
+  volume =        {2},
+  year =          {2014},
+  url =           {https://doi.org/10.7717/peerj.453},
+}
 
-\newpage
-\part{Facilities}
-\input{facilities}
+@article{vanderwalt2011numpy,
+  author =        {van der Walt, St{\'e}fan and Colbert, S Chris and
+                   Varoquaux, Ga{\"e}l},
+  journal =       {Computing in Science \& Engineering},
+  note =          {\newline \textbf{Discusses the NumPy array data
+                   structure with a focus on how it enables efficient
+                   computation.}},
+  number =        {2},
+  pages =         {22--30},
+  publisher =     {IEEE},
+  title =         {The {NumPy} array: a structure for efficient
+                   numerical computation},
+  volume =        {13},
+  year =          {2011},
+  url =           {https://doi.org/10.1109/MCSE.2011.37},
+}
 
-\end{document}
+@article{perez2007ipython,
+  author =        {P{\'e}rez, Fernando and Granger, Brian E},
+  journal =       {Computing in Science \& Engineering},
+  number =        {3},
+  pages =         {21--29},
+  publisher =     {IEEE},
+  title =         {{IP}ython: a system for interactive scientific
+                   computing},
+  volume =        {9},
+  year =          {2007},
+  url =           {https://doi.org/10.1109/MCSE.2007.53},
+}
+
+@article{perez2011python,
+  title={Python: an ecosystem for scientific computing},
+  author={Perez, Fernando and Granger, Brian E and Hunter, John D},
+  journal={Computing in Science \& Engineering},
+  volume={13},
+  number={2},
+  pages={13--21},
+  year={2011},
+  publisher={IEEE}
+}
+
+@manual{r2023r,
+  title = {R: A Language and Environment for Statistical Computing},
+  author = {{R Core Team}},
+  organization = {R Foundation for Statistical Computing},
+  address = {Vienna, Austria},
+  year = {2023},
+  url = {https://www.R-project.org/},
+}
+
+@inproceedings{hagberg2008,
+  address =       {Pasadena, CA USA},
+  author =        {Aric A. Hagberg and Daniel A. Schult and
+                   Pieter J. Swart},
+  booktitle =     {Proceedings of the 7th Python in Science Conference},
+  editor =        {Ga\"el Varoquaux and Travis Vaught and
+                   K. Jarrod Millman},
+  pages =         {11--15},
+  title =         {Exploring Network Structure, Dynamics, and Function
+                   using {NetworkX}},
+  year =          {2008},
+}
+
+@article{astropy:2013,
+  author =        {{Astropy Collaboration} and {Robitaille}, T.~P. and
+                   {Tollerud}, E.~J. and {Greenfield}, P. and
+                   {Droettboom}, M. and {Bray}, E. and {Aldcroft}, T. and
+                   {Davis}, M. and {Ginsburg}, A. and
+                   {Price-Whelan}, A.~M. and {Kerzendorf}, W.~E. and
+                   {Conley}, A. and {Crighton}, N. and {Barbary}, K. and
+                   {Muna}, D. and {Ferguson}, H. and {Grollier}, F. and
+                   {Parikh}, M.~M. and {Nair}, P.~H. and {Unther}, H.~M. and
+                   {Deil}, C. and {Woillez}, J. and {Conseil}, S. and
+                   {Kramer}, R. and {Turner}, J.~E.~H. and {Singer}, L. and
+                   {Fox}, R. and {Weaver}, B.~A. and {Zabalza}, V. and
+                   {Edwards}, Z.~I. and {Azalee Bostroem}, K. and
+                   {Burke}, D.~J. and {Casey}, A.~R. and
+                   {Crawford}, S.~M. and {Dencheva}, N. and {Ely}, J. and
+                   {Jenness}, T. and {Labrie}, K. and {Lim}, P.~L. and
+                   {Pierfederici}, F. and {Pontzen}, A. and {Ptak}, A. and
+                   {Refsdal}, B. and {Servillat}, M. and
+                   {Streicher}, O.},
+  journal =       {Astronomy \& Astrophysics},
+  month =         oct,
+  pages =         {A33},
+  title =         {{Astropy: A community Python package for astronomy}},
+  volume =        {558},
+  year =          {2013},
+  doi =           {10.1051/0004-6361/201322068},
+  eid =           {A33},
+}
+
+
+@article{astropy:2018,
+  author =        {{Price-Whelan}, A.~M. and {Sip{\H{o}}cz}, B.~M. and
+                   {G{\"u}nther}, H.~M. and {Lim}, P.~L. and
+                   {Crawford}, S.~M. and {Conseil}, S. and
+                   {Shupe}, D.~L. and {Craig}, M.~W. and {Dencheva}, N. and
+                   {Ginsburg}, A. and {VanderPlas}, J.~T. and
+                   {Bradley}, L.~D. and {P{\'e}rez-Su{\'a}rez}, D. and
+                   {de Val-Borro}, M. and {Paper Contributors}, (Primary and
+                   {Aldcroft}, T.~L. and {Cruz}, K.~L. and
+                   {Robitaille}, T.~P. and {Tollerud}, E.~J. and
+                   {Coordination Committee}, (Astropy and {Ardelean}, C. and
+                   {Babej}, T. and {Bach}, Y.~P. and {Bachetti}, M. and
+                   {Bakanov}, A.~V. and {Bamford}, S.~P. and
+                   {Barentsen}, G. and {Barmby}, P. and {Baumbach}, A. and
+                   {Berry}, K.~L. and {Biscani}, F. and {Boquien}, M. and
+                   {Bostroem}, K.~A. and {Bouma}, L.~G. and
+                   {Brammer}, G.~B. and {Bray}, E.~M. and
+                   {Breytenbach}, H. and {Buddelmeijer}, H. and
+                   {Burke}, D.~J. and {Calderone}, G. and
+                   {Cano Rodr{\'\i}guez}, J.~L. and {Cara}, M. and
+                   {Cardoso}, J.~V.~M. and {Cheedella}, S. and
+                   {Copin}, Y. and {Corrales}, L. and {Crichton}, D. and
+                   {D{\textquoteright}Avella}, D. and {Deil}, C. and
+                   {Depagne}, {\'E}. and {Dietrich}, J.~P. and
+                   {Donath}, A. and {Droettboom}, M. and {Earl}, N. and
+                   {Erben}, T. and {Fabbro}, S. and {Ferreira}, L.~A. and
+                   {Finethy}, T. and {Fox}, R.~T. and {Garrison}, L.~H. and
+                   {Gibbons}, S.~L.~J. and {Goldstein}, D.~A. and
+                   {Gommers}, R. and {Greco}, J.~P. and {Greenfield}, P. and
+                   {Groener}, A.~M. and {Grollier}, F. and {Hagen}, A. and
+                   {Hirst}, P. and {Homeier}, D. and {Horton}, A.~J. and
+                   {Hosseinzadeh}, G. and {Hu}, L. and {Hunkeler}, J.~S. and
+                   {Ivezi{\'c}}, {\v{Z}}. and {Jain}, A. and
+                   {Jenness}, T. and {Kanarek}, G. and {Kendrew}, S. and
+                   {Kern}, N.~S. and {Kerzendorf}, W.~E. and
+                   {Khvalko}, A. and {King}, J. and {Kirkby}, D. and
+                   {Kulkarni}, A.~M. and {Kumar}, A. and {Lee}, A. and
+                   {Lenz}, D. and {Littlefair}, S.~P. and {Ma}, Z. and
+                   {Macleod}, D.~M. and {Mastropietro}, M. and
+                   {McCully}, C. and {Montagnac}, S. and {Morris}, B.~M. and
+                   {Mueller}, M. and {Mumford}, S.~J. and {Muna}, D. and
+                   {Murphy}, N.~A. and {Nelson}, S. and {Nguyen}, G.~H. and
+                   {Ninan}, J.~P. and {N{\"o}the}, M. and {Ogaz}, S. and
+                   {Oh}, S. and {Parejko}, J.~K. and {Parley}, N. and
+                   {Pascual}, S. and {Patil}, R. and {Patil}, A.~A. and
+                   {Plunkett}, A.~L. and {Prochaska}, J.~X. and
+                   {Rastogi}, T. and {Reddy Janga}, V. and {Sabater}, J. and
+                   {Sakurikar}, P. and {Seifert}, M. and
+                   {Sherbert}, L.~E. and {Sherwood-Taylor}, H. and
+                   {Shih}, A.~Y. and {Sick}, J. and {Silbiger}, M.~T. and
+                   {Singanamalla}, S. and {Singer}, L.~P. and
+                   {Sladen}, P.~H. and {Sooley}, K.~A. and
+                   {Sornarajah}, S. and {Streicher}, O. and {Teuben}, P. and
+                   {Thomas}, S.~W. and {Tremblay}, G.~R. and
+                   {Turner}, J.~E.~H. and {Terr{\'o}n}, V. and
+                   {van Kerkwijk}, M.~H. and {de la Vega}, A. and
+                   {Watkins}, L.~L. and {Weaver}, B.~A. and
+                   {Whitmore}, J.~B. and {Woillez}, J. and {Zabalza}, V. and
+                   {Contributors}, (Astropy)},
+  journal =       {The Astronomical Journal},
+  month =         sep,
+  pages =         {123},
+  title =         {{The Astropy Project: Building an Open-science
+                   Project and Status of the v2.0 Core Package}},
+  volume =        {156},
+  year =          {2018},
+}
+
+@article{millman2007analysis,
+  author =        {Millman, K Jarrod and Brett, Matthew},
+  journal =       {Computing in Science \& Engineering},
+  number =        {3},
+  pages =         {52--55},
+  publisher =     {IEEE},
+  title =         {Analysis of functional {Magnetic Resonance Imaging}
+                   in {P}ython},
+  volume =        {9},
+  year =          {2007},
+  url =           {https://doi.org/10.1109/MCSE.2007.46},
+}
+
+@article{price2018astropy,
+  title={The Astropy Project: Building an open-science project and status of the v2. 0 core package},
+  author={Price-Whelan, Adrian M and Sip{\H{o}}cz, BM and G{\"u}nther, HM and Lim, PL and Crawford, SM and Conseil, S and Shupe, DL and Craig, MW and Dencheva, N and Ginsburg, A and others},
+  journal={The Astronomical Journal},
+  volume={156},
+  number={3},
+  pages={123},
+  year={2018},
+  publisher={IOP Publishing}
+}
+
+@book{james2013introduction,
+  title={An introduction to statistical learning with applications in R},
+  author={James, Gareth and Witten, Daniela and Hastie, Trevor and Tibshirani, Robert},
+  volume={112},
+  year={2013},
+  publisher={Springer}
+}
+
+@article{millman2011python,
+  title={Python for scientists and engineers},
+  author={Millman, K Jarrod and Aivazis, Michael},
+  journal={Computing in science \& engineering},
+  volume={13},
+  number={2},
+  pages={9--12},
+  year={2011},
+  publisher={IEEE}
+}
+
+@article{millman2014developing,
+  author =        {Millman, K Jarrod and P{\'e}rez, Fernando},
+  journal =       {Implementing Reproducible Research. CRC Press, Boca
+                   Raton, FL},
+  note =          {\newline \textbf{Describes the software engineering
+                   practices embraced by the NumPy and SciPy communities
+                   with a focus on how these practices improve
+                   research.}},
+  pages =         {149--183},
+  title =         {Developing open-source scientific practice},
+  year =          {2014},
+  url =           {http://www.jarrodmillman.com/publications/
+                   millman2014developing.pdf},
+}
+
+@article{wilson-software-carpentry,
+  author =        {Greg Wilson},
+  journal =       {Computing in Science \& Engineering},
+  month =         {November--December},
+  title =         {Software Carpentry: Getting Scientists to Write
+                   Better Code by Making Them More Productive},
+  year =          {2006},
+}
+
+@article{millman2018teaching,
+  author =        {Millman, K Jarrod and Brett, Matthew and
+                   Barnowski, Ross and Poline, Jean-Baptiste},
+  journal =       {Frontiers in Neuroscience},
+  pages =         {727},
+  publisher =     {Frontiers},
+  title =         {Teaching computational reproducibility for
+                   neuroimaging},
+  volume =        {12},
+  year =          {2018},
+}
+
+
+@article{hoyer2017xarray,
+  author =        {Hoyer, S. and J. Hamman},
+  journal =       {Journal of Open Research Software},
+  number =        {1},
+  publisher =     {Ubiquity Press},
+  title =         {xarray: {N-D} labeled arrays and datasets in
+                   {Python}},
+  volume =        {5},
+  year =          {2017},
+  doi =           {10.5334/jors.148},
+  url =           {http://doi.org/10.5334/jors.148},
+}
+
+
+@article{ihaka1996r,
+  author =        {Ihaka, Ross and Gentleman, Robert},
+  journal =       {Journal of Computational and Graphical Statistics},
+  number =        {3},
+  pages =         {299--314},
+  publisher =     {Taylor \& Francis Group},
+  title =         {R: a language for data analysis and graphics},
+  volume =        {5},
+  year =          {1996},
+}
+
+
+@book{james2023introduction,
+  title="An {I}ntroduction to {S}tatistical {L}earning: with {A}pplications in {P}ython",
+  author="James, Gareth and Witten, Daniela and Hastie, Trevor and Tibshirani, Robert and Taylor, Jonathan",
+  publisher="Springer Publication",
+  year=2023,
+  url="https://link.springer.com/book/10.1007/978-3-031-38747-0",
+  doi="10.1007/978-3-031-38747-0",
+  series="{S}pringer {T}exts in {S}tatistics"
+}
+
+@inproceedings{nbi0,
+  author    = "Zhang, Keming and Jayasinghe, Tharindu and Bloom, Joshua",
+  title     = "Stellar Spectra Fitting with Amortized Neural Posterior Estimation and nbi",
+  year      = 2016,
+  maintitle = "Fortieth International Conference on Machine Learning (ICML 2023)",
+  booktitle = "Workshop on Machine Learning for Astrophysics"
+}
+
+@inproceedings{nbi1,
+  author    = "Zhang, Keming and Bloom, Joshua and Hernitschek, Nina",
+  title     = "nbi: the Astronomer’s Package for Neural Posterior Estimation",
+  year      = 2023,
+  maintitle = "Fortieth International Conference on Machine Learning (ICML 2023)",
+  booktitle = "Workshop on Machine Learning for Astrophysics"
+}
+
+@inproceedings{nbi2,
+  author    = "Zhang, Keming and Gaudi Scott B. and Bloom, Joshua",
+  title     = "A Ubiquitous Unifying Degeneracy in 2-body Microlensing Systems",
+  year      = 2022,
+  maintitle = "Bulletin of the American Astronomical Society"
+}
+
+@inproceedings{nbi3,
+  author    = "Blaum, Jacqueline and Bloom, Joshua",
+  title     = "Stellar Insights at Scale with Likelihood-Free Inference",
+  year      = 2022,
+  maintitle = "American Astronomical Society Meeting Abstracts"
+}
+
+@article{carmichael2021yaglm,
+  title={yaglm: a Python package for fitting and tuning generalized linear models that supports structured, adaptive and non-convex penalties},
+  author={Carmichael, Iain and Keefe, Thomas and Giertych, Naomi and Williams, Jonathan P},
+  journal={arXiv preprint arXiv:2110.05567},
+  year={2021}
+}
+
+
+
+@article{carmichael2021joint,
+  title={Joint and individual analysis of breast cancer histologic images and genomic covariates},
+  author={Carmichael, Iain and Calhoun, Benjamin C and Hoadley, Katherine A and Troester, Melissa A and Geradts, Joseph and Couture, Heather D and Olsson, Linnea and Perou, Charles M and Niethammer, Marc and Hannig, Jan and others},
+  journal={The annals of applied statistics},
+  volume={15},
+  number={4},
+  pages={1697},
+  year={2021},
+  publisher={NIH Public Access}
+}
+
+@article{carmichael2020learning,
+  title={Learning sparsity and block diagonal structure in multi-view mixture models},
+  author={Carmichael, Iain},
+  journal={arXiv preprint arXiv:2012.15313},
+  year={2020}
+}
+
+
+@article{perry2021mvlearn,
+  title={mvlearn: Multiview machine learning in python},
+  author={Perry, Ronan and Mischler, Gavin and Guo, Richard and Lee, Theodore and Chang, Alexander and Koul, Arman and Franz, Cameron and Richard, Hugo and Carmichael, Iain and Ablin, Pierre and others},
+  journal={The Journal of Machine Learning Research},
+  volume={22},
+  number={1},
+  pages={4938--4944},
+  year={2021},
+  publisher={JMLRORG}
+}
+
+@article{scikit-learn,
+ title={Scikit-learn: Machine Learning in {P}ython},
+ author={Pedregosa, F. and Varoquaux, G. and Gramfort, A. and Michel, V.
+         and Thirion, B. and Grisel, O. and Blondel, M. and Prettenhofer, P.
+         and Weiss, R. and Dubourg, V. and Vanderplas, J. and Passos, A. and
+         Cournapeau, D. and Brucher, M. and Perrot, M. and Duchesnay, E.},
+ journal={Journal of Machine Learning Research},
+ volume={12},
+ pages={2825--2830},
+ year={2011}
+}
+
+@inproceedings{sklearn_api,
+  author    = {Lars Buitinck and Gilles Louppe and Mathieu Blondel and
+               Fabian Pedregosa and Andreas Mueller and Olivier Grisel and
+               Vlad Niculae and Peter Prettenhofer and Alexandre Gramfort
+               and Jaques Grobler and Robert Layton and Jake VanderPlas and
+               Arnaud Joly and Brian Holt and Ga{\"{e}}l Varoquaux},
+  title     = {{API} design for machine learning software: experiences from the scikit-learn
+               project},
+  booktitle = {ECML PKDD Workshop: Languages for Data Mining and Machine Learning},
+  year      = {2013},
+  pages = {108--122},
+}
+
+@article{carmichael2021folded,
+  title={The folded concave Laplacian spectral penalty learns block diagonal sparsity patterns with the strong oracle property},
+  author={Carmichael, Iain},
+  journal={arXiv preprint arXiv:2107.03494},
+  year={2021}
+}
+
+@article{gentleman2004bioconductor,
+  title={Bioconductor: open software development for computational biology and bioinformatics},
+  author={Gentleman, Robert C and Carey, Vincent J and Bates, Douglas M and Bolstad, Ben and Dettling, Marcel and Dudoit, Sandrine and Ellis, Byron and Gautier, Laurent and Ge, Yongchao and Gentry, Jeff and others},
+  journal={Genome biology},
+  volume={5},
+  number={10},
+  pages={1--16},
+  year={2004},
+  publisher={BioMed Central}
+}
+
+@article{wickham2019welcome,
+  title={Welcome to the  {tidyverse}},
+  author = {Hadley Wickham and Mara Averick and Jennifer Bryan and
+    Winston Chang and Lucy D'Agostino McGowan and Romain François and
+    Garrett Grolemund and Alex Hayes and Lionel Henry and Jim Hester
+    and Max Kuhn and Thomas Lin Pedersen and Evan Miller and Stephan
+    Milton Bache and Kirill Müller and Jeroen Ooms and David Robinson
+    and Dana Paige Seidel and Vitalie Spinu and Kohske Takahashi and
+    Davis Vaughan and Claus Wilke and Kara Woo and Hiroaki Yutani},
+  journal={Journal of open source software},
+  volume={4},
+  number={43},
+  pages={1686},
+  year={2019},
+  doi = {10.21105/joss.01686},
+}
+
+@article{carmichael2021geometric,
+  title={Geometric insights into support vector machine behavior using the KKT conditions},
+  author={Carmichael, Iain and Marron, JS},
+  journal={Electronic Journal of Statistics},
+  volume={15},
+  number={2},
+  pages={6311--6343},
+  year={2021},
+  publisher={The Institute of Mathematical Statistics and the Bernoulli Society}
+}
+
+@article{rodrigues2020syo,
+    author = "Rodrigues, Eduardo and others",
+    editor = "Doglioni, C. and Kim, D. and Stewart, G. A. and Silvestris, L. and Jackson, P. and Kamleh, W.",
+    title = "{The Scikit HEP Project -- overview and prospects}",
+    eprint = "2007.03577",
+    archivePrefix = "arXiv",
+    primaryClass = "physics.comp-ph",
+    doi = "10.1051/epjconf/202024506028",
+    journal = "EPJ Web Conf.",
+    volume = "245",
+    pages = "06028",
+    year = "2020"
+}
+
+@article{gazzola2023s,
+  title={What’s in a Name? Terminology Preferences Among Patients Receiving Methadone Treatment},
+  author={Gazzola, Marina Gaeta and Maclean, Emma and Beitel, Mark and Carmichael, Iain D and Cammack, Katharine M and Eggert, Kathryn F and Roehrich, Teresa and Madden, Lynn M and Jegede, Oluwole and Zheng, Xiaoying and others},
+  journal={Journal of General Internal Medicine},
+  volume={38},
+  number={3},
+  pages={653--660},
+  year={2023},
+  publisher={Springer}
+}
+
+@article{gazzola2022cohort,
+  title={A cohort study examining the relationship among housing status, patient characteristics, and retention among individuals enrolled in low-barrier-to-treatment-access methadone maintenance treatment},
+  author={Gazzola, Marina Gaeta and Carmichael, Iain D and Madden, Lynn M and Dasgupta, Nabarun and Beitel, Mark and Zheng, Xiaoying and Eggert, Kathryn F and Farnum, Scott O and Barry, Declan T},
+  journal={Journal of substance abuse treatment},
+  volume={138},
+  pages={108753},
+  year={2022},
+  publisher={Elsevier}
+}
+
+@InProceedings{pmlr-v80-massias18a,
+  title     = {Celer: a Fast Solver for the Lasso with Dual Extrapolation},
+  author    = {Massias, Mathurin and Gramfort, Alexandre and Salmon, Joseph},
+  booktitle = {Proceedings of the 35th International Conference on Machine Learning},
+  pages     = {3321--3330},
+  year      = {2018},
+  volume    = {80},
+}

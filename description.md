@@ -14,12 +14,15 @@ Python \cite{millman2011python} and `R` \cite{r2023r}
 are the two most popular computational platforms for data science.
 `R` is largely developed by statisticians, while Python has few developers
 from the statistics community.
+As a consequence the Python's statistical software capabilities are lacking.
+This issue slow down the research of scientists who analyze data in Python and hinders the imapct of research produced by the statistics community.
+<!--
 This naturally results in Python having missing statistical functionality
 and limits the impact of statistical research.
-The goal of this grant is to investigate the formation of an OSE that will foster the growth of statistical software, as well as its surrounding developer community, in Python.
-Such an OSE, as a community of practice, will support statisticians and researchers that wish to distribute implementations of statistical innovations in Python.
-It will act as a bridge between statisticians, library developers, and researchers.
-By widely disseminating lessons learned---about statistical methodology, software engineering, sustainability, governance, and community management---the OSE will enrich its community of contributors.
+-->
+The goal of this grant is to investigate the formation of an OSE that will foster the growth of statistical software, as well as its surrounding developer community in Python.
+Such an OSE, as a community of practice, will support statisticians and researchers that wish to distribute implementations of statistical innovations in Python by acting as a bridge between statisticians, library developers, and researchers.
+By widely disseminating lessons learned about statistical methodology, software engineering, sustainability, governance, and community management the OSE will enrich its community of contributors.
 A positive side-effect will be the cross-pollination of ideas between the `R` and Python platforms.
 
 We envision an OSE that has the capacity to catalyze a large scale transformation of the statistical Python ecosystem, such that statisticians and researchers, experienced and newly trained, contribute to a diverse, vibrant collection of open source packages that turn Python into a highly viable computational platform for statistics in applied science and education.
@@ -31,19 +34,18 @@ with Python* \cite{james2023introduction}) as exemplar packages that typify
 different research artifacts that may be found in the ecosystem, but that have
 not matured to have built communities of governance and software development
 around them.
-We will investigating the typical challenges of bringing these packages,
+We will investigating the challenges of bringing these packages,
 developed by statisticians, fully into the Python software ecosystem.
-Aspects include improving governance, testing, and contributor
+These challenges include improving governance, testing, and contributor
 scaffolding, with an eye toward learning how the same can be done for other
 statistical packages.
 
-The OSE will strive to widen participation in the developer community and the OSE itself---especially by involving the next generation of researchers and developers, and those outside of existing contributor communities.
+The OSE will widen participation in the developer community and the OSE itself---especially by involving the next generation of researchers and developers, and those outside of existing contributor communities.
 Such outreach will involve statistical and technical training, informed in part by the needs of the pilot projects and their developers.
-Given our experience and the experience of our colleagues in statistics departments across the
-nation, we believe there is a large demand for such an OSE.
-Increasing numbers of students are entering our departments already familiar with
-scientific Python and wanting more training in it.
-However, the needed infrastructure is missing.
+Given our experience and the experience of our colleagues in statistics departments across the nation, we believe there is a large demand for such an OSE.
+Increasing numbers of students are entering our departments already familiar with scientific Python and wanting more training in it.
+For example, a recent poll of UC Berkeley Statistics masters students found the overwhelming majority wanted deeper training in Python statistical software.
+Unfortunately much of the needed infrastructure is missing.
 Our scoping activities will be designed to better understand this potential user and contributor community
 as well as to design a Statistical Python OSE to support and grow this community.
 
@@ -135,10 +137,10 @@ Since this knowledge is shared with all practitioners, not just those focused on
 
 ## Pilot Projects
 
-Two pilot projects have been chosen to inform the needs of an OSE in statistical Python.
-As such, they are intentionally at different phases of maturity, and have different emphases.
-The first implements established and experimental algorithms to be employed by practitioners, while the second aims to educate students and researchers on foundational methods.
-By examining the needs of the developer and user communities of these packages, we aim to learn not only what functionality is missing, but also which community, onboarding, and engineering practices can be improved.
+We selected two pilot projects to inform the needs of an OSE in statistical Python.
+They are intentionally at different phases of maturity and have different emphases.
+The first aims to provided data science practitioners with state of the art algorithms for generalized linear models; the secon aims to educate students and researchers on foundational statistical methods.
+By examining the needs of the developer and user communities of these two packages we aim to learn not only what functionality is missing, but also how community, onboarding, and engineering practices can be improved.
 Furthermore, we want to better understand how an OSE can, in the longer term, support and sustain such efforts.
 
 <!--
@@ -147,25 +149,18 @@ Furthermore, we want to better understand how an OSE can, in the longer term, su
 
 ###
 
-The `YAGLM` open-source Python package was developed to make the framework of modern GLM
-methodology (various loss function, regularizer, solvers) available and easily accessible to data analysts \cite{carmichael2021yaglm}. Beyond the basic lasso/ridge,
-the package supports structured penalties such as the nuclear norm as
-well as the group, exclusive, fused, and generalized lasso and non-convex but linearizable
-penalties. `YAGLM` comes with a variety
-of tuning parameter selection methods including: cross-validation,
-information criteria that have favorable model selection properties,
-and degrees of freedom estimators.
+The `YAGLM` open-source Python package was developed to make the framework of modern GLM methodology (various loss function, regularizer, solvers) available and easily accessible to data analysts \cite{carmichael2021yaglm}.
+Beyond the basic lasso/ridge, the package supports structured penalties such as the nuclear norm as well as the group, exclusive, fused, and generalized lasso and non-convex penalties.
+`YAGLM` comes with a variety of tuning parameter selection methods including: cross-validation, information criteria that have favorable model selection properties, and degrees of freedom estimators.
 
-Standard statistical software design patterns had to be rethought in
-order to handle the breadth of the GLM framework. For example,
-scikit-learn’s API and estimator object backend \cite{sklearn_api} have
+Standard statistical software design patterns had to be rethought in order to handle the breadth of the GLM framework.
+For example, scikit-learn’s API and estimator object backend \cite{sklearn_api} have
 become a frequently used template for developing statistical and
-machine learning software [TODO: perhaps some citations
-e.g. celer]. Initial attempts at extending scikit-learn quickly
+machine learning software \cite{pmlr-v80-massias18a}. Initial attempts at extending scikit-learn quickly
 revealed different backend and frontend API design choices will need
 to be made. Some of these design choices (e.g., configuration objects to
 specify models or a separate solver object class for the optimization
-algorithm) will be useful for other statistical software packages.
+algorithm) will be impactful for other statistical software packages.
 
 The initial development of `YAGLM` was done in short bursts by a few
 core developers. It is currently available on GitHub and has a few
@@ -195,17 +190,14 @@ of these practices, evidenced by the responsiveness to (GitHub) and other issues
 
 ## Guiding Principles and Long Term Vision
 
-As described above, the current state of open source statistical software is mixed. The `R` community
-has many individual or small group contributors, though many lack proper training in best practices for open source software. In the
-Python community, at least as represented by the larger packages, is represented by larger, well-organized
-groups with clear governance practices.
+As described above, the current state of open source statistical software is mixed. The `R` community has many individual or small group contributors, though many lack proper training in best practices for open source software.
+In the Python community, at least as represented by the larger packages, is represented by larger, well-organized groups with clear governance practices.
 
-This proposal aims to bridge these two worlds: it is unreasonable to assume statisticians trained in
-cutting-edge methodology to simultaneously master best practices in software engineering. Similarly,
-software engineers are not trained at the cutting edge of statistical methodology. However, there is certainly
-a middle ground: graduate students in statistics can be trained in good (i.e. not as extensively as required
-for "best") practices in software engineering. Similarly, those with strong software engineering skills
-can learn what are the types of APIs required to implement cutting edge methodology in software. 
+This proposal aims to bridge these two worlds: it is unreasonable to assume statisticians trained in cutting-edge methodology to simultaneously master best practices in software engineering.
+Similarly, software engineers are not trained at the cutting edge of statistical methodology.
+However, there is certainly a middle ground: graduate students in statistics can be trained in good (i.e. not as extensively as required
+for "best") practices in software engineering.
+Similarly, those with strong software engineering skills can learn what are the types of APIs required to implement cutting edge methodology in software.
 
 Bridging these worlds achieves several goals:
 
@@ -249,8 +241,7 @@ He is the release manager of NetworkX, scikit-image, pygraphviz, numpydoc, and o
 He cofounded the Scientific Python project.
 
 **Iain Carmichael** is a visiting assistant professor of statistics at UC Berkeley.
-His research focuses on developing statistical/machine learning algorithms for data with
-a complex structure such as networks, images, and multi-view/modal data. 
+His research focuses on developing statistical/machine learning algorithms for data with a complex structure such as networks, images, and multi-view/modal data.
 He wrote `YAGLM`.
 
 **Jonathan Taylor** is a professor of statistics at Stanford University. His
@@ -276,7 +267,7 @@ Applications in R* \cite{james2013introduction}.
 * Mimic orgs like scipy-hep, pangeo, astropy other domain-specific OSEs, a stack for statistics (Bioconductor)
 -->
 
-We will undertake scoping activity for a
+We will undertake scoping activity that will look closely at how to create a
 Statistical Python OSE formed around our two pilot projects in the preparation
 of a Phase II proposal that will aim to build a sustainable and robust ecosystem. 
 The main deliverable for the current proposal will be the creation of a
