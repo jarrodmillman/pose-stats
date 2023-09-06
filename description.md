@@ -336,7 +336,9 @@ We will also engage our colleagues in informal gatherings or Birds of a Feather 
 at community meetings such as SciPy, EuroSciPy, Joint Statistical Meetings, and similar gatherings
 that the senior personnel attend.
 
-We will also organize four workshops.
+\newpage
+
+We will also organize four, two-day workshops.
 
 - **Workshop 1 & 2** (targeting `YAGLM` & `ISLP`) will focus on each project's current technical landscape, and identify ways of
 maturing the project and facilitating broader adoption. Participants will include community members (users and developers),
