@@ -35,7 +35,7 @@ contribute to the achievement of specific, desired societal outcomes.
 # Overview
 
 We propose investigating the formation of a Statistical Python OSE that will catalyze the development of a robust set of statistical software for Python, and build a vibrant ecosystem of statisticians, domain practitioners, and software developers around it.
-Such an OSE will provide a central coordinating mechanism, through which knowledge around software engineering and community best practices can be aggregated and disseminated to statistics method developers and the researchers that apply those techniques.
+Such an OSE will provide a central coordinating mechanism, through which knowledge around software engineering and community best practices can be aggregated and disseminated to statistics method developers and the researchers that apply those methods.
 To inform the design of the OSE, several meetings will be held that bring together statisticians, researchers, developers, students, and teachers.
 We will investigate existing OSEs, both in the Python and R worlds, and learn from each which effective social and technological practices to adopt.
 To anchor the effort, two pilot projects, with different scopes, target audiences, and levels of maturity will be audited to determine how they should be modified to comply with modern software engineering and community governance best practices.
@@ -45,23 +45,23 @@ Our vision for the OSE is that it will catalyze growth of a vibrant, inclusive s
 # Intellectual Merit
 
 This proposal addresses two gaps in the statistical software ecosystem. On the one hand, 
-there  are many small groups or individual developers of statistical packages who lack the training
-in best (or better) practices in software engineering needed for open source an project to survive. On the other hand,
-the scientific Python community adheres closely to such standards, resulting in well-engineered software
-packages such as NumPy, SciPy, pandas, and scikit-learn. This proposal seeks to
-learn and document how to bridge this gap, starting with `YAGLM` and `ISLP` as pilot
+there are many small groups or individual developers of statistical packages who lack the training
+in best (or better) practices in software engineering needed for their open source projects to survive. On the other hand,
+the scientific Python community, which adheres closely to such standards, resulting in larger, well-engineered software
+packages, lacks participation of statistical methods developers. This proposal seeks to
+learn, and document how, to bridge this gap, starting with `YAGLM` and `ISLP` as pilot
 projects. From this knowledge, the OSE will be able to derive and propagate
-models of best practices, resulting in better engineered software in the
-statistical community, as well improved software development skills among
-statisticians.
+models of best technical and social practices, resulting in better engineered software in the
+statistical community, improved software development skills among
+statisticians, and wider participation of statisticians in scientific Python.
 
 # Broader Impacts
 
-The broader impacts of this proposal are in establishing
-better software engineering practices in the  statistical community.
-This will result in better onboarding pathways to involve young researchers,
-healthier and more inclusive community practices and resources that can be applied to other projects and fields.
-In addition, this is expected to result in more statistical libraries available to researchers using Python
+The proposed OSE will act to establish
+better software engineering practices in the statistical community,
+provide onboarding pathways for involving young researchers, while documenting and implementing
+healthy and inclusive community practices that can be replicated in other communities.
+This is expected to result in more statistical libraries being available to researchers using Python,
 as well as a cross pollination of best practices between `R` and Python.
 
 \vfill
