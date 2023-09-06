@@ -12,11 +12,11 @@ Look at this proposal if we can: https://www.nsf.gov/awardsearch/showAward?AWD_I
 
 Python \cite{millman2011python} and `R` \cite{r2023r}
 are the two most popular computational platforms for data science.
-`R` is largely developed by statisticians, unlike scientific Python, which is mostly built by researchers from the applied sciences.
+`R` is largely developed by statisticians, whereas scientific Python is mostly built by researchers from the applied sciences.
 As a consequence, Python's statistical capabilities are lacking, and statisticians do not benefit from widespread use of their innovations on this popular platform.
-The goal of this grant is to investigate the formation of an OSE that will foster the growth of statistical software, as well as its surrounding developer community in Python.
-Such an OSE, as a community of practice, will support statisticians and researchers that wish to distribute implementations of statistical innovations in Python by acting as a bridge between statisticians, library developers, and researchers.
-By widely disseminating lessons learned about statistical methodology, software engineering, sustainability, governance, and community management the OSE will enrich its community of contributors.
+The goal of this grant is to investigate the formation of an OSE that will foster the growth of statistical software, as well as its surrounding developer community, in Python.
+<!-- Such an OSE, as a community of practice, will act as a bridge, connecting statisticians and researchers that wish to distribute implementations of statistical innovations in Python with library developers. -->
+By widely disseminating lessons learned about statistical methodology, software engineering, sustainability, governance, and community management, the OSE will enrich its community of contributors.
 A positive side-effect will be the cross-pollination of ideas between the `R` and Python platforms.
 
 We envision an OSE that has the capacity to catalyze a large scale transformation of the statistical Python ecosystem, such that statisticians and researchers, experienced and newly trained, contribute to a diverse, vibrant collection of open source packages that turn Python into a highly viable computational platform for statistics in applied science and education.
@@ -30,17 +30,16 @@ not matured to have built communities of governance and software development
 around them.
 We will investigating the challenges of bringing these packages,
 developed by statisticians, fully into the Python software ecosystem.
-These challenges include improving governance, testing, and contributor
+These challenges include improving governance, testing, and contribution
 scaffolding, with an eye toward learning how the same can be done for other
 statistical packages.
 
 The OSE will widen participation in the developer community and the OSE itself---especially by involving the next generation of researchers and developers, and those outside of existing contributor communities.
 Such outreach will involve statistical and technical training, informed in part by the needs of the pilot projects and their developers.
-Given our experience and the experience of our colleagues in statistics departments across the nation, we believe there is a large demand for such an OSE.
+Given our experience, and the experience of our colleagues in statistics departments across the nation, we believe there is a large demand for such an OSE.
 Increasing numbers of students are entering our departments already familiar with scientific Python and wanting more training in it.
-For example, a recent poll of UC Berkeley Statistics masters students found the overwhelming majority wanted deeper training in Python statistical software.
 Unfortunately much of the needed infrastructure is missing.
-NSF support at this crucial junction in time would serve as a critical catalyst, providing resources to better understand the potential user and contributor community, and to design a Statistical Python OSE that could grow it and support its needs.
+NSF support at this crucial junction in time would serve as a critical catalyst, providing resources to better understand the potential user and contributor community, and to design a Statistical Python OSE that would grow that community and support its needs.
 
 An overarching goal of the OSE will be to extend what is learned from the pilot projects to the entire class of products that span statistical Python.
 This will be achieved by building a community of statisticians, researchers, and students that give input on what an ideal statistical landscape should look like in Python;
