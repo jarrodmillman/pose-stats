@@ -245,7 +245,7 @@ communities. We are uniquely positioned for creating a community around a Statis
 
 **Stéfan van der Walt** is a research scientist at UC Berkeley. He is the founder of scikit-image and co-author of Elegant SciPy.
 He contributes to numerous packages in the ecosystem including NumPy, SciPy, scikit-image, and NetworkX.
-Stéfan is a director of NumFOCUS, and serves on the steering committees of NumPy, SciPy, and the PSF's Scientific Working Group.
+Stéfan serves on the NumPy steering committee, is a director of NumFOCUS, and co-chairs the PSF's Scientific Working Group.
 He cofounded the Scientific Python project.
 
 **Jarrod Millman** is a senior developer at UC
