@@ -77,9 +77,13 @@ The others are domain-specific communities that foster the development of librar
   \end{center}
 \end{wrapfigure}
 -->
-
+<!--
 We envision that the proposed OSE, similarly, will become a community-owned structure that provides operational and governance guidelines, and that supports the organization of, contribution to, and sustenance of computational libraries.
+-->
+We will model the Statistical Python OSE on these existing domain-specific OSEs.
+<!--
 However, instead of being specific to a specific *domain*, it will focus on *statistical methods* as a whole.
+-->
 <!--
 Remove following sentence and replace with expanding the above to explain the need for funding.
 Other domain-specific OSE were funded by large science or specific grants, the individualized
@@ -87,12 +91,14 @@ work of statisticians necessitates a phase I scoping and phase II implementation
 self-sustaining community run organization supporting and growing the community of developers
 and users of statistical Python.
 -->
-Domain-specific OSEs are typically established as part of focused research grants.
+These OSEs were typically established as part of focused research grants or major scientific equipment grants.
 Such a funding model does not lend itself well to a broad, methods-based field such as statistics.
 While statistical methods are currently, by necessity, implemented as part of applied work, it makes sense to consider them in a more generalized context, allowing for implementations with wider reach.
 Such an approach covers new terrain for scientific Python, so that it is prudent to first consult widely on *planning* what needs to be built, and how.
 These activities then lay the groundwork for a self-sustaining, community-run organization around which a community of developers and users can coalesce.
+<!--
 That community will, in turn, implement the plan and help to support the resulting products.
+-->
 
 <!--
 Scientific Python is characterized by several larger, well-established libraries that have coalesced from smaller, experimental packages.
@@ -287,9 +293,7 @@ users who will utilize this technology.
 
 The activities that will craft this plan includes auditing the two pilot
 projects, understanding how related OSEs work, and gathering feedback from the
-statistical community through surveys, informal meetings, and two-day workshops.
-
-###
+statistical community through surveys, informal meetings, and two-day workshops.\
 
 **Pilot Project Audits.**
 We will perform detailed code and governance audits on `YAGLM` and `ISLP`.
@@ -297,8 +301,6 @@ The goal of these audits is to better understand what type of training, technica
 and software development practices these projects need to become rigorous and
 sustainable open source projects like many existing projects in the scientific
 Python ecosystem.
-
-###
 
 **Engagement with Related OSEs.**
 We will engage community members and leaders of existing Scientific Python
@@ -308,8 +310,6 @@ and which deficiencies they'd like to see addressed.
 We will inquire about the history of those projects, and determine
 lessons learned that may benefit the design of the Statistical Python
 OSE.
-
-###
 
 **Ecosystem Discovery.**
 At the start of the funding cycle, we will create and widely-circulate
