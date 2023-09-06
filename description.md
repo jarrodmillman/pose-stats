@@ -126,7 +126,10 @@ software packages for statistical analysis. The packages differ widely in terms 
 in software engineering, ranging from professional level to
 course projects from Master's or PhD courses. One of the successes of `CRAN` is that it broadly facilitates
 distribution of packages, although there is little oversight of how these packages are related.
-Certain subcommunities, such as tidy-verse \cite{wickham2019welcome} and Bioconductor \cite{gentleman2004bioconductor}, do have governance models and guidelines on how packages should relate to one another, are released, and assure that standards are followed.
+Certain subcommunities, such as tidy-verse \cite{wickham2019welcome} and
+Bioconductor \cite{gentleman2004bioconductor}, provide additional structure
+and guidance to contributors and users in the form of governance models,
+developer guidelines, testing infrastructure, and release management.
 
 In contrast to `R`, the statistical software environment in Python is most recognizable as larger foundational data-structure and algorithmic
 libraries such as `numpy` \cite{harris2020array}, `scipy` \cite{virtanen2020scipy}, `pandas` \cite{mckinney-proc-scipy-2010},
