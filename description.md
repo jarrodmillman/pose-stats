@@ -306,16 +306,18 @@ users who will utilize this technology.
 
 The activities that will craft this plan includes auditing the two pilot
 projects, understanding how related OSEs work, and gathering feedback from the
-statistical community through surveys, informal meetings, and two-day workshops.\
+statistical community through surveys, informal meetings, and two-day workshops.
 
-**Pilot Project Audits.**
+### Pilot Project Audits
+
 We will perform detailed code and governance audits on `YAGLM` and `ISLP`.
 The goal of these audits is to better understand what type of training, technical & social infrastructure,
 and software development practices these projects need to become rigorous and
 sustainable open-source projects like many existing projects in the scientific
 Python ecosystem.
 
-**Engagement with Related OSEs.**
+### Engagement with Related OSEs
+
 We will engage community members and leaders of existing scientific Python
 domain-specific OSEs as well as of Bioconductor and Tidyverse.
 We will determine what social and technical structures they deem important,
@@ -324,7 +326,8 @@ We will inquire about the history of those projects, and determine
 lessons learned that may benefit the design of the Statistical Python
 OSE.
 
-**Ecosystem Discovery.**
+### Ecosystem Discovery
+
 At the start of the funding cycle, we will create and widely-circulate
 surveys---targeted at students, teachers, and researchers---to better
 understand the statistics community's interest and need for a Statistical
