@@ -46,7 +46,7 @@ Our vision for the OSE is that it will catalyze growth of a vibrant, inclusive s
 
 This proposal addresses two gaps in the statistical software ecosystem. On the one hand, 
 there are many small groups or individual developers of statistical packages who lack the training
-in best (or better) practices in software engineering needed for their open source projects to survive. On the other hand,
+in best (or better) practices in software engineering needed for their open-source projects to survive. On the other hand,
 the scientific Python community, which adheres closely to such standards, resulting in larger, well-engineered software
 packages, lacks participation of statistical methods developers. This proposal seeks to
 learn, and document how, to bridge this gap, starting with `YAGLM` and `ISLP` as pilot

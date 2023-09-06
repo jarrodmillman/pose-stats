@@ -19,7 +19,7 @@ The goal of this grant is to investigate the formation of an OSE that will foste
 By widely disseminating lessons learned about statistical methodology, software engineering, sustainability, governance, and community management, the OSE will enrich its community of contributors.
 A positive side-effect will be the cross-pollination of ideas between the `R` and Python platforms.
 
-We envision an OSE that has the capacity to catalyze a large scale transformation of the statistical Python ecosystem, such that statisticians and researchers, experienced and newly trained, contribute to a diverse, vibrant collection of open source packages that turn Python into a highly viable computational platform for statistics in applied science and education.
+We envision an OSE that has the capacity to catalyze a large scale transformation of the statistical Python ecosystem, such that statisticians and researchers, experienced and newly trained, contribute to a diverse, vibrant collection of open-source packages that turn Python into a highly viable computational platform for statistics in applied science and education.
 We will use `YAGLM` \cite{yaglm-github} (an open-source library for penalized
 generalized linear models \cite{carmichael2021yaglm}) and `ISLP`
 \cite{islp-github} (an open-source library that provides functions and
@@ -197,7 +197,7 @@ of these practices, evidenced by the responsiveness to (GitHub) and other issues
 
 ## Guiding Principles and Long Term Vision
 
-As described above, the current state of open source statistical software is mixed. The `R` community has many individual or small group contributors, though many lack proper training in best practices for open source software.
+As described above, the current state of open-source statistical software is mixed. The `R` community has many individual or small group contributors, though many lack proper training in best practices for open-source software.
 In the Python community, at least as represented by the larger packages, is represented by larger, well-organized groups with clear governance practices.
 
 This proposal aims to bridge these two worlds: it is unreasonable to assume statisticians trained in cutting-edge methodology to simultaneously master best practices in software engineering.
@@ -302,7 +302,7 @@ statistical community through surveys, informal meetings, and two-day workshops.
 We will perform detailed code and governance audits on `YAGLM` and `ISLP`.
 The goal of these audits is to better understand what type of training, technical & social infrastructure,
 and software development practices these projects need to become rigorous and
-sustainable open source projects like many existing projects in the scientific
+sustainable open-source projects like many existing projects in the scientific
 Python ecosystem.
 
 **Engagement with Related OSEs.**
@@ -384,7 +384,7 @@ The Intellectual Merit criterion encompasses the potential to advance knowledge;
 
 This proposal addresses two gaps in the statistical software ecosystem. On the one hand,
 there  are many small groups or individual developers of statistical packages who lack the training
-in best (or better) practices in software engineering needed for open source an project to survive. On the other hand,
+in best (or better) practices in software engineering needed for open-source an project to survive. On the other hand,
 the scientific Python community adheres closely to such standards, resulting in well-engineered software
 packages such as NumPy, SciPy, pandas, and scikit-learn. This proposal seeks to
 learn and document how to bridge this gap, starting with `YAGLM` and `ISLP` as pilot
