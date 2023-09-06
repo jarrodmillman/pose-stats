@@ -42,7 +42,7 @@ For example, a recent poll of UC Berkeley Statistics masters students found the 
 Unfortunately much of the needed infrastructure is missing.
 NSF support at this crucial junction in time would serve as a critical catalyst, providing resources to better understand the potential user and contributor community, and to design a Statistical Python OSE that could grow it and support its needs.
 
-An overarching goal of the OSE will be to extend what is learnt from the pilot projects to the entire class of products that span statistical Python.
+An overarching goal of the OSE will be to extend what is learned from the pilot projects to the entire class of products that span statistical Python.
 This will be achieved by building a community of statisticians, researchers, and students that give input on what an ideal statistical landscape should look like in Python;
 connecting with existing OSEs, in both the Python and R worlds, to learn more about successful governance, social, and technical practices;
 and distilling those ideas into documents that are of broad benefit to OSEs, including our own.
@@ -83,7 +83,7 @@ However, instead of being specific to a specific *domain*, it will focus on *sta
 <!-- 
 Remove following sentence and replace with expanding the above to explain the need for funding.
 Other domain-specific OSE were funded by large science or specific grants, the individualized
-work of statiticians necessitates a phase I scoping and phase II implementation to create a
+work of statisticians necessitates a phase I scoping and phase II implementation to create a
 self-sustaining community run organization supporting and growing the community of developers
 and users of statistical Python.
 -->
@@ -132,7 +132,7 @@ Since this knowledge is shared with all practitioners, not just those focused on
 
 We selected two pilot projects to inform the needs of an OSE in statistical Python.
 They are intentionally at different phases of maturity and have different emphases.
-The first aims to provided data science practitioners with state of the art algorithms for generalized linear models; the secon aims to educate students and researchers on foundational statistical methods.
+The first aims to provided data science practitioners with state of the art algorithms for generalized linear models; the second aims to educate students and researchers on foundational statistical methods.
 By examining the needs of the developer and user communities of these two packages we aim to learn not only what functionality is missing, but also how community, onboarding, and engineering practices can be improved.
 Furthermore, we want to better understand how an OSE can, in the longer term, support and sustain such efforts.
 
@@ -216,7 +216,7 @@ This empowers young researchers, and increases participation both in research an
 # Team
 
 Our team is well established in the statistics and scientific Python
-communities. We are uniquely positioned for creating a community around a Statistial Python OSE:\
+communities. We are uniquely positioned for creating a community around a Statistical Python OSE:\
 
 **Stéfan van der Walt** is a research scientist at UC Berkeley. He is the founder of scikit-image and co-author of Elegant SciPy.
 He contributes to numerous packages in the ecosystem including NumPy, SciPy, scikit-image, and NetworkX.
@@ -260,7 +260,7 @@ Applications in R* \cite{james2013introduction}.
 * Mimic orgs like scipy-hep, pangeo, astropy other domain-specific OSEs, a stack for statistics (Bioconductor)
 -->
 
-We will undertake scoping activity that will look closely at how to create a
+We will undertake scoping activity for a
 Statistical Python OSE formed around our two pilot projects in the preparation
 of a Phase II proposal that will aim to build a sustainable and robust ecosystem. 
 The main deliverable for the current proposal will be the creation of a
@@ -324,7 +324,7 @@ experts in generalized linear models and statistical learning, as well as teache
 
 - **Workshop 3** will focus on statisticians working in Python. We will identify, through the previous meetings and a survey, statisticians who have developed additional open-source products that may benefit from a Statistical Python OSE.
 
-- **Workshop 4** will focus on a plan for developing the Phase II proposal including iidentify specific resources needed to create a sustainable infrastructure for the Statistical Python OSE.
+- **Workshop 4** will focus on a plan for developing the Phase II proposal including identifying specific resources needed to create a sustainable infrastructure for the Statistical Python OSE.
 
 ## Organization and Governance
 
