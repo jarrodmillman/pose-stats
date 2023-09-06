@@ -22,7 +22,7 @@ It will act as a bridge between statisticians, library developers, and researche
 By widely disseminating lessons learned---about statistical methodology, software engineering, sustainability, governance, and community management---the OSE will enrich its community of contributors.
 A positive side-effect will be the cross-pollination of ideas between the `R` and Python platforms.
 
-We plan for an OSE that has the capacity to catalyze a large scale transformation of the statistical Python ecosystem, such that statisticians and researchers, experienced and newly trained, contribute to a diverse, vibrant collection of open source packages that turn Python into a highly viable computational platform for statistics in applied science and education.
+We envision an OSE that has the capacity to catalyze a large scale transformation of the statistical Python ecosystem, such that statisticians and researchers, experienced and newly trained, contribute to a diverse, vibrant collection of open source packages that turn Python into a highly viable computational platform for statistics in applied science and education.
 We will use `YAGLM` \cite{yaglm-github} (an open-source library for penalized
 generalized linear models \cite{carmichael2021yaglm}) and `ISLP`
 \cite{islp-github} (an open-source library that provides functions and
@@ -43,6 +43,7 @@ Given our experience and the experience of our colleagues in statistics departme
 nation, we believe there is a large demand for such an OSE.
 Increasing numbers of students are entering our departments already familiar with
 scientific Python and wanting more training in it.
+However, the needed infrastructure is missing.
 Our scoping activities will be designed to better understand this potential user and contributor community
 as well as to design a Statistical Python OSE to support and grow this community.
 
@@ -69,8 +70,7 @@ broader impacts of the OSE.
 
 
 The entire space of Python libraries for scientific computation is most often referred to as the scientific Python ecosystem \cite{perez2011python}.
-Inside it, there exist several OSEs.
-Notable examples include Scientific Python, scikit-HEP (high energy physics) \cite{rodrigues2020syo}, pangeo (earth sciences), astropy (astronomy) \cite{price2018astropy}, and nipy (neuroimaging) \cite{millman2007analysis}.
+Inside it, there exist several OSEs including Scientific Python, scikit-HEP (high energy physics) \cite{rodrigues2020syo}, pangeo (earth sciences), astropy (astronomy) \cite{price2018astropy}, and nipy (neuroimaging) \cite{millman2007analysis}.
 The first of these aims to better coordinate the development of scientific Python projects as well as their associated communities of contributors.
 The others are domain-specific communities that foster the development of libraries and infrastructure that address field-specific concerns.
 
@@ -151,7 +151,7 @@ and degrees of freedom estimators.
 
 Standard statistical software design patterns had to be rethought in
 order to handle the breadth of the GLM framework. For example,
-scikit-learn’s API \cite{sklearn_api} and estimator object backend [TODO: CITATIONS] have
+scikit-learn’s API and estimator object backend \cite{sklearn_api} have
 become a frequently used template for developing statistical and
 machine learning software [TODO: perhaps some citations
 e.g. celer]. Initial attempts at extending scikit-learn quickly
@@ -205,7 +205,7 @@ Bridging these worlds achieves several goals:
 1. Better software engineering practices for academically trained statisticians writing software both in `R` and Python.
 
 2. Establishment of new, well-engineered and robust APIs (building on the
-success of `sklearn`'s simple but powerful API) for implementation of cutting-edge statistical
+success of `sklearn`'s simple but powerful API \cite{sklearn_api}) for implementation of cutting-edge statistical
 methodology in different modeling paradigms.
 
 3. Cross-pollination between `R` and Python statistical software communities. The current state sees
