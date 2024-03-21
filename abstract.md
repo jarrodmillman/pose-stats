@@ -50,7 +50,6 @@ NSF award abstracts should:
 
 POSE: Phase 1: An open-source ecosystem for statistical Python (TI - 2346273)
 
-
 Python and R are the two most popular computational platforms in academia and industry, driving innovation in data science and AI.
 R is largely developed by statisticians, while scientific Python is mostly built by researchers from the applied sciences.
 As a consequence, Python's statistical capabilities are lacking, and statisticians do not benefit from widespread use of their algorithmic innovations on this popular platform.
@@ -64,5 +63,5 @@ To anchor the effort, we focus on two pilot projects, with different scopes, tar
 to determine how they should be modified to comply with modern software engineering and community governance best practices.
 YAGLM is an open-source Python package that makes modern generalized linear models (GLM) available and easily accessible to data scientists.
 GLMs are a flexible and powerful generalization of ordinary linear regression and cover many statistical models widely used in applications.
-The `ISLP` open-source Python package accompanies the new introductory text on statistical learning and Python (*An Introduction to Statistical Learning: with Applications in Python* \cite{james2023introduction}), which closely follows the examples in its hugely successful `R` version.
+The ISLP open-source Python package accompanies the new introductory text on statistical learning and Python ("An Introduction to Statistical Learning: with Applications in Python," which closely follows the examples in its hugely successful R version).
 In addition to providing course assignments, it provides an intuitive interface for design matrix building, a simple implementation of Bayesian Additive Regression Trees, and object oriented stepwise model selection.
