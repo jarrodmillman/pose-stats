@@ -51,12 +51,10 @@ NSF award abstracts should:
 POSE: Phase 1: An open-source ecosystem for statistical Python (TI - 2346273)
 
 
-Python and R are the two most popular computational platforms for data science.
+Python and R are the two most popular computational platforms in academia and industry, driving innovation in data science and AI.
 R is largely developed by statisticians, while scientific Python is mostly built by researchers from the applied sciences.
-As a consequence, Python's statistical capabilities are lacking,
-and statisticians do not benefit from widespread use of their algorithmic innovations on this popular platform.
-This Phase 1 project explores sustainable and effective pathways for establishing an open-source ecosystem
-to foster the growth of statistical software, as well as its surrounding developer community, in Python.
+As a consequence, Python's statistical capabilities are lacking, and statisticians do not benefit from widespread use of their algorithmic innovations on this popular platform.
+This Phase 1 project explores sustainable and effective pathways for establishing an open-source ecosystem to foster the growth of statistical software, as well as its surrounding developer community, in Python.
 <!--
 to catalyze the development of a robust set of statistical software for Python,
 and build a vibrant ecosystem of statisticians, domain practitioners, and software developers around it.
