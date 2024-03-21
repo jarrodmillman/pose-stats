@@ -54,7 +54,7 @@ POSE: Phase 1: An open-source ecosystem for statistical Python (TI - 2346273)
 Python and R are the two most popular computational platforms for data science.
 R is largely developed by statisticians, while scientific Python is mostly built by researchers from the applied sciences.
 As a consequence, Python's statistical capabilities are lacking,
-and statisticians do not benefit from widespread use of their innovations on this popular platform.
+and statisticians do not benefit from widespread use of their algorithmic innovations on this popular platform.
 This Phase 1 project explores sustainable and effective pathways for establishing an open-source ecosystem
 to foster the growth of statistical software, as well as its surrounding developer community, in Python.
 <!--
@@ -64,12 +64,7 @@ and build a vibrant ecosystem of statisticians, domain practitioners, and softwa
 
 To anchor the effort, we focus on two pilot projects, with different scopes, target audiences, and levels of maturity
 to determine how they should be modified to comply with modern software engineering and community governance best practices.
-The YAGLM open-source Python package provides the framework of modern generalized linear models (GLM) methodology
-(various loss function, regularizer, solvers) available and easily accessible to data scientists.
+YAGLM is an open-source Python package that makes modern generalized linear models (GLM) available and easily accessible to data scientists.
 GLMs are a flexible and powerful generalization of ordinary linear regression and cover many statistical models widely used in applications.
-The `ISLP` open-source Python package accompanies the new introductory text on statistical learning and Python
-(*An Introduction to Statistical Learning: with Applications in Python* \cite{james2023introduction}), which
-closely follows the examples in its hugely successful `R` version.
-In addition to providing labs, it provides Pythonic design matrix building, a simple implementation of Bayesian Additive Regression Trees
-and object oriented stepwise model selection.
-
+The `ISLP` open-source Python package accompanies the new introductory text on statistical learning and Python (*An Introduction to Statistical Learning: with Applications in Python* \cite{james2023introduction}), which closely follows the examples in its hugely successful `R` version.
+In addition to providing course assignments, it provides an intuitive interface for design matrix building, a simple implementation of Bayesian Additive Regression Trees, and object oriented stepwise model selection.
