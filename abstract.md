@@ -52,8 +52,8 @@ POSE: Phase 1: An open-source ecosystem for statistical Python (TI - 2346273)
 
 Python and R are the predominant open platforms for computation in academia and industry, driving innovation in data science and AI.
 R is largely developed by statisticians, while scientific Python is mostly built by researchers from the applied sciences.
-As a consequence, Python's statistical capabilities are lacking, and statisticians do not benefit from widespread use of their algorithmic innovations on this popular platform.
-This Phase 1 project explores sustainable and effective pathways for establishing an open-source ecosystem which would catalyze the development of a robust set of statistical software for Python,
+As a consequence, Python's statistical capabilities are not as extensive, and statisticians do not see their algorithmic innovations disseminated as widely on this popular platform.
+This project explores sustainable and effective pathways for establishing an open-source ecosystem which would catalyze the development of a robust set of statistical software for Python,
 and build a vibrant ecosystem of statisticians, domain practitioners, and software developers around it.
 The overarching goal is to establish better software engineering practices in the statistical community
 and to provide onboarding pathways for young researchers, while documenting and implementing
