@@ -53,11 +53,11 @@ POSE: Phase 1: An open-source ecosystem for statistical Python (TI - 2346273)
 Python and R are the two most popular computational platforms in academia and industry, driving innovation in data science and AI.
 R is largely developed by statisticians, while scientific Python is mostly built by researchers from the applied sciences.
 As a consequence, Python's statistical capabilities are lacking, and statisticians do not benefit from widespread use of their algorithmic innovations on this popular platform.
-This Phase 1 project explores sustainable and effective pathways for establishing an open-source ecosystem to foster the growth of statistical software, as well as its surrounding developer community, in Python.
-<!--
-to catalyze the development of a robust set of statistical software for Python,
+This Phase 1 project explores sustainable and effective pathways for establishing an open-source ecosystem to catalyze the development of a robust set of statistical software for Python,
 and build a vibrant ecosystem of statisticians, domain practitioners, and software developers around it.
--->
+The ultimate goal is to establish better software engineering practices in the statistical community,
+provide onboarding pathways for involving young researchers, while documenting and implementing
+healthy and inclusive community practices that can be replicated in other communities.
 
 To anchor the effort, we focus on two pilot projects, with different scopes, target audiences, and levels of maturity
 to determine how they should be modified to comply with modern software engineering and community governance best practices.
@@ -65,3 +65,4 @@ YAGLM is an open-source Python package that makes modern generalized linear mode
 GLMs are a flexible and powerful generalization of ordinary linear regression and cover many statistical models widely used in applications.
 The ISLP open-source Python package accompanies the new introductory text on statistical learning and Python ("An Introduction to Statistical Learning: with Applications in Python," which closely follows the examples in its hugely successful R version).
 In addition to providing course assignments, it provides an intuitive interface for design matrix building, a simple implementation of Bayesian Additive Regression Trees, and object oriented stepwise model selection.
+
