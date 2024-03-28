@@ -52,8 +52,8 @@ POSE: Phase 1: An open-source ecosystem for statistical Python (TI - 2346273)
 
 Python and R are the predominant open platforms for computation in academia and industry, driving innovation in data science and AI.
 R is largely developed by statisticians, while scientific Python is mostly built by researchers from the applied sciences.
-As a consequence, Python's statistical capabilities are not as extensive, and statisticians do not see their algorithmic innovations disseminated as widely on this popular platform.
-This project explores sustainable and effective pathways for establishing an open-source ecosystem which would catalyze the development of a robust set of statistical software for Python,
+As a consequence, Python's statistical capabilities lack cutting edge methods and techniques, and statisticians do not see their algorithmic innovations disseminated as widely on this popular platform.
+This scoping project explores sustainable and effective pathways for establishing an open-source ecosystem which would catalyze the development of a robust set of statistical software for Python,
 and build a vibrant ecosystem of statisticians, domain practitioners, and software developers around it.
 The overarching goal is to establish better software engineering practices in the statistical community
 and to provide onboarding pathways for young researchers, while documenting and implementing
@@ -64,4 +64,6 @@ and determine how they should be modified to comply with modern software enginee
 YAGLM is an open-source Python package that makes modern generalized linear models (GLM) available and easily accessible to data scientists.
 GLMs are a flexible and powerful generalization of ordinary linear regression and cover many statistical models widely used in applications.
 The ISLP open-source Python package accompanies the new introductory text on statistical learning and Python ("An Introduction to Statistical Learning: with Applications in Python," which closely follows the examples in its hugely successful R version).
-In addition to providing course assignments, it provides an intuitive interface for design matrix building, a simple implementation of Bayesian Additive Regression Trees, and object oriented stepwise model selection.
+Through a detailed code and governance audits of these pilot project as well as feedback from the statistical community we document
+the need for innovation within the current technological landscape; outline how to identify potential contributors and users; specify the necessary infrastructure, organization, and
+governance; and explore mechanisms for long-term sustainability.
