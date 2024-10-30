@@ -3,7 +3,7 @@ FILES := data-management description facilities summary
 TEX := $(addprefix $(BUILDDIR)/,$(FILES:=.tex))
 SVGS := $(wildcard figures/*.svg)
 FIGURES := $(addprefix $(BUILDDIR)/,$(SVGS:.svg=.pdf))
-DROPBOX := ~/Dropbox/docs/bids/2023-08-nsf-documents/proposal
+DROPBOX := ~/Dropbox/docs/bids/2023-NSF-POSE/proposal
 
 .PHONY: default clean $(FILES) grant
 default: grant
